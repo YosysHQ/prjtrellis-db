@@ -1,4 +1,16 @@
 # Routing Mux Bits
+.mux N2_ECLKC
+BNK_ECLK1 F5B1
+
+.mux N2_ECLKD
+BNK_ECLK1 F3B6
+
+.mux N2_JDIC
+N2_INDDC_IOLOGIC F1B1
+
+.mux N2_JDID
+N2_INDDD_IOLOGIC F9B7
+
 
 # Non-Routing Configuration
 .config_enum PIOC.BASE_TYPE INPUT_LVCMOS18D

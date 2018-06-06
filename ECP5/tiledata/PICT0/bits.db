@@ -1,4 +1,7 @@
 # Routing Mux Bits
+.mux N1_JDIA
+N1_INDDA_SIOLOGIC F21B0
+
 
 # Non-Routing Configuration
 .config_enum PIOA.BASE_TYPE INPUT_LVCMOS12

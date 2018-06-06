@@ -1,4 +1,7 @@
 # Routing Mux Bits
+.mux N1W1_JDIB
+N1W1_INDDB_SIOLOGIC F21B0
+
 
 # Non-Routing Configuration
 .config_enum PIOB.BASE_TYPE INPUT_LVCMOS12
@@ -24,3 +27,7 @@ OUTPUT_LVTTL33 F54B0 F55B0
 
 
 # Fixed Connections
+.fixed_conn E1_HL7W0001 E1_JF3
+
+.fixed_conn HL7W0001 JF3
+
