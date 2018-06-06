@@ -1,0 +1,79 @@
+<html>
+            <head><title>DUMMY_TILE_4 Bit Data</title>
+        
+
+            <script type="text/javascript">
+            origClr = {};
+            origClass = "";
+            
+            function mov(event) {
+                if (event.target.className != "unknown") {
+                    origClass = event.target.className;
+                    var elems = document.getElementsByClassName(origClass);
+                    for(var i = 0; i < elems.length; i++) {
+                       if(!(elems[i].id in origClr)) {
+                          origClr[elems[i].id] = elems[i].style.backgroundColor;
+                       }
+                       elems[i].style.backgroundColor = "white";
+                    }
+
+                }
+            }
+            
+            function mou(event) {
+                var elems = document.getElementsByClassName(origClass);
+                for(var i = 0; i < elems.length; i++) {
+                   elems[i].style.backgroundColor = origClr[elems[i].id] || "#ffffff";
+                }
+            }
+            </script>
+            </head>
+            <body>
+        
+<h1>DUMMY_TILE_4 Bit Data</h1>
+    
+<table style='font-size: 8pt; border: 2px solid black; text-align: center'>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F0B0' style='text-decoration: none; color: #000000'>
+                    <div id='f0b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F1B0' style='text-decoration: none; color: #000000'>
+                    <div id='f1b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F2B0' style='text-decoration: none; color: #000000'>
+                    <div id='f2b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F3B0' style='text-decoration: none; color: #000000'>
+                    <div id='f3b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F4B0' style='text-decoration: none; color: #000000'>
+                    <div id='f4b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F5B0' style='text-decoration: none; color: #000000'>
+                    <div id='f5b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F6B0' style='text-decoration: none; color: #000000'>
+                    <div id='f6b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F7B0' style='text-decoration: none; color: #000000'>
+                    <div id='f7b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F8B0' style='text-decoration: none; color: #000000'>
+                    <div id='f8b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F9B0' style='text-decoration: none; color: #000000'>
+                    <div id='f9b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+</tr>
+</table>
+</body></html>
