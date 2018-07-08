@@ -1,4 +1,7 @@
 # Routing Mux Bits
+.mux W1_JDIB
+W1_INDDB_SIOLOGIC F21B0
+
 
 # Non-Routing Configuration
 .config_enum PIOB.BASE_TYPE NONE
