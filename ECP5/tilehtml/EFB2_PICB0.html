@@ -119,9 +119,9 @@
                     <div id='f20b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F21B0' style='text-decoration: none; color: #000000'>
-                    <div id='f21b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#mux_JDIA' title='F21B0&#13;&#10;JDIA' style='text-decoration: none; color: #000000'>
+                    <div id='f21b0' style='height: 100%; background-color: #FFFF88; width: 12px' class='grp_mux_JDIA'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>D</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F22B0' style='text-decoration: none; color: #000000'>
                     <div id='f22b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -886,6 +886,17 @@
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 </tr>
 </table>
+<h3 id="mux_JDIA">Mux driving <span class="mux_sink">JDIA</span></h3>
+<table class="mux"><tr><th>Source</th>
+<th style="padding-left: 10px; padding-right: 10px">F21B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>JPADDIA_PIO</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>INDDA_SIOLOGIC</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
 <h3 id="enum_PIOA.BASE_TYPE">Configuration Setting PIOA.BASE_TYPE</h3>
 <p>Default value: NONE</p>
 <table class="setenum"><tr><th>Value</th>
@@ -1271,5 +1282,116 @@
 <tr ><td>SLOW</td>
 <td style="text-align: center">0</td>
 </td>
+</table>
+<h3>Fixed Connections</h3>
+<table class="fconn" style="border-spacing:0"><tr><th>Source</th><th></th><th>Sink</th></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDIA</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">DIA_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDIB</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">DIB_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JF3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1E1_HL7W0001</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E2_JF3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1E2_HL7W0001</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JF3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1_HL7W0001</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDOA_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOA</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDODA_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOA</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDOA</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOA_PIO</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDOB_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOB</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDODB_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOB</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDOB</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOB_PIO</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDOA_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOIA_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLDOB_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLDOIB_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLTOA_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLTOA_PIO</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">IOLTOB_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">IOLTOB_PIO</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JCE0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCEA_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JCE0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCEB_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JCLK0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCLKA_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JCLK0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCLKB_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDIB_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JB1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIRECTIONA_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JB1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIRECTIONB_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JRXDATA0B_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1E1_JF0</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JRXDATA0A_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1_JF0</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JRXDATA1B_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1E1_JF1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JRXDATA1A_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1_JF1</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JINFFB_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1E1_JF2</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JINFFA_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1_JF2</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JCFLAGB_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1E1_JF3</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JCFLAGA_SIOLOGIC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1_JF3</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JD1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JLOADNA_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JD1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JLOADNB_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JLSR0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JLSRA_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JLSR0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JLSRB_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JC1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JMOVEA_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JC1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JMOVEB_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JA0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JPADDOA</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JA0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JPADDOB</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JB0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JPADDTA</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JB0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JPADDTB</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDIB</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1E1_JQ0</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDIA</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">N1_JQ0</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JB0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JTSDATA0A_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JB0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JTSDATA0B_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JA0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JTXDATA0A_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JA0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JTXDATA0B_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1_JC0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JTXDATA1A_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1E1_JC0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JTXDATA1B_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">PADDIA_SIOLOGIC</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDIB_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">PADDIB_SIOLOGIC</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDOA</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">PADDOA_PIO</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDOB</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">PADDOB_PIO</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDTA</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">PADDTA_PIO</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDTB</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">PADDTB_PIO</td></tr>
 </table>
 </body></html>
