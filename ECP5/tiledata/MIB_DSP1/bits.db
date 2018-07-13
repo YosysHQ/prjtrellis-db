@@ -1,6 +1,10 @@
 # Routing Mux Bits
 
 # Non-Routing Configuration
+.config_enum MULT18_0.GSR ENABLED
+DISABLED F61B0
+ENABLED -
+
 
 # Fixed Connections
 .fixed_conn E1_JMB0_ALU24 JP0_MULT9

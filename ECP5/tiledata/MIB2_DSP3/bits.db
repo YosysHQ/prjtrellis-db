@@ -406,5 +406,9 @@ W1_JCO9 F75B1
 
 
 # Non-Routing Configuration
+.config_enum MULT18_0.MODE NONE
+MULT18X18D F30B0 F34B1
+NONE -
+
 
 # Fixed Connections
