@@ -1,6 +1,17 @@
 # Routing Mux Bits
 
 # Non-Routing Configuration
+.config_enum ALU54_3.GSR ENABLED
+DISABLED F61B0
+ENABLED -
+
+.config_enum ALU54_3.REG_OPCODEOP0_0_CLK CLK3
+CLK0 -
+CLK1 -
+CLK2 -
+CLK3 -
+NONE F103B0
+
 .config_enum MULT18_0.GSR ENABLED
 DISABLED F61B0
 ENABLED -

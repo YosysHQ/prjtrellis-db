@@ -55,5 +55,9 @@ W3_JPO9 F33B0
 
 
 # Non-Routing Configuration
+.config_enum ALU54_3.MODE NONE
+ALU54B F34B0 F41B0
+NONE -
+
 
 # Fixed Connections
