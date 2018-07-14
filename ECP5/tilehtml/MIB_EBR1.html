@@ -87,9 +87,9 @@
                     <div id='f12b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR0.WID'
                     onmouseover='mov(event);' onmouseout='mou(event);'>W</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F13B0' style='text-decoration: none; color: #000000'>
-                    <div id='f13b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_EBR0.RSTAMUX' title='F13B0&#13;&#10;EBR0.RSTAMUX' style='text-decoration: none; color: #000000'>
+                    <div id='f13b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR0.RSTAMUX'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F14B0' style='text-decoration: none; color: #000000'>
                     <div id='f14b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -127,9 +127,9 @@
                     <div id='f22b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR0.WID'
                     onmouseover='mov(event);' onmouseout='mou(event);'>W</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F23B0' style='text-decoration: none; color: #000000'>
-                    <div id='f23b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_EBR0.ADA1MUX' title='F23B0&#13;&#10;EBR0.ADA1MUX' style='text-decoration: none; color: #000000'>
+                    <div id='f23b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR0.ADA1MUX'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F24B0' style='text-decoration: none; color: #000000'>
                     <div id='f24b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -227,9 +227,9 @@
                     <div id='f47b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F48B0' style='text-decoration: none; color: #000000'>
-                    <div id='f48b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_EBR0.RSTBMUX' title='F48B0&#13;&#10;EBR0.RSTBMUX' style='text-decoration: none; color: #000000'>
+                    <div id='f48b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR0.RSTBMUX'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F49B0' style='text-decoration: none; color: #000000'>
                     <div id='f49b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -473,6 +473,18 @@
 <tr ><td style="padding-left: 10px; padding-right: 10px">EBR0.WID[7]</td><td style="padding-left: 10px; padding-right: 10px">F12B0</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR0.WID[8]</td><td style="padding-left: 10px; padding-right: 10px">F22B0</td></tr>
 </table>
+<h3 id="enum_EBR0.ADA1MUX">Configuration Setting EBR0.ADA1MUX</h3>
+<p>Default value: ADA1</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F23B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>INV</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>ADA1</td>
+<td style="text-align: center">0</td>
+</td>
+</table>
 <h3 id="enum_EBR0.ASYNC_RESET_RELEASE">Configuration Setting EBR0.ASYNC_RESET_RELEASE</h3>
 <p>Default value: SYNC</p>
 <table class="setenum"><tr><th>Value</th>
@@ -570,6 +582,30 @@
 </td>
 <tr ><td>OUTREG</td>
 <td style="text-align: center">1</td>
+</td>
+</table>
+<h3 id="enum_EBR0.RSTAMUX">Configuration Setting EBR0.RSTAMUX</h3>
+<p>Default value: RSTA</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F13B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>INV</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>RSTA</td>
+<td style="text-align: center">0</td>
+</td>
+</table>
+<h3 id="enum_EBR0.RSTBMUX">Configuration Setting EBR0.RSTBMUX</h3>
+<p>Default value: RSTB</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F48B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>INV</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>RSTB</td>
+<td style="text-align: center">0</td>
 </td>
 </table>
 </body></html>
