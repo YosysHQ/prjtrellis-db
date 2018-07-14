@@ -39,7 +39,7 @@
                     <div id='f0b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR1.REGMODE_B'
                     onmouseover='mov(event);' onmouseout='mou(event);'>B</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_EBR1.PDPW16KD.DATA_WIDTH_R' title='F1B0&#13;&#10;EBR1.PDPW16KD.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+<a href='#enum_EBR1.PDPW16KD.DATA_WIDTH_R' title='F1B0&#13;&#10;EBR1.DP16KD.DATA_WIDTH_B&#13;&#10;EBR1.PDPW16KD.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
                     <div id='f1b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR1.PDPW16KD.DATA_WIDTH_R'
                     onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
@@ -451,9 +451,9 @@
                     <div id='f103b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F104B0' style='text-decoration: none; color: #000000'>
-                    <div id='f104b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_EBR2.DP16KD.DATA_WIDTH_A' title='F104B0&#13;&#10;EBR2.DP16KD.DATA_WIDTH_A' style='text-decoration: none; color: #000000'>
+                    <div id='f104b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR2.DP16KD.DATA_WIDTH_A'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F105B0' style='text-decoration: none; color: #000000'>
                     <div id='f105b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -466,6 +466,27 @@
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR2.CSDECODE_A[0]</td><td style="padding-left: 10px; padding-right: 10px">!F101B0</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px">EBR2.CSDECODE_A[1]</td><td style="padding-left: 10px; padding-right: 10px">!F96B0</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR2.CSDECODE_A[2]</td><td style="padding-left: 10px; padding-right: 10px">!F90B0</td></tr>
+</table>
+<h3 id="enum_EBR1.DP16KD.DATA_WIDTH_B">Configuration Setting EBR1.DP16KD.DATA_WIDTH_B</h3>
+<p>Default value: 18</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>2</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>4</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>9</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>18</td>
+<td style="text-align: center">0</td>
+</td>
 </table>
 <h3 id="enum_EBR1.PDPW16KD.DATA_WIDTH_R">Configuration Setting EBR1.PDPW16KD.DATA_WIDTH_R</h3>
 <p>Default value: 36</p>
@@ -528,30 +549,40 @@
 </td>
 </table>
 <h3 id="enum_EBR2.DP16KD.DATA_WIDTH_A">Configuration Setting EBR2.DP16KD.DATA_WIDTH_A</h3>
-<p>Default value: 9</p>
+<p>Default value: 18</p>
 <table class="setenum"><tr><th>Value</th>
 <th style="padding-left: 10px; padding-right: 10px">F93B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F100B0</th>
+<th style="padding-left: 10px; padding-right: 10px">F104B0</th>
 </tr>
 <tr  bgcolor="#dddddd"><td>1</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 <tr ><td>2</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
 </td>
 <tr  bgcolor="#dddddd"><td>4</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
 </td>
 <tr ><td>9</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>18</td>
+<td style="text-align: center">0</td>
 <td style="text-align: center">0</td>
 <td style="text-align: center">0</td>
 </td>
 </table>
 <h3 id="enum_EBR2.DP16KD.DATA_WIDTH_B">Configuration Setting EBR2.DP16KD.DATA_WIDTH_B</h3>
-<p>Default value: 9</p>
+<p>Default value: 18</p>
 <table class="setenum"><tr><th>Value</th>
 <th style="padding-left: 10px; padding-right: 10px">F76B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F83B0</th>
@@ -573,6 +604,11 @@
 <td style="text-align: center">1</td>
 </td>
 <tr ><td>9</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+</td>
+<tr  bgcolor="#dddddd"><td>18</td>
 <td style="text-align: center">0</td>
 <td style="text-align: center">0</td>
 <td style="text-align: center">0</td>
