@@ -50,3 +50,9 @@ SLOW !F22B1
 
 
 # Fixed Connections
+.fixed_conn N1_JF5 W5_JPADDI_CCLK
+
+.fixed_conn W5_JPADDO_CCLK N1_JA4
+
+.fixed_conn W5_JPADDT_CCLK N1_JB4
+
