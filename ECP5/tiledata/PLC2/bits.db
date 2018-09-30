@@ -3102,6 +3102,8 @@ SET !F100B11
 
 .fixed_conn DI7_SLICE DI7
 
+.fixed_conn E1_HFIE0000 FCO
+
 .fixed_conn FCI HFIE0000
 
 .fixed_conn FCIB_SLICE FCOA_SLICE
