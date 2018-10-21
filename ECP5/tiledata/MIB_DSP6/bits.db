@@ -1,5 +1,34 @@
 # Routing Mux Bits
 
 # Non-Routing Configuration
+.config_enum MULT18_4.GSR ENABLED
+DISABLED F46B0
+ENABLED -
+
+.config_enum MULT18_4.REG_INPUTB_CLK CLK3
+CLK0 -
+CLK1 -
+CLK2 -
+CLK3 -
+NONE F87B0
+
+.config_enum MULT18_5.GSR ENABLED
+DISABLED F46B0
+ENABLED -
+
+.config_enum MULT18_5.REG_INPUTA_CLK CLK3
+CLK0 -
+CLK1 -
+CLK2 -
+CLK3 -
+NONE F80B0 F81B0 F88B0
+
+.config_enum MULT18_5.REG_INPUTB_CLK CLK3
+CLK0 -
+CLK1 -
+CLK2 -
+CLK3 -
+NONE F73B0
+
 
 # Fixed Connections

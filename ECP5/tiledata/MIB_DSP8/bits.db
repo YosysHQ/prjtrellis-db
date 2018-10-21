@@ -1,5 +1,18 @@
 # Routing Mux Bits
 
 # Non-Routing Configuration
+.config_enum MULT18_5.REG_INPUTB_CLK CLK3
+CLK0 -
+CLK1 -
+CLK2 -
+CLK3 -
+NONE F55B0 F61B0
+
+.config_enum MULT18_5.SOURCEB_MODE
+B_C_DYNAMIC F51B0
+B_SHIFT F60B0
+C_SHIFT F59B0 F60B0
+HIGHSPEED F51B0 F59B0
+
 
 # Fixed Connections
