@@ -1051,6 +1051,42 @@ HIGHSPEED F38B0 F39B0
 
 .fixed_conn JMUIA9 E1_JB1
 
+.fixed_conn JMULTA0 JMUIA0
+
+.fixed_conn JMULTA1 JMUIA1
+
+.fixed_conn JMULTA10 JMUIA10
+
+.fixed_conn JMULTA11 JMUIA11
+
+.fixed_conn JMULTA12 JMUIA12
+
+.fixed_conn JMULTA13 JMUIA13
+
+.fixed_conn JMULTA14 JMUIA14
+
+.fixed_conn JMULTA15 JMUIA15
+
+.fixed_conn JMULTA16 JMUIA16
+
+.fixed_conn JMULTA17 JMUIA17
+
+.fixed_conn JMULTA2 JMUIA2
+
+.fixed_conn JMULTA3 JMUIA3
+
+.fixed_conn JMULTA4 JMUIA4
+
+.fixed_conn JMULTA5 JMUIA5
+
+.fixed_conn JMULTA6 JMUIA6
+
+.fixed_conn JMULTA7 JMUIA7
+
+.fixed_conn JMULTA8 JMUIA8
+
+.fixed_conn JMULTA9 JMUIA9
+
 .fixed_conn JOPPRE_PRADD18 E3_JA4
 
 .fixed_conn JOPPRE_PRADD9 E3_JA4
