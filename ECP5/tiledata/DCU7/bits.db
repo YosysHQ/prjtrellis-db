@@ -1,5 +1,56 @@
 # Routing Mux Bits
 
 # Non-Routing Configuration
+.config DCU.D_BITCLK_FROM_ND_EN 0
+F95B1
+
+.config DCU.D_BITCLK_LOCAL_EN 0
+F93B1
+
+.config DCU.D_BITCLK_ND_EN 0
+F94B1
+
+.config DCU.D_BUS8BIT_SEL 0
+F72B1
+
+.config DCU.D_CDR_LOL_SET 00
+F74B1
+F75B1
+
+.config DCU.D_PLL_LOL_SET 00
+F85B1
+F86B1
+
+.config DCU.D_REFCK_MODE 000
+F66B1
+F67B1
+F73B1
+
+.config DCU.D_RG_EN 0
+F87B1
+
+.config DCU.D_RG_SET 00
+F88B1
+F89B1
+
+.config DCU.D_SETPLLRC 000000
+F76B1
+F77B1
+F78B1
+F79B1
+F80B1
+F81B1
+
+.config DCU.D_SYNC_LOCAL_EN 0
+F96B1
+
+.config DCU.D_SYNC_ND_EN 0
+F97B1
+
+.config DCU.D_TX_VCO_CK_DIV 000
+F82B1
+F83B1
+F84B1
+
 
 # Fixed Connections
