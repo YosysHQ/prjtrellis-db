@@ -1,5 +1,41 @@
 # Routing Mux Bits
 
 # Non-Routing Configuration
+.config_enum CLKDIV_L0.DIV
+2.0 F33B0 !F35B0
+3.5 !F33B0 F35B0
+
+.config_enum CLKDIV_L0.GSR ENABLED
+DISABLED F45B0
+ENABLED !F45B0
+
+.config_enum CLKDIV_L1.DIV
+2.0 F34B0 !F36B0
+3.5 !F34B0 F36B0
+
+.config_enum CLKDIV_L1.GSR ENABLED
+DISABLED F46B0
+ENABLED !F46B0
+
 
 # Fixed Connections
+.fixed_conn G_JLCDIVX0 W2_JCDIVX_CLKDIV0
+
+.fixed_conn G_JLCDIVX1 W2_JCDIVX_CLKDIV1
+
+.fixed_conn JF2 W2_JCDIVX_CLKDIV0
+
+.fixed_conn JF3 W2_JCDIVX_CLKDIV1
+
+.fixed_conn W2_CLKI_CLKDIV0 W2_CLKI0
+
+.fixed_conn W2_CLKI_CLKDIV1 W2_CLKI1
+
+.fixed_conn W2_JALIGNWD_CLKDIV0 JA3
+
+.fixed_conn W2_JALIGNWD_CLKDIV1 JB3
+
+.fixed_conn W2_JRST_CLKDIV0 JLSR0
+
+.fixed_conn W2_JRST_CLKDIV1 JLSR1
+
