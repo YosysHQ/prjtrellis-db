@@ -455,13 +455,13 @@
 </tr>
 <tr style='height: 20px'>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F0B10' style='text-decoration: none; color: #000000'>
-                    <div id='f0b10' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_DQS.GSR' title='F0B10&#13;&#10;DQS.GSR' style='text-decoration: none; color: #000000'>
+                    <div id='f0b10' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_DQS.GSR'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>G</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F1B10' style='text-decoration: none; color: #000000'>
-                    <div id='f1b10' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#mux_N1_DQSECLK' title='F1B10&#13;&#10;N1_DQSECLK' style='text-decoration: none; color: #000000'>
+                    <div id='f1b10' style='height: 100%; background-color: #FFFF88; width: 12px' class='grp_mux_N1_DQSECLK'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>D</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F2B10' style='text-decoration: none; color: #000000'>
                     <div id='f2b10' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -521,22 +521,69 @@
                     <div id='f5b11' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F6B11' style='text-decoration: none; color: #000000'>
-                    <div id='f6b11' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_DQS.MODE' title='F6B11&#13;&#10;DQS.MODE' style='text-decoration: none; color: #000000'>
+                    <div id='f6b11' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_DQS.MODE'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F7B11' style='text-decoration: none; color: #000000'>
-                    <div id='f7b11' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_DQS.READ_USED' title='F7B11&#13;&#10;DQS.READ_USED' style='text-decoration: none; color: #000000'>
+                    <div id='f7b11' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_DQS.READ_USED'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>U</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F8B11' style='text-decoration: none; color: #000000'>
-                    <div id='f8b11' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_DQS.MODE' title='F8B11&#13;&#10;DQS.MODE' style='text-decoration: none; color: #000000'>
+                    <div id='f8b11' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_DQS.MODE'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F9B11' style='text-decoration: none; color: #000000'>
                     <div id='f9b11' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 </tr>
+</table>
+<h3 id="mux_N1_DQSECLK">Mux driving <span class="mux_sink">N1_DQSECLK</span></h3>
+<table class="mux"><tr><th>Source</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B10</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>BNK_ECLK1</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
+<h3 id="enum_DQS.GSR">Configuration Setting DQS.GSR</h3>
+<p>Default value: ENABLED</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F0B10</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>DISABLED</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>ENABLED</td>
+<td style="text-align: center">0</td>
+</td>
+</table>
+<h3 id="enum_DQS.MODE">Configuration Setting DQS.MODE</h3>
+<p>Default value: NONE</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F6B11</th>
+<th style="padding-left: 10px; padding-right: 10px">F8B11</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>NONE</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>DQSBUFM</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
+<h3 id="enum_DQS.READ_USED">Configuration Setting DQS.READ_USED</h3>
+<p>Default value: NO</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F7B11</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>NO</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>YES</td>
+<td style="text-align: center">1</td>
+</td>
 </table>
 <h3 id="enum_PIOA.BASE_TYPE">Configuration Setting PIOA.BASE_TYPE</h3>
 <p>Default value: NONE</p>
