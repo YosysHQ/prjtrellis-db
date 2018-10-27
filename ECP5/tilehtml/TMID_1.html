@@ -464,7 +464,10 @@
 <table class="mux"><tr><th>Source</th>
 <th style="padding-left: 10px; padding-right: 10px">F49B0</th>
 </tr>
-<tr  bgcolor="#dddddd"><td>G_URDDRDEL</td>
+<tr  bgcolor="#dddddd"><td>G_ULDDRDEL</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>G_URDDRDEL</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
@@ -472,7 +475,10 @@
 <table class="mux"><tr><th>Source</th>
 <th style="padding-left: 10px; padding-right: 10px">F63B0</th>
 </tr>
-<tr  bgcolor="#dddddd"><td>G_URDDRDEL</td>
+<tr  bgcolor="#dddddd"><td>G_ULDDRDEL</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>G_URDDRDEL</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
@@ -480,7 +486,10 @@
 <table class="mux"><tr><th>Source</th>
 <th style="padding-left: 10px; padding-right: 10px">F64B0</th>
 </tr>
-<tr  bgcolor="#dddddd"><td>E1_DLLDEL</td>
+<tr  bgcolor="#dddddd"><td>E1_JPADDI</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>E1_DLLDEL</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
@@ -665,7 +674,10 @@
 <table class="mux"><tr><th>Source</th>
 <th style="padding-left: 10px; padding-right: 10px">F50B0</th>
 </tr>
-<tr  bgcolor="#dddddd"><td>DLLDEL</td>
+<tr  bgcolor="#dddddd"><td>JPADDI</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>DLLDEL</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
@@ -719,10 +731,6 @@
 </table>
 <h3>Fixed Connections</h3>
 <table class="fconn" style="border-spacing:0"><tr><th>Source</th><th></th><th>Sink</th></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_ULDDRDEL</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">DDRDEL</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_ULDDRDEL</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">E1_DDRDEL</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">DDRDEL</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">DDRDEL_DLLDEL</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_DDRDEL</td><td>&rarr;</td>
@@ -743,10 +751,6 @@
                 <td style="padding-left: 10px; padding-right: 10px">E1_JDIRECTION_DLLDEL</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1_JD6</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">JDIRECTION_DLLDEL</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JPADDI</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">E1_JINCK</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JPADDI</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">JINCK</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1E1_JB6</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">E1_JLOADN_DLLDEL</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1_JB6</td><td>&rarr;</td>
