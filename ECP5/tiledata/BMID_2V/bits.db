@@ -34,5 +34,37 @@ G_JLLMPCLKCIB3 F20B0 F21B0 F22B0 !F23B0
 
 
 # Non-Routing Configuration
+.config_enum DCC_B10.MODE NONE
+DCCA F10B0
+NONE -
+
+.config_enum DCC_B11.MODE NONE
+DCCA F11B0
+NONE -
+
+.config_enum DCC_B12.MODE NONE
+DCCA F12B0
+NONE -
+
+.config_enum DCC_B13.MODE NONE
+DCCA F13B0
+NONE -
+
+.config_enum DCC_B14.MODE NONE
+DCCA F14B0
+NONE -
+
+.config_enum DCC_B15.MODE NONE
+DCCA F15B0
+NONE -
+
+.config_enum DCC_B8.MODE NONE
+DCCA F8B0
+NONE -
+
+.config_enum DCC_B9.MODE NONE
+DCCA F9B0
+NONE -
+
 
 # Fixed Connections

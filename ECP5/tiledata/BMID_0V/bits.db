@@ -34,6 +34,38 @@ G_JSEDCLKOUT F46B0 F48B0
 
 
 # Non-Routing Configuration
+.config_enum DCC_B0.MODE NONE
+DCCA F9B0
+NONE -
+
+.config_enum DCC_B1.MODE NONE
+DCCA F10B0
+NONE -
+
+.config_enum DCC_B2.MODE NONE
+DCCA F11B0
+NONE -
+
+.config_enum DCC_B3.MODE NONE
+DCCA F12B0
+NONE -
+
+.config_enum DCC_B4.MODE NONE
+DCCA F13B0
+NONE -
+
+.config_enum DCC_B5.MODE NONE
+DCCA F14B0
+NONE -
+
+.config_enum DCC_B6.MODE NONE
+DCCA F15B0
+NONE -
+
+.config_enum DCC_B7.MODE NONE
+DCCA F16B0
+NONE -
+
 
 # Fixed Connections
 .fixed_conn G_CLKI_BDCC0 G_BDCC0CLKI

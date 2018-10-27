@@ -99,6 +99,62 @@ G_JULQPCLKCIB0 !F58B0 !F59B0 F60B0
 
 
 # Non-Routing Configuration
+.config_enum DCC_L0.MODE NONE
+DCCA F15B0
+NONE -
+
+.config_enum DCC_L1.MODE NONE
+DCCA F16B0
+NONE -
+
+.config_enum DCC_L10.MODE NONE
+DCCA F25B0
+NONE -
+
+.config_enum DCC_L11.MODE NONE
+DCCA F26B0
+NONE -
+
+.config_enum DCC_L12.MODE NONE
+DCCA F27B0
+NONE -
+
+.config_enum DCC_L13.MODE NONE
+DCCA F28B0
+NONE -
+
+.config_enum DCC_L2.MODE NONE
+DCCA F17B0
+NONE -
+
+.config_enum DCC_L3.MODE NONE
+DCCA F18B0
+NONE -
+
+.config_enum DCC_L4.MODE NONE
+DCCA F19B0
+NONE -
+
+.config_enum DCC_L5.MODE NONE
+DCCA F20B0
+NONE -
+
+.config_enum DCC_L6.MODE NONE
+DCCA F21B0
+NONE -
+
+.config_enum DCC_L7.MODE NONE
+DCCA F22B0
+NONE -
+
+.config_enum DCC_L8.MODE NONE
+DCCA F23B0
+NONE -
+
+.config_enum DCC_L9.MODE NONE
+DCCA F24B0
+NONE -
+
 
 # Fixed Connections
 .fixed_conn G_CLKI_LDCC0 G_LDCC0CLKI
