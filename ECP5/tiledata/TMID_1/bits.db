@@ -1,12 +1,15 @@
 # Routing Mux Bits
 .mux DDRDEL
+G_ULDDRDEL -
 G_URDDRDEL F49B0
 
 .mux E1_DDRDEL
+G_ULDDRDEL -
 G_URDDRDEL F63B0
 
 .mux E1_JINCK
 E1_DLLDEL F64B0
+E1_JPADDI -
 
 .mux G_TDCC10CLKI
 G_JPCLKT00 F28B0 !F29B0 F30B0
@@ -49,6 +52,7 @@ G_JURCPLL0CLKOP !F25B0 F26B0 F27B0
 
 .mux JINCK
 DLLDEL F50B0
+JPADDI -
 
 
 # Non-Routing Configuration
@@ -82,13 +86,9 @@ PLUS !F62B0
 
 
 # Fixed Connections
-.fixed_conn DDRDEL G_ULDDRDEL
-
 .fixed_conn DDRDEL_DLLDEL DDRDEL
 
 .fixed_conn DLLDEL Z_DLLDEL
-
-.fixed_conn E1_DDRDEL G_ULDDRDEL
 
 .fixed_conn E1_DDRDEL_DLLDEL E1_DDRDEL
 
@@ -97,8 +97,6 @@ PLUS !F62B0
 .fixed_conn E1_JA_DLLDEL E1_JPADDIA_PIO
 
 .fixed_conn E1_JDIRECTION_DLLDEL S1E1_JD6
-
-.fixed_conn E1_JINCK E1_JPADDI
 
 .fixed_conn E1_JLOADN_DLLDEL S1E1_JB6
 
@@ -111,8 +109,6 @@ PLUS !F62B0
 .fixed_conn JA_DLLDEL E3_JPADDIA_PIO
 
 .fixed_conn JDIRECTION_DLLDEL S1_JD6
-
-.fixed_conn JINCK JPADDI
 
 .fixed_conn JLOADN_DLLDEL S1_JB6
 
