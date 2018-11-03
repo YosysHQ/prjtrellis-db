@@ -111,9 +111,9 @@
                     <div id='f18b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_IOLOGICB.MODE' title='F19B0&#13;&#10;IOLOGICB.MODE' style='text-decoration: none; color: #000000'>
-                    <div id='f19b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICB.MODE'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
+<a href='#enum_IOLOGICB.CLKIMUX' title='F19B0&#13;&#10;IOLOGICB.CLKIMUX' style='text-decoration: none; color: #000000'>
+                    <div id='f19b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICB.CLKIMUX'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>C</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#enum_IOLOGICB.CLKIMUX' title='F20B0&#13;&#10;IOLOGICB.CLKIMUX' style='text-decoration: none; color: #000000'>
                     <div id='f20b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICB.CLKIMUX'
@@ -203,9 +203,9 @@
                     <div id='f41b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICB.MODE'
                     onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_IOLOGICB.MODE' title='F42B0&#13;&#10;IOLOGICB.MODE' style='text-decoration: none; color: #000000'>
-                    <div id='f42b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICB.MODE'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
+<a href='#enum_IOLOGICB.CLKOMUX' title='F42B0&#13;&#10;IOLOGICB.CLKOMUX' style='text-decoration: none; color: #000000'>
+                    <div id='f42b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICB.CLKOMUX'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>C</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#enum_IOLOGICB.CLKOMUX' title='F43B0&#13;&#10;IOLOGICB.CLKOMUX' style='text-decoration: none; color: #000000'>
                     <div id='f43b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICB.CLKOMUX'
@@ -480,26 +480,40 @@
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">IOLOGICB.DELAY.DEL_VALUE[6]</td><td style="padding-left: 10px; padding-right: 10px">F4B0</td></tr>
 </table>
 <h3 id="enum_IOLOGICB.CLKIMUX">Configuration Setting IOLOGICB.CLKIMUX</h3>
-<p>Default value: CLK</p>
+<p>Default value: 0</p>
 <table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F19B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F20B0</th>
 </tr>
-<tr  bgcolor="#dddddd"><td>CLK</td>
+<tr  bgcolor="#dddddd"><td>0</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 </td>
-<tr ><td>INV</td>
+<tr ><td>CLK</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>INV</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
 <h3 id="enum_IOLOGICB.CLKOMUX">Configuration Setting IOLOGICB.CLKOMUX</h3>
-<p>Default value: CLK</p>
+<p>Default value: 0</p>
 <table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F42B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F43B0</th>
 </tr>
-<tr  bgcolor="#dddddd"><td>CLK</td>
+<tr  bgcolor="#dddddd"><td>0</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 </td>
-<tr ><td>INV</td>
+<tr ><td>CLK</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>INV</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
@@ -576,31 +590,23 @@
 </td>
 </table>
 <h3 id="enum_IOLOGICB.MODE">Configuration Setting IOLOGICB.MODE</h3>
-<p>Default value: NONE</p>
+<p>Default value: IREG_OREG</p>
 <table class="setenum"><tr><th>Value</th>
-<th style="padding-left: 10px; padding-right: 10px">F19B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F26B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F41B0</th>
-<th style="padding-left: 10px; padding-right: 10px">F42B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F64B0</th>
 </tr>
 <tr  bgcolor="#dddddd"><td>NONE</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
-<td style="text-align: center">-</td>
-<td style="text-align: center">-</td>
 </td>
 <tr ><td>IREG_OREG</td>
-<td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
-<td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
 </td>
 <tr  bgcolor="#dddddd"><td>IDDRX1_ODDRX1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
