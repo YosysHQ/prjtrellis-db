@@ -169,13 +169,13 @@
                     <div id='f1b3' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICC.ODDRXN.MODE'
                     onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_IOLOGICC.MODE' title='F2B3&#13;&#10;IOLOGICC.MODE' style='text-decoration: none; color: #000000'>
-                    <div id='f2b3' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICC.MODE'
+<a href='#enum_PIOC.DATAMUX_MDDR' title='F2B3&#13;&#10;IOLOGICC.MODE&#13;&#10;PIOC.DATAMUX_MDDR' style='text-decoration: none; color: #000000'>
+                    <div id='f2b3' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOC.DATAMUX_MDDR'
                     onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_IOLOGICC.MODE' title='F3B3&#13;&#10;IOLOGICC.MODE' style='text-decoration: none; color: #000000'>
-                    <div id='f3b3' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICC.MODE'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
+<a href='#enum_PIOC.DATAMUX_ODDR' title='F3B3&#13;&#10;IOLOGICC.MODE&#13;&#10;PIOC.DATAMUX_MDDR&#13;&#10;PIOC.DATAMUX_ODDR' style='text-decoration: none; color: #000000'>
+                    <div id='f3b3' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOC.DATAMUX_ODDR'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>O</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F4B3' style='text-decoration: none; color: #000000'>
                     <div id='f4b3' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -371,9 +371,9 @@
 </tr>
 <tr style='height: 20px'>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_IOLOGICD.MODE' title='F0B8&#13;&#10;IOLOGICC.ODDRXN.MODE&#13;&#10;IOLOGICD.MODE' style='text-decoration: none; color: #000000'>
-                    <div id='f0b8' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICD.MODE'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
+<a href='#enum_PIOD.DATAMUX_ODDR' title='F0B8&#13;&#10;IOLOGICC.ODDRXN.MODE&#13;&#10;IOLOGICD.MODE&#13;&#10;PIOD.DATAMUX_MDDR&#13;&#10;PIOD.DATAMUX_ODDR' style='text-decoration: none; color: #000000'>
+                    <div id='f0b8' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOD.DATAMUX_ODDR'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>O</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F1B8' style='text-decoration: none; color: #000000'>
                     <div id='f1b8' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -449,8 +449,8 @@
                     <div id='f8b9' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICD.ODDRXN.MODE'
                     onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_IOLOGICD.MODE' title='F9B9&#13;&#10;IOLOGICC.ODDRXN.MODE&#13;&#10;IOLOGICD.MODE' style='text-decoration: none; color: #000000'>
-                    <div id='f9b9' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICD.MODE'
+<a href='#enum_PIOD.DATAMUX_MDDR' title='F9B9&#13;&#10;IOLOGICC.ODDRXN.MODE&#13;&#10;IOLOGICD.MODE&#13;&#10;PIOD.DATAMUX_MDDR' style='text-decoration: none; color: #000000'>
+                    <div id='f9b9' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOD.DATAMUX_MDDR'
                     onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 </tr>
 <tr style='height: 20px'>
@@ -1914,6 +1914,33 @@
 <td style="text-align: center">1</td>
 </td>
 </table>
+<h3 id="enum_PIOC.DATAMUX_MDDR">Configuration Setting PIOC.DATAMUX_MDDR</h3>
+<p>Default value: PADDO</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F2B3</th>
+<th style="padding-left: 10px; padding-right: 10px">F3B3</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>IOLDO</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>PADDO</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+</table>
+<h3 id="enum_PIOC.DATAMUX_ODDR">Configuration Setting PIOC.DATAMUX_ODDR</h3>
+<p>Default value: PADDO</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F3B3</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>IOLDO</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>PADDO</td>
+<td style="text-align: center">-</td>
+</td>
+</table>
 <h3 id="enum_PIOD.BASE_TYPE">Configuration Setting PIOD.BASE_TYPE</h3>
 <p>Default value: INPUT_HSUL12</p>
 <table class="setenum"><tr><th>Value</th>
@@ -2079,6 +2106,33 @@
 <tr ><td>OUTPUT_SSTL135_II</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
+</td>
+</table>
+<h3 id="enum_PIOD.DATAMUX_MDDR">Configuration Setting PIOD.DATAMUX_MDDR</h3>
+<p>Default value: PADDO</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F0B8</th>
+<th style="padding-left: 10px; padding-right: 10px">F9B9</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>IOLDO</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>PADDO</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+</table>
+<h3 id="enum_PIOD.DATAMUX_ODDR">Configuration Setting PIOD.DATAMUX_ODDR</h3>
+<p>Default value: PADDO</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F0B8</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>IOLDO</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>PADDO</td>
+<td style="text-align: center">-</td>
 </td>
 </table>
 </body></html>
