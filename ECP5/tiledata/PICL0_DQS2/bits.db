@@ -373,6 +373,8 @@ PADDO -
 
 
 # Fixed Connections
+.fixed_conn DDRDEL G_ULDDRDEL
+
 .fixed_conn DDRDEL_DQS DDRDEL
 
 .fixed_conn DIA_IOLOGIC JDIA

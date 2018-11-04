@@ -1,4 +1,7 @@
 # Routing Mux Bits
+.mux S2_DDRDEL
+G_LLDDRDEL F3B11
+
 
 # Non-Routing Configuration
 .config_enum DQS.WRLOADN_USED NO
