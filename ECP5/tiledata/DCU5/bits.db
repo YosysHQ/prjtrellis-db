@@ -1,4 +1,7 @@
 # Routing Mux Bits
+.mux W5_CH1_RX_REFCLK
+W5_JCH1RXREFCLKCIB F12B1
+
 
 # Non-Routing Configuration
 .config DCU.CH1_DCOATDCFG 00

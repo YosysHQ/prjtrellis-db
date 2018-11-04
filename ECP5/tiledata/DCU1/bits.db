@@ -1,4 +1,7 @@
 # Routing Mux Bits
+.mux W1_CH0_RX_REFCLK
+W1_JCH0RXREFCLKCIB F78B1
+
 
 # Non-Routing Configuration
 .config DCU.CH0_LDR_CORE2TX_SEL 0

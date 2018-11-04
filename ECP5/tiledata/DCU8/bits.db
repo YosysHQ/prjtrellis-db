@@ -105,5 +105,8 @@ F87B1
 .config DCU.D_TXPLL_PWDNB 0
 F5B1
 
+.config EXTREF.REFCK_PWDNB 0
+F4B1
+
 
 # Fixed Connections
