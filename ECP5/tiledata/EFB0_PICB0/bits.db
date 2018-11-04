@@ -5,6 +5,11 @@ JPADDIA_PIO -
 
 
 # Non-Routing Configuration
+.config_enum GSR.GSRMODE NONE
+ACTIVE_HIGH F88B1
+ACTIVE_LOW F88B1 F90B1
+NONE -
+
 .config_enum OSC.DIV 127
 10 !F102B1 F104B1
 100 !F102B1 F104B1
@@ -314,6 +319,12 @@ ON F76B1
 
 .fixed_conn N1_HL7W0001 N1_JF3
 
+.fixed_conn N1_JCLK_GSR 25K_N25E28_JCLK0
+
+.fixed_conn N1_JCLK_GSR 45K_N37E37_JCLK0
+
+.fixed_conn N1_JCLK_GSR 85K_N49E64_JCLK0
+
 .fixed_conn N1_JF0 JRXDATA0A_SIOLOGIC
 
 .fixed_conn N1_JF1 JRXDATA1A_SIOLOGIC
@@ -321,6 +332,8 @@ ON F76B1
 .fixed_conn N1_JF2 JINFFA_SIOLOGIC
 
 .fixed_conn N1_JF3 JCFLAGA_SIOLOGIC
+
+.fixed_conn N1_JGSR_GSR N1_JA5
 
 .fixed_conn N1_JQ0 JDIA
 
