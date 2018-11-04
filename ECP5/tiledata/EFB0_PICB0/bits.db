@@ -10,6 +10,14 @@ ACTIVE_HIGH F88B1
 ACTIVE_LOW F88B1 F90B1
 NONE -
 
+.config_enum JTAG.ER1 DISABLED
+DISABLED -
+ENABLED F72B1
+
+.config_enum JTAG.ER2 DISABLED
+DISABLED -
+ENABLED F74B1
+
 .config_enum OSC.DIV 127
 10 !F102B1 F104B1
 100 !F102B1 F104B1
@@ -317,6 +325,8 @@ ON F76B1
 
 .fixed_conn N1E2_JQ1 G_JOSC_OSC
 
+.fixed_conn N1E36_JJTCK N1_JJTCK_JTAG
+
 .fixed_conn N1_HL7W0001 N1_JF3
 
 .fixed_conn N1_JCLK_GSR 25K_N25E28_JCLK0
@@ -333,9 +343,37 @@ ON F76B1
 
 .fixed_conn N1_JF3 JCFLAGA_SIOLOGIC
 
+.fixed_conn N1_JF4 N1_JJTCK_JTAG
+
+.fixed_conn N1_JF5 N1_JJTDI_JTAG
+
+.fixed_conn N1_JF6 N1_JJRSTN_JTAG
+
+.fixed_conn N1_JF7 N1_JJSHIFT_JTAG
+
 .fixed_conn N1_JGSR_GSR N1_JA5
 
+.fixed_conn N1_JJTDO1_JTAG N1_JA4
+
+.fixed_conn N1_JJTDO2_JTAG N1_JB4
+
 .fixed_conn N1_JQ0 JDIA
+
+.fixed_conn N1_JQ1 N1_JJCE1_JTAG
+
+.fixed_conn N1_JQ2 N1_JJRTI1_JTAG
+
+.fixed_conn N1_JQ3 N1_JJCE2_JTAG
+
+.fixed_conn N1_JQ4 N1_JJRTI2_JTAG
+
+.fixed_conn N1_JQ5 N1_JJUPDATE_JTAG
+
+.fixed_conn N1_JTCK_JTAG W4_JTCK_TCK
+
+.fixed_conn N1_JTDI_JTAG W4_JTDI_TDI
+
+.fixed_conn N1_JTMS_JTAG W4_JTMS_TMS
 
 .fixed_conn PADDIA_SIOLOGIC JPADDIA_PIO
 
@@ -348,4 +386,6 @@ ON F76B1
 .fixed_conn PADDTA_PIO JPADDTA
 
 .fixed_conn PADDTB_PIO JPADDTB
+
+.fixed_conn W4_JTDO_TDO N1_JTDO_JTAG
 
