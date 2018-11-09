@@ -1,1 +1,9 @@
+# Routing Mux Bits
 
+# Non-Routing Configuration
+.config_enum OSCH.MODE NONE
+NONE !F5B14
+OSCH F5B14
+
+
+# Fixed Connections
