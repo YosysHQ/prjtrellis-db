@@ -266,8 +266,6 @@ ENABLED F3B0
 
 .fixed_conn E1_JPLLWAKESYNC_PLL E1_JC2
 
-.fixed_conn E1_JQ0 E1_JREFCLK_PLL
-
 .fixed_conn E1_JQ2 E1_JLOCK_PLL
 
 .fixed_conn E1_JQ4 E1_JINTLOCK_PLL
