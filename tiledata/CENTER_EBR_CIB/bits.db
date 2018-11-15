@@ -1,1 +1,11 @@
+# Routing Mux Bits
+
+# Non-Routing Configuration
+
+# Fixed Connections
+.fixed_conn CLKI0_DCC VPRXCLKI0
+
+.fixed_conn JPCLKCIBVIQT0 N5_JCLK0
+
+.fixed_conn PCLKCIBVIQT0 JPCLKCIBVIQT0
 
