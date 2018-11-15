@@ -5,6 +5,10 @@
 # Fixed Connections
 .fixed_conn CLKI0_DCC VPRXCLKI0
 
+.fixed_conn CLKO0_DCC CLKI0_DCC
+
+.fixed_conn JCE0_DCC JA0
+
 .fixed_conn JPCLKCIBVIQT0 N5_JCLK0
 
 .fixed_conn PCLKCIBVIQT0 JPCLKCIBVIQT0
