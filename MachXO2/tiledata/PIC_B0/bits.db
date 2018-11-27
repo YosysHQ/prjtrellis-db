@@ -1,1 +1,280 @@
+# Routing Mux Bits
+.mux DIA_BIOLOGIC
+JDIA F0B8
+
+.mux DIB_IOLOGIC
+JDIB F0B20
+
+.mux DIC_BSIOLOGIC
+JDIC F3B44
+
+.mux DID_IOLOGIC
+JDID F2B35
+
+.mux E4_JCLKI0_DLLDEL
+JDIA F0B8
+
+.mux E4_JPADDI0
+JDIA F0B8
+
+.mux ECLKA
+E2_BECLK1 F1B31
+
+.mux ECLKC
+E2_BECLK1 F0B33
+
+.mux JDIA
+INDDA_BIOLOGIC F0B8
+
+.mux JDIB
+INDDB_IOLOGIC F0B20
+
+.mux JDIC
+INDDC_BSIOLOGIC F3B44
+
+.mux JDID
+INDDD_IOLOGIC F2B35
+
+.mux N11W7_JREFCLK6
+JDIA F0B8
+
+.mux N1_JQ0
+JDIA F0B8
+
+.mux N1_JQ1
+JDIB F0B20
+
+.mux N1_JQ2
+JDIC F3B44
+
+.mux N1_JQ3
+JDID F2B35
+
+
+# Non-Routing Configuration
+
+# Fixed Connections
+.fixed_conn ECLKA E2_BECLK0
+
+.fixed_conn ECLKA_BIOLOGIC ECLKA
+
+.fixed_conn ECLKC E2_BECLK0
+
+.fixed_conn ECLKC_BSIOLOGIC ECLKC
+
+.fixed_conn INRDA_PIO BNK_INRD
+
+.fixed_conn INRDB_PIO BNK_INRD
+
+.fixed_conn INRDC_PIO BNK_INRD
+
+.fixed_conn INRDD_PIO BNK_INRD
+
+.fixed_conn IOLDOA_PIO IOLDOA_BIOLOGIC
+
+.fixed_conn IOLDOB_PIO IOLDOB_IOLOGIC
+
+.fixed_conn IOLDOC_PIO IOLDOC_BSIOLOGIC
+
+.fixed_conn IOLDOD_PIO IOLDOD_IOLOGIC
+
+.fixed_conn IOLTOA_PIO IOLTOA_BIOLOGIC
+
+.fixed_conn IOLTOB_PIO IOLTOB_IOLOGIC
+
+.fixed_conn IOLTOC_PIO IOLTOC_BSIOLOGIC
+
+.fixed_conn IOLTOD_PIO IOLTOD_IOLOGIC
+
+.fixed_conn JCEA_BIOLOGIC N1_JCE0
+
+.fixed_conn JCEB_IOLOGIC N1_JCE1
+
+.fixed_conn JCEC_BSIOLOGIC N1_JCE2
+
+.fixed_conn JCED_IOLOGIC N1_JCE3
+
+.fixed_conn JCLKA_BIOLOGIC N1_JCLK0
+
+.fixed_conn JCLKB_IOLOGIC N1_JCLK1
+
+.fixed_conn JCLKC_BSIOLOGIC N1_JCLK2
+
+.fixed_conn JCLKD_IOLOGIC N1_JCLK3
+
+.fixed_conn JDEL0A_BIOLOGIC N1_JD2
+
+.fixed_conn JDEL0C_BSIOLOGIC N1_JD4
+
+.fixed_conn JDEL1A_BIOLOGIC N1_JD3
+
+.fixed_conn JDEL1C_BSIOLOGIC N1_JA5
+
+.fixed_conn JDEL2A_BIOLOGIC N1_JA4
+
+.fixed_conn JDEL2C_BSIOLOGIC N1_JB5
+
+.fixed_conn JDEL3A_BIOLOGIC N1_JB4
+
+.fixed_conn JDEL3C_BSIOLOGIC N1_JC5
+
+.fixed_conn JDEL4A_BIOLOGIC N1_JC4
+
+.fixed_conn JDEL4C_BSIOLOGIC N1_JD5
+
+.fixed_conn JDIA JPADDIA_PIO
+
+.fixed_conn JDIB JPADDIB_PIO
+
+.fixed_conn JDIC JPADDIC_PIO
+
+.fixed_conn JDID JPADDID_PIO
+
+.fixed_conn JINA_BIOLOGIC N1_JF0
+
+.fixed_conn JINB_IOLOGIC N1_JF1
+
+.fixed_conn JINC_BSIOLOGIC N1_JF2
+
+.fixed_conn JIND_IOLOGIC N1_JF3
+
+.fixed_conn JIPA_BIOLOGIC N1_JF4
+
+.fixed_conn JIPB_IOLOGIC N1_JF5
+
+.fixed_conn JIPC_BSIOLOGIC N1_JF6
+
+.fixed_conn JIPD_IOLOGIC N1_JF7
+
+.fixed_conn JLSRA_BIOLOGIC N1_JLSR0
+
+.fixed_conn JLSRB_IOLOGIC N1_JLSR1
+
+.fixed_conn JLSRC_BSIOLOGIC N1_JLSR2
+
+.fixed_conn JLSRD_IOLOGIC N1_JLSR3
+
+.fixed_conn JONEGA_BIOLOGIC N1_JB0
+
+.fixed_conn JONEGB_IOLOGIC N1_JB1
+
+.fixed_conn JONEGC_BSIOLOGIC N1_JB2
+
+.fixed_conn JONEGD_IOLOGIC N1_JB3
+
+.fixed_conn JOPOSA_BIOLOGIC N1_JA0
+
+.fixed_conn JOPOSB_IOLOGIC N1_JA1
+
+.fixed_conn JOPOSC_BSIOLOGIC N1_JA2
+
+.fixed_conn JOPOSD_IOLOGIC N1_JA3
+
+.fixed_conn JPADDOA N1_JA0
+
+.fixed_conn JPADDOB N1_JA1
+
+.fixed_conn JPADDOC N1_JA2
+
+.fixed_conn JPADDOD N1_JA3
+
+.fixed_conn JPADDTA N1_JC0
+
+.fixed_conn JPADDTB N1_JC1
+
+.fixed_conn JPADDTC N1_JC2
+
+.fixed_conn JPADDTD N1_JC3
+
+.fixed_conn JSLIPA_BIOLOGIC N1_JD0
+
+.fixed_conn JSLIPC_BSIOLOGIC N1_JD1
+
+.fixed_conn JTSA_BIOLOGIC N1_JC0
+
+.fixed_conn JTSB_IOLOGIC N1_JC1
+
+.fixed_conn JTSC_BSIOLOGIC N1_JC2
+
+.fixed_conn JTSD_IOLOGIC N1_JC3
+
+.fixed_conn N1_JA0 JPADDOA
+
+.fixed_conn N1_JA1 JPADDOB
+
+.fixed_conn N1_JA2 JPADDOC
+
+.fixed_conn N1_JA3 JPADDOD
+
+.fixed_conn N1_JC0 JPADDTA
+
+.fixed_conn N1_JC1 JPADDTB
+
+.fixed_conn N1_JC2 JPADDTC
+
+.fixed_conn N1_JC3 JPADDTD
+
+.fixed_conn N1_JF0 JRXD1A_BIOLOGIC
+
+.fixed_conn N1_JF0 JRXDA5_BIOLOGIC
+
+.fixed_conn N1_JF1 JRXD3A_BIOLOGIC
+
+.fixed_conn N1_JF1 JRXDA7_BIOLOGIC
+
+.fixed_conn N1_JF4 JRXD0A_BIOLOGIC
+
+.fixed_conn N1_JF4 JRXDA4_BIOLOGIC
+
+.fixed_conn N1_JF5 JRXD2A_BIOLOGIC
+
+.fixed_conn N1_JF5 JRXDA6_BIOLOGIC
+
+.fixed_conn N1_JQ4 JRXD0C_BSIOLOGIC
+
+.fixed_conn N1_JQ4 JRXDA0_BIOLOGIC
+
+.fixed_conn N1_JQ5 JRXD1C_BSIOLOGIC
+
+.fixed_conn N1_JQ5 JRXDA1_BIOLOGIC
+
+.fixed_conn N1_JQ6 JRXD2C_BSIOLOGIC
+
+.fixed_conn N1_JQ6 JRXDA2_BIOLOGIC
+
+.fixed_conn N1_JQ7 JRXD3C_BSIOLOGIC
+
+.fixed_conn N1_JQ7 JRXDA3_BIOLOGIC
+
+.fixed_conn PADDIA_BIOLOGIC JPADDIA_PIO
+
+.fixed_conn PADDIB_IOLOGIC JPADDIB_PIO
+
+.fixed_conn PADDIC_BSIOLOGIC JPADDIC_PIO
+
+.fixed_conn PADDID_IOLOGIC JPADDID_PIO
+
+.fixed_conn PADDOA_PIO JPADDOA
+
+.fixed_conn PADDOB_PIO JPADDOB
+
+.fixed_conn PADDOC_PIO JPADDOC
+
+.fixed_conn PADDOD_PIO JPADDOD
+
+.fixed_conn PADDTA_PIO JPADDTA
+
+.fixed_conn PADDTB_PIO JPADDTB
+
+.fixed_conn PADDTC_PIO JPADDTC
+
+.fixed_conn PADDTD_PIO JPADDTD
+
+.fixed_conn PGA_PIO E3_PG
+
+.fixed_conn PGB_PIO E3_PG
+
+.fixed_conn PGC_PIO E3_PG
+
+.fixed_conn PGD_PIO E3_PG
 
