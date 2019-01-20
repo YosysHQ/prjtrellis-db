@@ -71,9 +71,9 @@
                     <div id='f8b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_REFIN_RESET'
                     onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#mux_W1_JCLKOS_PLL' title='F9B0&#13;&#10;MODE&#13;&#10;W1_JCLKOP_PLL&#13;&#10;W1_JCLKOS2_PLL&#13;&#10;W1_JCLKOS3_PLL&#13;&#10;W1_JCLKOS_PLL' style='text-decoration: none; color: #000000'>
-                    <div id='f9b0' style='height: 100%; background-color: #FF8888; width: 12px' class='grp_mux_W1_JCLKOS_PLL'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>P</div></a></td>
+<a href='#enum_MODE' title='F9B0&#13;&#10;MODE' style='text-decoration: none; color: #000000'>
+                    <div id='f9b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_MODE'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 </tr>
 <tr style='height: 20px'>
 <td style='height: 100%; border: 2px solid black;'>
@@ -557,38 +557,6 @@
 </td>
 <tr ><td>W1_JCLKFB3</td>
 <td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-</td>
-</table>
-<h3 id="mux_W1_JCLKOP_PLL">Mux driving <span class="mux_sink">W1_JCLKOP_PLL</span></h3>
-<table class="mux"><tr><th>Source</th>
-<th style="padding-left: 10px; padding-right: 10px">F9B0</th>
-</tr>
-<tr  bgcolor="#dddddd"><td>W1_CLKI_PLL</td>
-<td style="text-align: center">1</td>
-</td>
-</table>
-<h3 id="mux_W1_JCLKOS2_PLL">Mux driving <span class="mux_sink">W1_JCLKOS2_PLL</span></h3>
-<table class="mux"><tr><th>Source</th>
-<th style="padding-left: 10px; padding-right: 10px">F9B0</th>
-</tr>
-<tr  bgcolor="#dddddd"><td>W1_CLKI_PLL</td>
-<td style="text-align: center">1</td>
-</td>
-</table>
-<h3 id="mux_W1_JCLKOS3_PLL">Mux driving <span class="mux_sink">W1_JCLKOS3_PLL</span></h3>
-<table class="mux"><tr><th>Source</th>
-<th style="padding-left: 10px; padding-right: 10px">F9B0</th>
-</tr>
-<tr  bgcolor="#dddddd"><td>W1_CLKI_PLL</td>
-<td style="text-align: center">1</td>
-</td>
-</table>
-<h3 id="mux_W1_JCLKOS_PLL">Mux driving <span class="mux_sink">W1_JCLKOS_PLL</span></h3>
-<table class="mux"><tr><th>Source</th>
-<th style="padding-left: 10px; padding-right: 10px">F9B0</th>
-</tr>
-<tr  bgcolor="#dddddd"><td>W1_CLKI_PLL</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
@@ -1089,71 +1057,69 @@
                 <td style="padding-left: 10px; padding-right: 10px">W1_JPHASESTEP_PLL</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JC2</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JPLLWAKESYNC_PLL</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JREFCLK_PLL</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JQ0</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JLOCK_PLL</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JLOCK_PLL</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JQ2</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JINTLOCK_PLL</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JINTLOCK_PLL</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JQ4</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JCLK0</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JCLK0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_0</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S28_JPADDIC_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_1</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S40_JPADDIC_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_1</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S28_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_2</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S40_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_2</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S7_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_3</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S7_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_3</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W5_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_4</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W5_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_4</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W48_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_5</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W57_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_5</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W46_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_6</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W55_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_6</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JCLK1</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_0</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S28_JPADDIC_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_1</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_1</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S40_JPADDIC_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_1</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_1</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S28_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_2</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_2</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S40_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_2</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_2</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S7_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_3</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_3</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S7_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_3</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_3</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W5_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_4</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_4</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W5_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_4</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_4</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W48_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_5</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_5</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W57_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_5</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_5</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W46_JPADDIA_PIO</td><td>&rarr;</td>
-                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_6</td></tr>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_6</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W55_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK0_6</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JCLK1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_0</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S28_JPADDIC_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S40_JPADDIC_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_1</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S28_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_2</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S40_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_2</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_S7_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_3</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_S7_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_3</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W5_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_4</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W5_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_4</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W48_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_5</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W57_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_5</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_N4W46_JPADDIA_PIO</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_6</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_CLKI_PLL</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">85K_N4W55_JPADDIA_PIO</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK1_6</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_CLKI_PLL</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JREFCLK_PLL</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JB1</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JB1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JRST_PLL</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JB2</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JB2</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JSEL_PLLREFCS</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JLSR0</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W1_JLSR0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W1_JSTDBY_PLL</td></tr>
 </table>
 </body></html>
