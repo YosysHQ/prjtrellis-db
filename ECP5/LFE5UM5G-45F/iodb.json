@@ -3828,6 +3828,7 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "function": "ULC_GPLL0T_IN",
             "pio": "A",
             "row": 11
@@ -3835,6 +3836,7 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "function": "ULC_GPLL0C_IN",
             "pio": "B",
             "row": 11
@@ -3842,102 +3844,119 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "C",
             "row": 11
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "D",
             "row": 11
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "A",
             "row": 14
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "B",
             "row": 14
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "C",
             "row": 14
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "D",
             "row": 14
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQS17",
             "pio": "A",
             "row": 17
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQSN17",
             "pio": "B",
             "row": 17
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "C",
             "row": 17
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "D",
             "row": 17
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "A",
             "row": 20
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "B",
             "row": 20
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "C",
             "row": 20
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ17",
             "pio": "D",
             "row": 20
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "A",
             "row": 23
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "B",
             "row": 23
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "function": "VREF1_7",
             "pio": "C",
             "row": 23
@@ -3945,36 +3964,42 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "D",
             "row": 23
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "A",
             "row": 26
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "B",
             "row": 26
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "C",
             "row": 26
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "D",
             "row": 26
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQS29",
             "function": "GR_PCLK7_1",
             "pio": "A",
             "row": 29
@@ -3982,12 +4007,14 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQSN29",
             "pio": "B",
             "row": 29
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "function": "GR_PCLK7_0",
             "pio": "C",
             "row": 29
@@ -3995,12 +4022,14 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "pio": "D",
             "row": 29
         },
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "function": "PCLKT7_1",
             "pio": "A",
             "row": 32
@@ -4008,6 +4037,7 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "function": "PCLKC7_1",
             "pio": "B",
             "row": 32
@@ -4015,6 +4045,7 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "function": "PCLKT7_0",
             "pio": "C",
             "row": 32
@@ -4022,6 +4053,7 @@
         {
             "bank": 7,
             "col": 0,
+            "dqs": "LDQ29",
             "function": "PCLKC7_0",
             "pio": "D",
             "row": 32
@@ -4029,6 +4061,7 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "function": "PCLKT6_1",
             "pio": "A",
             "row": 35
@@ -4036,6 +4069,7 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "function": "PCLKC6_1",
             "pio": "B",
             "row": 35
@@ -4043,6 +4077,7 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "function": "PCLKT6_0",
             "pio": "C",
             "row": 35
@@ -4050,6 +4085,7 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "function": "PCLKC6_0",
             "pio": "D",
             "row": 35
@@ -4057,6 +4093,7 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "function": "GR_PCLK6_0",
             "pio": "A",
             "row": 38
@@ -4064,12 +4101,14 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "pio": "B",
             "row": 38
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "function": "GR_PCLK6_1",
             "pio": "C",
             "row": 38
@@ -4077,42 +4116,49 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "pio": "D",
             "row": 38
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQS41",
             "pio": "A",
             "row": 41
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQSN41",
             "pio": "B",
             "row": 41
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "pio": "C",
             "row": 41
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "pio": "D",
             "row": 41
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "pio": "A",
             "row": 44
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "function": "VREF1_6",
             "pio": "B",
             "row": 44
@@ -4120,198 +4166,231 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "pio": "C",
             "row": 44
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ41",
             "pio": "D",
             "row": 44
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "A",
             "row": 47
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "B",
             "row": 47
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "C",
             "row": 47
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "D",
             "row": 47
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "A",
             "row": 50
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "B",
             "row": 50
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "C",
             "row": 50
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "D",
             "row": 50
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQS53",
             "pio": "A",
             "row": 53
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQSN53",
             "pio": "B",
             "row": 53
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "C",
             "row": 53
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "D",
             "row": 53
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "A",
             "row": 56
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "B",
             "row": 56
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "C",
             "row": 56
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ53",
             "pio": "D",
             "row": 56
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "A",
             "row": 59
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "B",
             "row": 59
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "C",
             "row": 59
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "D",
             "row": 59
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "A",
             "row": 62
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "B",
             "row": 62
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "C",
             "row": 62
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "D",
             "row": 62
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQS65",
             "pio": "A",
             "row": 65
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQSN65",
             "pio": "B",
             "row": 65
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "C",
             "row": 65
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "D",
             "row": 65
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "A",
             "row": 68
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "pio": "B",
             "row": 68
         },
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "function": "LLC_GPLL0T_IN",
             "pio": "C",
             "row": 68
@@ -4319,6 +4398,7 @@
         {
             "bank": 6,
             "col": 0,
+            "dqs": "LDQ65",
             "function": "LLC_GPLL0C_IN",
             "pio": "D",
             "row": 68
@@ -4865,6 +4945,7 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "function": "URC_GPLL0T_IN",
             "pio": "A",
             "row": 11
@@ -4872,6 +4953,7 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "function": "URC_GPLL0C_IN",
             "pio": "B",
             "row": 11
@@ -4879,102 +4961,119 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "C",
             "row": 11
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "D",
             "row": 11
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "A",
             "row": 14
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "B",
             "row": 14
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "C",
             "row": 14
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "D",
             "row": 14
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQS17",
             "pio": "A",
             "row": 17
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQSN17",
             "pio": "B",
             "row": 17
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "C",
             "row": 17
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "D",
             "row": 17
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "A",
             "row": 20
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "B",
             "row": 20
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "C",
             "row": 20
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ17",
             "pio": "D",
             "row": 20
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "A",
             "row": 23
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "B",
             "row": 23
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "function": "VREF1_2",
             "pio": "C",
             "row": 23
@@ -4982,36 +5081,42 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "D",
             "row": 23
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "A",
             "row": 26
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "B",
             "row": 26
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "C",
             "row": 26
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "D",
             "row": 26
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQS29",
             "function": "GR_PCLK2_1",
             "pio": "A",
             "row": 29
@@ -5019,12 +5124,14 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQSN29",
             "pio": "B",
             "row": 29
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "function": "GR_PCLK2_0",
             "pio": "C",
             "row": 29
@@ -5032,12 +5139,14 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "pio": "D",
             "row": 29
         },
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "function": "PCLKT2_1",
             "pio": "A",
             "row": 32
@@ -5045,6 +5154,7 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "function": "PCLKC2_1",
             "pio": "B",
             "row": 32
@@ -5052,6 +5162,7 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "function": "PCLKT2_0",
             "pio": "C",
             "row": 32
@@ -5059,6 +5170,7 @@
         {
             "bank": 2,
             "col": 90,
+            "dqs": "RDQ29",
             "function": "PCLKC2_0",
             "pio": "D",
             "row": 32
@@ -5066,6 +5178,7 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "function": "PCLKT3_1",
             "pio": "A",
             "row": 35
@@ -5073,6 +5186,7 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "function": "PCLKC3_1",
             "pio": "B",
             "row": 35
@@ -5080,6 +5194,7 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "function": "PCLKT3_0",
             "pio": "C",
             "row": 35
@@ -5087,6 +5202,7 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "function": "PCLKC3_0",
             "pio": "D",
             "row": 35
@@ -5094,6 +5210,7 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "function": "GR_PCLK3_0",
             "pio": "A",
             "row": 38
@@ -5101,12 +5218,14 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "pio": "B",
             "row": 38
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "function": "GR_PCLK3_1",
             "pio": "C",
             "row": 38
@@ -5114,42 +5233,49 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "pio": "D",
             "row": 38
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQS41",
             "pio": "A",
             "row": 41
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQSN41",
             "pio": "B",
             "row": 41
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "pio": "C",
             "row": 41
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "pio": "D",
             "row": 41
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "pio": "A",
             "row": 44
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "function": "VREF1_3",
             "pio": "B",
             "row": 44
@@ -5157,198 +5283,231 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "pio": "C",
             "row": 44
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ41",
             "pio": "D",
             "row": 44
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "A",
             "row": 47
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "B",
             "row": 47
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "C",
             "row": 47
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "D",
             "row": 47
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "A",
             "row": 50
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "B",
             "row": 50
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "C",
             "row": 50
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "D",
             "row": 50
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQS53",
             "pio": "A",
             "row": 53
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQSN53",
             "pio": "B",
             "row": 53
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "C",
             "row": 53
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "D",
             "row": 53
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "A",
             "row": 56
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "B",
             "row": 56
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "C",
             "row": 56
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ53",
             "pio": "D",
             "row": 56
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "A",
             "row": 59
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "B",
             "row": 59
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "C",
             "row": 59
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "D",
             "row": 59
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "A",
             "row": 62
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "B",
             "row": 62
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "C",
             "row": 62
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "D",
             "row": 62
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQS65",
             "pio": "A",
             "row": 65
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQSN65",
             "pio": "B",
             "row": 65
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "C",
             "row": 65
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "D",
             "row": 65
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "A",
             "row": 68
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "pio": "B",
             "row": 68
         },
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "function": "LRC_GPLL0T_IN",
             "pio": "C",
             "row": 68
@@ -5356,6 +5515,7 @@
         {
             "bank": 3,
             "col": 90,
+            "dqs": "RDQ65",
             "function": "LRC_GPLL0C_IN",
             "pio": "D",
             "row": 68
