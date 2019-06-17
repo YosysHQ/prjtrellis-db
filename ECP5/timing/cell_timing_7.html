@@ -13,6 +13,11 @@
 <li><a href='#DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=NORMAL'>DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=NORMAL</a></li>
 <li><a href='#DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=READBEFOREWRITE'>DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=READBEFOREWRITE</a></li>
 <li><a href='#DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=WRITETHROUGH'>DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=WRITETHROUGH</a></li>
+<li><a href='#MULT18X18D:REGS=ALL'>MULT18X18D:REGS=ALL</a></li>
+<li><a href='#MULT18X18D:REGS=INPUT'>MULT18X18D:REGS=INPUT</a></li>
+<li><a href='#MULT18X18D:REGS=NONE'>MULT18X18D:REGS=NONE</a></li>
+<li><a href='#MULT18X18D:REGS=OUTPUT'>MULT18X18D:REGS=OUTPUT</a></li>
+<li><a href='#MULT18X18D:REGS=PIPELINE'>MULT18X18D:REGS=PIPELINE</a></li>
 <li><a href='#PIO:IOTYPE=LVCMOS12'>PIO:IOTYPE=LVCMOS12</a></li>
 <li><a href='#PIO:IOTYPE=LVCMOS15'>PIO:IOTYPE=LVCMOS15</a></li>
 <li><a href='#PIO:IOTYPE=LVCMOS18'>PIO:IOTYPE=LVCMOS18</a></li>
@@ -4344,6 +4349,253 @@
 <td>posedge CLKB</td>
 <td>1954</td><td>1954</td><td>1954</td>
 <td>256</td><td>256</td><td>256</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='MULT18X18D:REGS=ALL'/>
+<h2>MULT18X18D:REGS=ALL</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK0</td><td>P</td>
+<td>530</td><td>593</td><td>656</td>
+<td>530</td><td>593</td><td>656</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>A</td><td>posedge CLK0</td>
+<td>37</td><td>50</td><td>63</td>
+<td>0</td><td>0</td><td>26</td>
+</tr>
+<tr >
+<td>B</td><td>posedge CLK0</td>
+<td>37</td><td>50</td><td>63</td>
+<td>0</td><td>0</td><td>26</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>CE0</td><td>posedge CLK0</td>
+<td>147</td><td>189</td><td>231</td>
+<td>0</td><td>0</td><td>21</td>
+</tr>
+<tr >
+<td>RST0</td><td>posedge CLK0</td>
+<td>74</td><td>89</td><td>105</td>
+<td>53</td><td>63</td><td>74</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>SIGNEDA</td><td>posedge CLK0</td>
+<td>0</td><td>0</td><td>0</td>
+<td>131</td><td>144</td><td>158</td>
+</tr>
+<tr >
+<td>SIGNEDB</td><td>posedge CLK0</td>
+<td>0</td><td>0</td><td>0</td>
+<td>131</td><td>144</td><td>158</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='MULT18X18D:REGS=INPUT'/>
+<h2>MULT18X18D:REGS=INPUT</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK0</td><td>P</td>
+<td>2583</td><td>3019</td><td>3455</td>
+<td>2583</td><td>3019</td><td>3455</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>A</td><td>posedge CLK0</td>
+<td>37</td><td>50</td><td>63</td>
+<td>0</td><td>0</td><td>26</td>
+</tr>
+<tr >
+<td>B</td><td>posedge CLK0</td>
+<td>37</td><td>50</td><td>63</td>
+<td>0</td><td>0</td><td>26</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>CE0</td><td>posedge CLK0</td>
+<td>147</td><td>189</td><td>231</td>
+<td>0</td><td>0</td><td>21</td>
+</tr>
+<tr >
+<td>RST0</td><td>posedge CLK0</td>
+<td>74</td><td>89</td><td>105</td>
+<td>53</td><td>63</td><td>74</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>SIGNEDA</td><td>posedge CLK0</td>
+<td>0</td><td>0</td><td>0</td>
+<td>131</td><td>144</td><td>158</td>
+</tr>
+<tr >
+<td>SIGNEDB</td><td>posedge CLK0</td>
+<td>0</td><td>0</td><td>0</td>
+<td>131</td><td>144</td><td>158</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='MULT18X18D:REGS=NONE'/>
+<h2>MULT18X18D:REGS=NONE</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>A</td><td>P</td>
+<td>2620</td><td>3058</td><td>3497</td>
+<td>2620</td><td>3058</td><td>3497</td>
+</tr>
+<tr >
+<td>B</td><td>P</td>
+<td>2620</td><td>3058</td><td>3497</td>
+<td>2620</td><td>3058</td><td>3497</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>SIGNEDA</td><td>P</td>
+<td>2473</td><td>2898</td><td>3323</td>
+<td>2473</td><td>2898</td><td>3323</td>
+</tr>
+<tr >
+<td>SIGNEDB</td><td>P</td>
+<td>2473</td><td>2898</td><td>3323</td>
+<td>2473</td><td>2898</td><td>3323</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='MULT18X18D:REGS=OUTPUT'/>
+<h2>MULT18X18D:REGS=OUTPUT</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK0</td><td>P</td>
+<td>530</td><td>593</td><td>656</td>
+<td>530</td><td>593</td><td>656</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>A</td><td>posedge CLK0</td>
+<td>2699</td><td>2880</td><td>3061</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr >
+<td>B</td><td>posedge CLK0</td>
+<td>2699</td><td>2880</td><td>3061</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>CE0</td><td>posedge CLK0</td>
+<td>147</td><td>189</td><td>231</td>
+<td>0</td><td>0</td><td>21</td>
+</tr>
+<tr >
+<td>RST0</td><td>posedge CLK0</td>
+<td>74</td><td>89</td><td>105</td>
+<td>53</td><td>63</td><td>74</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>SIGNEDA</td><td>posedge CLK0</td>
+<td>2557</td><td>2722</td><td>2888</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr >
+<td>SIGNEDB</td><td>posedge CLK0</td>
+<td>2557</td><td>2722</td><td>2888</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='MULT18X18D:REGS=PIPELINE'/>
+<h2>MULT18X18D:REGS=PIPELINE</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK0</td><td>P</td>
+<td>1192</td><td>1207</td><td>1223</td>
+<td>1192</td><td>1207</td><td>1223</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>A</td><td>posedge CLK0</td>
+<td>2121</td><td>2213</td><td>2305</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr >
+<td>B</td><td>posedge CLK0</td>
+<td>2121</td><td>2213</td><td>2305</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>CE0</td><td>posedge CLK0</td>
+<td>147</td><td>189</td><td>231</td>
+<td>0</td><td>0</td><td>21</td>
+</tr>
+<tr >
+<td>RST0</td><td>posedge CLK0</td>
+<td>74</td><td>89</td><td>105</td>
+<td>53</td><td>63</td><td>74</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>SIGNEDA</td><td>posedge CLK0</td>
+<td>1979</td><td>2055</td><td>2131</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr >
+<td>SIGNEDB</td><td>posedge CLK0</td>
+<td>1979</td><td>2055</td><td>2131</td>
+<td>0</td><td>0</td><td>0</td>
 </tr>
 </tbody>
 </table>
