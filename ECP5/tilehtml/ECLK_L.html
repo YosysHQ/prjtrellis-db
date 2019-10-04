@@ -223,17 +223,17 @@
                     <div id='f46b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_CLKDIV_L1.GSR'
                     onmouseover='mov(event);' onmouseout='mou(event);'>G</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F47B0' style='text-decoration: none; color: #000000'>
-                    <div id='f47b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_BRGECLKSYNC1.MODE' title='F47B0&#13;&#10;BRGECLKSYNC1.MODE' style='text-decoration: none; color: #000000'>
+                    <div id='f47b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_BRGECLKSYNC1.MODE'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F48B0' style='text-decoration: none; color: #000000'>
-                    <div id='f48b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_ECLKBRIDGECS1.MODE' title='F48B0&#13;&#10;ECLKBRIDGECS1.MODE' style='text-decoration: none; color: #000000'>
+                    <div id='f48b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_ECLKBRIDGECS1.MODE'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F49B0' style='text-decoration: none; color: #000000'>
-                    <div id='f49b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#mux_G_JLECLK1' title='F49B0&#13;&#10;G_JLECLK1' style='text-decoration: none; color: #000000'>
+                    <div id='f49b0' style='height: 100%; background-color: #FF8888; width: 12px' class='grp_mux_G_JLECLK1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>L</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F50B0' style='text-decoration: none; color: #000000'>
                     <div id='f50b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -459,6 +459,14 @@
                     <div id='f105b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 </tr>
+</table>
+<h3 id="mux_G_JLECLK1">Mux driving <span class="mux_sink">G_JLECLK1</span></h3>
+<table class="mux"><tr><th>Source</th>
+<th style="padding-left: 10px; padding-right: 10px">F49B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>W2_JECLKO_BRGECLKSYNC1</td>
+<td style="text-align: center">1</td>
+</td>
 </table>
 <h3 id="mux_N1W2_DDRDEL">Mux driving <span class="mux_sink">N1W2_DDRDEL</span></h3>
 <table class="mux"><tr><th>Source</th>
@@ -968,6 +976,18 @@
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">DLLDEL_71.DEL_VAL[6]</td><td style="padding-left: 10px; padding-right: 10px">F72B0</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px">DLLDEL_71.DEL_VAL[7]</td><td style="padding-left: 10px; padding-right: 10px">F73B0</td></tr>
 </table>
+<h3 id="enum_BRGECLKSYNC1.MODE">Configuration Setting BRGECLKSYNC1.MODE</h3>
+<p>Default value: NONE</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F47B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>NONE</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>ECLKSYNCB</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
 <h3 id="enum_CLKDIV_L0.DIV">Configuration Setting CLKDIV_L0.DIV</h3>
 <table class="setenum"><tr><th>Value</th>
 <th style="padding-left: 10px; padding-right: 10px">F33B0</th>
@@ -1068,6 +1088,18 @@
 <td style="text-align: center">0</td>
 </td>
 </table>
+<h3 id="enum_ECLKBRIDGECS1.MODE">Configuration Setting ECLKBRIDGECS1.MODE</h3>
+<p>Default value: NONE</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F48B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>NONE</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>ECLKBRIDGECS</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
 <h3 id="enum_ECLKSYNC0_BK6.MODE">Configuration Setting ECLKSYNC0_BK6.MODE</h3>
 <p>Default value: NONE</p>
 <table class="setenum"><tr><th>Value</th>
@@ -1138,22 +1170,26 @@
                 <td style="padding-left: 10px; padding-right: 10px">S2W2_DLLDEL</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_Z_DLLDEL</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W2_DLLDEL</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_ECLKI0</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_ECSOUT_ECLKBRIDGECS1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W2_ECLKI_BRGECLKSYNC1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_ECLKI0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">S1W2_ECLKI_ECLKSYNC0</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_ECLKI0</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_ECLKI0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W2_ECLKI_ECLKSYNC0</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_JECLKI1</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_JECLKI1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">S1W2_ECLKI_ECLKSYNC1</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JECLKI1</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JECLKI1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W2_ECLKI_ECLKSYNC1</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_JECLK0</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_JECLK0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">G_BANK6ECLK0</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_JECLK1</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_JECLK1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">G_BANK6ECLK1</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JECLK0</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JECLK0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">G_BANK7ECLK0</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JECLK1</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JECLK1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">G_BANK7ECLK1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_JLECLK1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">G_JBRGECLK1</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JCDIVX_CLKDIV0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">G_JLCDIVX0</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JCDIVX_CLKDIV1</td><td>&rarr;</td>
@@ -1186,14 +1222,18 @@
                 <td style="padding-left: 10px; padding-right: 10px">S2W2_JA_DLLDEL</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N2W2_JPADDIA_PIO</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W2_JA_DLLDEL</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_E38_JBRGECLK0</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_JBRGECLK0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">S1W2_JBRGECLK0</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_E38_JBRGECLK0</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_JBRGECLK0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W2_JBRGECLK0</td></tr>
-<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_E38_JBRGECLK1</td><td>&rarr;</td>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_JBRGECLK1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">S1W2_JBRGECLK1</td></tr>
-<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">45K_E38_JBRGECLK1</td><td>&rarr;</td>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_JBRGECLK1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W2_JBRGECLK1</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">W2_JECLKI1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W2_JCLK0_ECLKBRIDGECS1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W2_JECLKI1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W2_JCLK1_ECLKBRIDGECS1</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">N1W1_JD6</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">N1W2_JDIRECTION_DLLDEL</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">S1W1_JD6</td><td>&rarr;</td>
@@ -1250,6 +1290,10 @@
                 <td style="padding-left: 10px; padding-right: 10px">W2_JRST_CLKDIV0</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JLSR1</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">W2_JRST_CLKDIV1</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JA6</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W2_JSEL_ECLKBRIDGECS1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JA7</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">W2_JSTOP_BRGECLKSYNC1</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JC0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">S1W2_JSTOP_ECLKSYNC0</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JA0</td><td>&rarr;</td>
