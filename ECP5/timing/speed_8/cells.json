@@ -13957,6 +13957,665 @@
             "type": "IOPath"
         }
     ],
+    "IOLOGIC:MODE=IDDRX1F": [
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                2000,
+                2000,
+                2000
+            ]
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                197,
+                197,
+                197
+            ],
+            "pin": "DI",
+            "setup": [
+                305,
+                305,
+                305
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                2000,
+                2000,
+                2000
+            ]
+        },
+        {
+            "falling": [
+                281,
+                281,
+                281
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                281,
+                281,
+                281
+            ],
+            "to_pin": "RXDATA0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                281,
+                281,
+                281
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                281,
+                281,
+                281
+            ],
+            "to_pin": "RXDATA1",
+            "type": "IOPath"
+        }
+    ],
+    "IOLOGIC:MODE=IDDRX2F": [
+        {
+            "clock": [
+                "negedge",
+                "ECLK"
+            ],
+            "type": "Width",
+            "width": [
+                1250,
+                1250,
+                1250
+            ]
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": [
+                "posedge",
+                "ECLK"
+            ],
+            "setup": [
+                0,
+                0,
+                0
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "ECLK"
+            ],
+            "hold": [
+                98,
+                98,
+                98
+            ],
+            "pin": "DI",
+            "setup": [
+                284,
+                284,
+                284
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "ECLK"
+            ],
+            "type": "Width",
+            "width": [
+                1250,
+                1250,
+                1250
+            ]
+        },
+        {
+            "falling": [
+                353,
+                353,
+                353
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                353,
+                353,
+                353
+            ],
+            "to_pin": "RXDATA0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                353,
+                353,
+                353
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                353,
+                353,
+                353
+            ],
+            "to_pin": "RXDATA1",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                353,
+                353,
+                353
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                353,
+                353,
+                353
+            ],
+            "to_pin": "RXDATA2",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                353,
+                353,
+                353
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                353,
+                353,
+                353
+            ],
+            "to_pin": "RXDATA3",
+            "type": "IOPath"
+        }
+    ],
+    "IOLOGIC:MODE=IREG": [
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                1351,
+                1351,
+                1351
+            ]
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "LSR",
+            "setup": [
+                81,
+                81,
+                81
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                258,
+                258,
+                258
+            ],
+            "pin": "DI",
+            "setup": [
+                317,
+                317,
+                317
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                62,
+                62,
+                62
+            ],
+            "pin": "CE",
+            "setup": [
+                0,
+                0,
+                0
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                1351,
+                1351,
+                1351
+            ]
+        },
+        {
+            "falling": [
+                364,
+                364,
+                364
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                364,
+                364,
+                364
+            ],
+            "to_pin": "INFF",
+            "type": "IOPath"
+        }
+    ],
+    "IOLOGIC:MODE=ODDRX1F": [
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                2000,
+                2000,
+                2000
+            ]
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                2000,
+                2000,
+                2000
+            ]
+        },
+        {
+            "falling": [
+                739,
+                741,
+                743
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                739,
+                741,
+                743
+            ],
+            "to_pin": "IOLDO",
+            "type": "IOPath"
+        }
+    ],
+    "IOLOGIC:MODE=ODDRX2F": [
+        {
+            "clock": [
+                "negedge",
+                "ECLK"
+            ],
+            "type": "Width",
+            "width": [
+                1250,
+                1250,
+                1250
+            ]
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "TXDATA0",
+            "setup": [
+                92,
+                92,
+                92
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "TXDATA1",
+            "setup": [
+                92,
+                92,
+                92
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "TXDATA2",
+            "setup": [
+                92,
+                92,
+                92
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "TXDATA3",
+            "setup": [
+                92,
+                92,
+                92
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "ECLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": [
+                "posedge",
+                "CLK"
+            ],
+            "setup": [
+                0,
+                0,
+                0
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "ECLK"
+            ],
+            "type": "Width",
+            "width": [
+                1250,
+                1250,
+                1250
+            ]
+        },
+        {
+            "falling": [
+                973,
+                975,
+                977
+            ],
+            "from_pin": "ECLK",
+            "rising": [
+                973,
+                975,
+                977
+            ],
+            "to_pin": "IOLDO",
+            "type": "IOPath"
+        }
+    ],
+    "IOLOGIC:MODE=OREG": [
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                1351,
+                1351,
+                1351
+            ]
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "LSR",
+            "setup": [
+                92,
+                92,
+                92
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "TXDATA0",
+            "setup": [
+                113,
+                113,
+                113
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                59,
+                59,
+                59
+            ],
+            "pin": "CE",
+            "setup": [
+                0,
+                0,
+                0
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                1351,
+                1351,
+                1351
+            ]
+        },
+        {
+            "falling": [
+                1018,
+                1018,
+                1018
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                1018,
+                1018,
+                1018
+            ],
+            "to_pin": "IOLDO",
+            "type": "IOPath"
+        }
+    ],
+    "IOLOGIC:MODE=TSREG": [
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                1351,
+                1351,
+                1351
+            ]
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "LSR",
+            "setup": [
+                92,
+                92,
+                92
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "TSDATA0",
+            "setup": [
+                155,
+                155,
+                155
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                59,
+                59,
+                59
+            ],
+            "pin": "CE",
+            "setup": [
+                0,
+                0,
+                0
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "type": "Width",
+            "width": [
+                1351,
+                1351,
+                1351
+            ]
+        },
+        {
+            "falling": [
+                763,
+                763,
+                763
+            ],
+            "from_pin": "CLK",
+            "rising": [
+                763,
+                763,
+                763
+            ],
+            "to_pin": "IOLTO",
+            "type": "IOPath"
+        }
+    ],
     "MULT18X18D:REGS=ALL": [
         {
             "clock": [
