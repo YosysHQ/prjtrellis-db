@@ -13,6 +13,13 @@
 <li><a href='#DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=NORMAL'>DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=NORMAL</a></li>
 <li><a href='#DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=READBEFOREWRITE'>DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=READBEFOREWRITE</a></li>
 <li><a href='#DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=WRITETHROUGH'>DP16KD:WRITEMODE_A=NORMAL,WRITEMODE_B=WRITETHROUGH</a></li>
+<li><a href='#IOLOGIC:MODE=IDDRX1F'>IOLOGIC:MODE=IDDRX1F</a></li>
+<li><a href='#IOLOGIC:MODE=IDDRX2F'>IOLOGIC:MODE=IDDRX2F</a></li>
+<li><a href='#IOLOGIC:MODE=IREG'>IOLOGIC:MODE=IREG</a></li>
+<li><a href='#IOLOGIC:MODE=ODDRX1F'>IOLOGIC:MODE=ODDRX1F</a></li>
+<li><a href='#IOLOGIC:MODE=ODDRX2F'>IOLOGIC:MODE=ODDRX2F</a></li>
+<li><a href='#IOLOGIC:MODE=OREG'>IOLOGIC:MODE=OREG</a></li>
+<li><a href='#IOLOGIC:MODE=TSREG'>IOLOGIC:MODE=TSREG</a></li>
 <li><a href='#MULT18X18D:REGS=ALL'>MULT18X18D:REGS=ALL</a></li>
 <li><a href='#MULT18X18D:REGS=INPUT'>MULT18X18D:REGS=INPUT</a></li>
 <li><a href='#MULT18X18D:REGS=NONE'>MULT18X18D:REGS=NONE</a></li>
@@ -4349,6 +4356,397 @@
 <td>posedge CLKB</td>
 <td>1831</td><td>1831</td><td>1831</td>
 <td>273</td><td>273</td><td>273</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='IOLOGIC:MODE=IDDRX1F'/>
+<h2>IOLOGIC:MODE=IDDRX1F</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK</td><td>RXDATA0</td>
+<td>281</td><td>281</td><td>281</td>
+<td>281</td><td>281</td><td>281</td>
+</tr>
+<tr >
+<td>CLK</td><td>RXDATA1</td>
+<td>281</td><td>281</td><td>281</td>
+<td>281</td><td>281</td><td>281</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>DI</td><td>posedge CLK</td>
+<td>305</td><td>305</td><td>305</td>
+<td>197</td><td>197</td><td>197</td>
+</tr>
+</tbody>
+</table>
+<h3>Width Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>Clock</th>
+<th colspan='3'>Width (ps)</th><th colspan='3'>Equiv. Freq (MHz)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>negedge CLK</td>
+<td>2000</td><td>2000</td><td>2000</td>
+<td>250</td><td>250</td><td>250</td>
+</tr>
+<tr >
+<td>posedge CLK</td>
+<td>2000</td><td>2000</td><td>2000</td>
+<td>250</td><td>250</td><td>250</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='IOLOGIC:MODE=IDDRX2F'/>
+<h2>IOLOGIC:MODE=IDDRX2F</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK</td><td>RXDATA0</td>
+<td>353</td><td>353</td><td>353</td>
+<td>353</td><td>353</td><td>353</td>
+</tr>
+<tr >
+<td>CLK</td><td>RXDATA1</td>
+<td>353</td><td>353</td><td>353</td>
+<td>353</td><td>353</td><td>353</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>CLK</td><td>RXDATA2</td>
+<td>353</td><td>353</td><td>353</td>
+<td>353</td><td>353</td><td>353</td>
+</tr>
+<tr >
+<td>CLK</td><td>RXDATA3</td>
+<td>353</td><td>353</td><td>353</td>
+<td>353</td><td>353</td><td>353</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>DI</td><td>posedge ECLK</td>
+<td>284</td><td>284</td><td>284</td>
+<td>98</td><td>98</td><td>98</td>
+</tr>
+<tr >
+<td>posedge ECLK</td><td>posedge CLK</td>
+<td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+</tbody>
+</table>
+<h3>Width Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>Clock</th>
+<th colspan='3'>Width (ps)</th><th colspan='3'>Equiv. Freq (MHz)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>negedge ECLK</td>
+<td>1250</td><td>1250</td><td>1250</td>
+<td>400</td><td>400</td><td>400</td>
+</tr>
+<tr >
+<td>posedge ECLK</td>
+<td>1250</td><td>1250</td><td>1250</td>
+<td>400</td><td>400</td><td>400</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='IOLOGIC:MODE=IREG'/>
+<h2>IOLOGIC:MODE=IREG</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK</td><td>INFF</td>
+<td>364</td><td>364</td><td>364</td>
+<td>364</td><td>364</td><td>364</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CE</td><td>posedge CLK</td>
+<td>0</td><td>0</td><td>0</td>
+<td>62</td><td>62</td><td>62</td>
+</tr>
+<tr >
+<td>DI</td><td>posedge CLK</td>
+<td>317</td><td>317</td><td>317</td>
+<td>258</td><td>258</td><td>258</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>LSR</td><td>posedge CLK</td>
+<td>81</td><td>81</td><td>81</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+</tbody>
+</table>
+<h3>Width Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>Clock</th>
+<th colspan='3'>Width (ps)</th><th colspan='3'>Equiv. Freq (MHz)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>negedge CLK</td>
+<td>1351</td><td>1351</td><td>1351</td>
+<td>370</td><td>370</td><td>370</td>
+</tr>
+<tr >
+<td>posedge CLK</td>
+<td>1351</td><td>1351</td><td>1351</td>
+<td>370</td><td>370</td><td>370</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='IOLOGIC:MODE=ODDRX1F'/>
+<h2>IOLOGIC:MODE=ODDRX1F</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK</td><td>IOLDO</td>
+<td>739</td><td>741</td><td>743</td>
+<td>739</td><td>741</td><td>743</td>
+</tr>
+</tbody>
+</table>
+<h3>Width Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>Clock</th>
+<th colspan='3'>Width (ps)</th><th colspan='3'>Equiv. Freq (MHz)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>negedge CLK</td>
+<td>2000</td><td>2000</td><td>2000</td>
+<td>250</td><td>250</td><td>250</td>
+</tr>
+<tr >
+<td>posedge CLK</td>
+<td>2000</td><td>2000</td><td>2000</td>
+<td>250</td><td>250</td><td>250</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='IOLOGIC:MODE=ODDRX2F'/>
+<h2>IOLOGIC:MODE=ODDRX2F</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>ECLK</td><td>IOLDO</td>
+<td>973</td><td>975</td><td>977</td>
+<td>973</td><td>975</td><td>977</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>TXDATA0</td><td>posedge CLK</td>
+<td>92</td><td>92</td><td>92</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr >
+<td>TXDATA1</td><td>posedge CLK</td>
+<td>92</td><td>92</td><td>92</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>TXDATA2</td><td>posedge CLK</td>
+<td>92</td><td>92</td><td>92</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr >
+<td>TXDATA3</td><td>posedge CLK</td>
+<td>92</td><td>92</td><td>92</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>posedge CLK</td><td>posedge ECLK</td>
+<td>0</td><td>0</td><td>0</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+</tbody>
+</table>
+<h3>Width Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>Clock</th>
+<th colspan='3'>Width (ps)</th><th colspan='3'>Equiv. Freq (MHz)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>negedge ECLK</td>
+<td>1250</td><td>1250</td><td>1250</td>
+<td>400</td><td>400</td><td>400</td>
+</tr>
+<tr >
+<td>posedge ECLK</td>
+<td>1250</td><td>1250</td><td>1250</td>
+<td>400</td><td>400</td><td>400</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='IOLOGIC:MODE=OREG'/>
+<h2>IOLOGIC:MODE=OREG</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK</td><td>IOLDO</td>
+<td>1018</td><td>1018</td><td>1018</td>
+<td>1018</td><td>1018</td><td>1018</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CE</td><td>posedge CLK</td>
+<td>0</td><td>0</td><td>0</td>
+<td>59</td><td>59</td><td>59</td>
+</tr>
+<tr >
+<td>LSR</td><td>posedge CLK</td>
+<td>92</td><td>92</td><td>92</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>TXDATA0</td><td>posedge CLK</td>
+<td>113</td><td>113</td><td>113</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+</tbody>
+</table>
+<h3>Width Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>Clock</th>
+<th colspan='3'>Width (ps)</th><th colspan='3'>Equiv. Freq (MHz)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>negedge CLK</td>
+<td>1351</td><td>1351</td><td>1351</td>
+<td>370</td><td>370</td><td>370</td>
+</tr>
+<tr >
+<td>posedge CLK</td>
+<td>1351</td><td>1351</td><td>1351</td>
+<td>370</td><td>370</td><td>370</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<a name='IOLOGIC:MODE=TSREG'/>
+<h2>IOLOGIC:MODE=TSREG</h2>
+<h3>Propagation Delays</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Port</th>
+<th colspan='3'>Low-High Transition (ps)</th><th colspan='3'>High-Low Transition (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CLK</td><td>IOLTO</td>
+<td>763</td><td>763</td><td>763</td>
+<td>763</td><td>763</td><td>763</td>
+</tr>
+</tbody>
+</table>
+<h3>Setup/Hold Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>From Port</th><th rowspan='2'>To Clock</th>
+<th colspan='3'>Setup (ps)</th><th colspan='3'>Hold (ps)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>CE</td><td>posedge CLK</td>
+<td>0</td><td>0</td><td>0</td>
+<td>59</td><td>59</td><td>59</td>
+</tr>
+<tr >
+<td>LSR</td><td>posedge CLK</td>
+<td>92</td><td>92</td><td>92</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+<tr  bgcolor="#dddddd">
+<td>TSDATA0</td><td>posedge CLK</td>
+<td>155</td><td>155</td><td>155</td>
+<td>0</td><td>0</td><td>0</td>
+</tr>
+</tbody>
+</table>
+<h3>Width Checks</h3>
+<table width='800'>
+<tbody>
+<tr><th rowspan='2'>Clock</th>
+<th colspan='3'>Width (ps)</th><th colspan='3'>Equiv. Freq (MHz)</th></tr>
+<tr><th>Min</th><th>Typ</th><th>Max</th><th>Min</th><th>Typ</th><th>Max</th></tr>
+<tr  bgcolor="#dddddd">
+<td>negedge CLK</td>
+<td>1351</td><td>1351</td><td>1351</td>
+<td>370</td><td>370</td><td>370</td>
+</tr>
+<tr >
+<td>posedge CLK</td>
+<td>1351</td><td>1351</td><td>1351</td>
+<td>370</td><td>370</td><td>370</td>
 </tr>
 </tbody>
 </table>
