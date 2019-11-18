@@ -83,6 +83,10 @@ NONE -
 TDDR F5B4
 TS -
 
+.config_enum IOLOGICC.LOADNMUX 1
+1 -
+LOADN F5B2
+
 .config_enum IOLOGICC.LSRIMUX 0
 0 -
 LSRMUX F9B1
@@ -205,6 +209,10 @@ NONE -
 NONE -
 TDDR F8B9
 TS -
+
+.config_enum IOLOGICD.LOADNMUX 1
+1 -
+LOADN F7B7
 
 .config_enum IOLOGICD.LSRIMUX 0
 0 -
