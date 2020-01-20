@@ -79,9 +79,9 @@
                     <div id='f10b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_IOLOGICA.DELAY.DEL_VALUE'
                     onmouseover='mov(event);' onmouseout='mou(event);'>V</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F11B0' style='text-decoration: none; color: #000000'>
-                    <div id='f11b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_PIOA.BASE_TYPE' title='F11B0&#13;&#10;PIOA.BASE_TYPE' style='text-decoration: none; color: #000000'>
+                    <div id='f11b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOA.BASE_TYPE'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>T</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#enum_IOLOGICA.GSR' title='F12B0&#13;&#10;IOLOGICA.GSR' style='text-decoration: none; color: #000000'>
                     <div id='f12b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICA.GSR'
@@ -183,9 +183,9 @@
                     <div id='f36b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
                     onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#unknown' title='F37B0' style='text-decoration: none; color: #000000'>
-                    <div id='f37b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
-                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<a href='#enum_IOLOGICA.LOADNMUX' title='F37B0&#13;&#10;IOLOGICA.LOADNMUX' style='text-decoration: none; color: #000000'>
+                    <div id='f37b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_IOLOGICA.LOADNMUX'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>L</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F38B0' style='text-decoration: none; color: #000000'>
                     <div id='f38b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
@@ -613,6 +613,18 @@
 <td style="text-align: center">-</td>
 </td>
 </table>
+<h3 id="enum_IOLOGICA.LOADNMUX">Configuration Setting IOLOGICA.LOADNMUX</h3>
+<p>Default value: 1</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F37B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>LOADN</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>1</td>
+<td style="text-align: center">-</td>
+</td>
+</table>
 <h3 id="enum_IOLOGICA.LSRIMUX">Configuration Setting IOLOGICA.LSRIMUX</h3>
 <p>Default value: 0</p>
 <table class="setenum"><tr><th>Value</th>
@@ -735,82 +747,127 @@
 <h3 id="enum_PIOA.BASE_TYPE">Configuration Setting PIOA.BASE_TYPE</h3>
 <p>Default value: INPUT_LVCMOS12</p>
 <table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F11B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F54B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F55B0</th>
 </tr>
 <tr  bgcolor="#dddddd"><td>NONE</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr ><td>BIDIR_LVCMOS12</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 <tr  bgcolor="#dddddd"><td>INPUT_LVCMOS12</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr ><td>OUTPUT_LVCMOS12</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
-<tr  bgcolor="#dddddd"><td>BIDIR_LVCMOS15</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS12D</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
-<tr ><td>INPUT_LVCMOS15</td>
+<tr ><td>BIDIR_LVCMOS15</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>INPUT_LVCMOS15</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
-<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS15</td>
+<tr ><td>OUTPUT_LVCMOS15</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS15D</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 <tr ><td>BIDIR_LVCMOS18</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 <tr  bgcolor="#dddddd"><td>INPUT_LVCMOS18</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr ><td>OUTPUT_LVCMOS18</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
-<tr  bgcolor="#dddddd"><td>BIDIR_LVCMOS25</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS18D</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
-<tr ><td>INPUT_LVCMOS25</td>
+<tr ><td>BIDIR_LVCMOS25</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>INPUT_LVCMOS25</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
-<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS25</td>
+<tr ><td>OUTPUT_LVCMOS25</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS25D</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 <tr ><td>BIDIR_LVCMOS33</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 <tr  bgcolor="#dddddd"><td>BIDIR_LVTTL33</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
 <tr ><td>INPUT_LVCMOS33</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr  bgcolor="#dddddd"><td>INPUT_LVTTL33</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr ><td>OUTPUT_LVCMOS33</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
-<tr  bgcolor="#dddddd"><td>OUTPUT_LVTTL33</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS33D</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>OUTPUT_LVTTL33</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 </td>
