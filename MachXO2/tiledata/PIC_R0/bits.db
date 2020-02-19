@@ -2589,7 +2589,6 @@ S3_V06N0303 F4B8 F5B10
 V06N0303 F5B9 F5B11
 V06S0303 F5B10 F7B8
 
-
 # Non-Routing Configuration
 .config_enum PIOA.BASE_TYPE NONE
 BIDIR_HSTL18D_I F1B58 F2B4 F2B51 F3B6 F3B57 F7B57 F7B58 F8B9 F8B51 F9B39 F9B57 F9B58 F11B12 F11B37 F11B57 F11B58 F12B57 F12B58 F17B28 F18B58 F19B31 F20B9 F22B11
@@ -2975,7 +2974,6 @@ UP F8B55 F12B55
 FAST F14B55
 SLOW !F14B55
 
-
 # Fixed Connections
 .fixed_conn E1_H06W0003 H06E0003
 
@@ -3049,22 +3047,6 @@ SLOW !F14B55
 
 .fixed_conn E2_H06W0303 W1_H06E0303
 
-.fixed_conn E3_H06E0003 JOFX0
-
-.fixed_conn E3_H06E0003 JOFX1
-
-.fixed_conn E3_H06E0103 JOFX2
-
-.fixed_conn E3_H06E0103 JOFX3
-
-.fixed_conn E3_H06E0203 JOFX4
-
-.fixed_conn E3_H06E0203 JOFX5
-
-.fixed_conn E3_H06E0303 JOFX6
-
-.fixed_conn E3_H06E0303 JOFX7
-
 .fixed_conn E3_H06W0003 W2_H06E0003
 
 .fixed_conn E3_H06W0103 W2_H06E0103
@@ -3073,149 +3055,37 @@ SLOW !F14B55
 
 .fixed_conn E3_H06W0303 W2_H06E0303
 
-.fixed_conn H00L0000 JOFX0
-
-.fixed_conn H00L0000 JOFX1
-
 .fixed_conn H00L0000 WBOUNCE
-
-.fixed_conn H00L0100 JOFX0
-
-.fixed_conn H00L0100 JOFX1
 
 .fixed_conn H00L0100 WBOUNCE
 
-.fixed_conn H00L0200 JOFX0
-
-.fixed_conn H00L0200 JOFX1
-
 .fixed_conn H00L0200 WBOUNCE
-
-.fixed_conn H00L0300 JOFX0
-
-.fixed_conn H00L0300 JOFX1
 
 .fixed_conn H00L0300 WBOUNCE
 
 .fixed_conn H00R0000 EBOUNCE
 
-.fixed_conn H00R0000 JOFX2
-
-.fixed_conn H00R0000 JOFX3
-
 .fixed_conn H00R0100 EBOUNCE
-
-.fixed_conn H00R0100 JOFX2
-
-.fixed_conn H00R0100 JOFX3
 
 .fixed_conn H00R0200 EBOUNCE
 
-.fixed_conn H00R0200 JOFX2
-
-.fixed_conn H00R0200 JOFX3
-
 .fixed_conn H00R0300 EBOUNCE
 
-.fixed_conn H00R0300 JOFX2
-
-.fixed_conn H00R0300 JOFX3
-
 .fixed_conn H01E0000 EASTKEEP
-
-.fixed_conn H01E0000 JOFX0
-
-.fixed_conn H01E0000 JOFX1
-
-.fixed_conn H01E0000 JOFX2
-
-.fixed_conn H01E0000 JOFX3
-
-.fixed_conn H01E0000 JOFX4
-
-.fixed_conn H01E0000 JOFX5
-
-.fixed_conn H01E0000 JOFX6
-
-.fixed_conn H01E0000 JOFX7
 
 .fixed_conn H01E0001 WESTKEEP
 
 .fixed_conn H01E0100 EASTKEEP
 
-.fixed_conn H01E0100 JOFX0
-
-.fixed_conn H01E0100 JOFX1
-
-.fixed_conn H01E0100 JOFX2
-
-.fixed_conn H01E0100 JOFX3
-
-.fixed_conn H01E0100 JOFX4
-
-.fixed_conn H01E0100 JOFX5
-
-.fixed_conn H01E0100 JOFX6
-
-.fixed_conn H01E0100 JOFX7
-
 .fixed_conn H01E0101 WESTKEEP
-
-.fixed_conn H01W0000 JOFX0
-
-.fixed_conn H01W0000 JOFX1
-
-.fixed_conn H01W0000 JOFX2
-
-.fixed_conn H01W0000 JOFX3
-
-.fixed_conn H01W0000 JOFX4
-
-.fixed_conn H01W0000 JOFX5
-
-.fixed_conn H01W0000 JOFX6
-
-.fixed_conn H01W0000 JOFX7
 
 .fixed_conn H01W0000 WESTKEEP
 
 .fixed_conn H01W0001 EASTKEEP
 
-.fixed_conn H01W0100 JOFX0
-
-.fixed_conn H01W0100 JOFX1
-
-.fixed_conn H01W0100 JOFX2
-
-.fixed_conn H01W0100 JOFX3
-
-.fixed_conn H01W0100 JOFX4
-
-.fixed_conn H01W0100 JOFX5
-
-.fixed_conn H01W0100 JOFX6
-
-.fixed_conn H01W0100 JOFX7
-
 .fixed_conn H01W0100 WESTKEEP
 
 .fixed_conn H01W0101 EASTKEEP
-
-.fixed_conn H02E0000 JOFX0
-
-.fixed_conn H02E0100 JOFX1
-
-.fixed_conn H02E0200 JOFX2
-
-.fixed_conn H02E0300 JOFX3
-
-.fixed_conn H02E0400 JOFX4
-
-.fixed_conn H02E0500 JOFX5
-
-.fixed_conn H02E0600 JOFX6
-
-.fixed_conn H02E0700 JOFX7
 
 .fixed_conn H06W0003 E1_H06E0003
 
@@ -3238,8 +3108,6 @@ SLOW !F14B55
 .fixed_conn HF6E0001 W1_F6
 
 .fixed_conn HF7E0001 W1_F7
-
-.fixed_conn HL7W0001 JOFX3
 
 .fixed_conn HSBX0001 HSBX0000
 
@@ -3329,77 +3197,13 @@ SLOW !F14B55
 
 .fixed_conn JQ3 JQ3_CIBTEST
 
-.fixed_conn N1_V01N0001 JOFX0
-
-.fixed_conn N1_V01N0001 JOFX1
-
-.fixed_conn N1_V01N0001 JOFX2
-
-.fixed_conn N1_V01N0001 JOFX3
-
-.fixed_conn N1_V01N0001 JOFX4
-
-.fixed_conn N1_V01N0001 JOFX5
-
-.fixed_conn N1_V01N0001 JOFX6
-
-.fixed_conn N1_V01N0001 JOFX7
-
 .fixed_conn N1_V01N0001 N1_SOUTHKEEP
 
 .fixed_conn N1_V01N0001 NORTHKEEP
 
-.fixed_conn N1_V01N0101 JOFX0
-
-.fixed_conn N1_V01N0101 JOFX1
-
-.fixed_conn N1_V01N0101 JOFX2
-
-.fixed_conn N1_V01N0101 JOFX3
-
-.fixed_conn N1_V01N0101 JOFX4
-
-.fixed_conn N1_V01N0101 JOFX5
-
-.fixed_conn N1_V01N0101 JOFX6
-
-.fixed_conn N1_V01N0101 JOFX7
-
 .fixed_conn N1_V01N0101 N1_SOUTHKEEP
 
 .fixed_conn N1_V01N0101 NORTHKEEP
-
-.fixed_conn N1_V02N0001 JOFX0
-
-.fixed_conn N1_V02N0101 JOFX1
-
-.fixed_conn N1_V02N0201 JOFX2
-
-.fixed_conn N1_V02N0301 JOFX3
-
-.fixed_conn N1_V02N0401 JOFX4
-
-.fixed_conn N1_V02N0501 JOFX5
-
-.fixed_conn N1_V02N0601 JOFX6
-
-.fixed_conn N1_V02N0701 JOFX7
-
-.fixed_conn N1_V02S0001 N2_JOFX0
-
-.fixed_conn N1_V02S0101 N2_JOFX1
-
-.fixed_conn N1_V02S0201 N2_JOFX2
-
-.fixed_conn N1_V02S0301 N2_JOFX3
-
-.fixed_conn N1_V02S0401 N2_JOFX4
-
-.fixed_conn N1_V02S0501 N2_JOFX5
-
-.fixed_conn N1_V02S0601 N2_JOFX6
-
-.fixed_conn N1_V02S0701 N2_JOFX7
 
 .fixed_conn N1_V06N0003 S4_V06S0003
 
@@ -3409,173 +3213,13 @@ SLOW !F14B55
 
 .fixed_conn N1_V06N0303 S4_V06S0303
 
-.fixed_conn N1_V06S0003 N4_JOFX0
-
-.fixed_conn N1_V06S0003 N4_JOFX1
-
-.fixed_conn N1_V06S0103 N4_JOFX2
-
-.fixed_conn N1_V06S0103 N4_JOFX3
-
-.fixed_conn N1_V06S0203 N4_JOFX4
-
-.fixed_conn N1_V06S0203 N4_JOFX5
-
-.fixed_conn N1_V06S0303 N4_JOFX6
-
-.fixed_conn N1_V06S0303 N4_JOFX7
-
-.fixed_conn N2_V06N0003 S1_JOFX0
-
-.fixed_conn N2_V06N0003 S1_JOFX1
-
-.fixed_conn N2_V06N0103 S1_JOFX2
-
-.fixed_conn N2_V06N0103 S1_JOFX3
-
-.fixed_conn N2_V06N0203 S1_JOFX4
-
-.fixed_conn N2_V06N0203 S1_JOFX5
-
-.fixed_conn N2_V06N0303 S1_JOFX6
-
-.fixed_conn N2_V06N0303 S1_JOFX7
-
-.fixed_conn N2_V06S0003 N5_JOFX0
-
-.fixed_conn N2_V06S0003 N5_JOFX1
-
-.fixed_conn N2_V06S0103 N5_JOFX2
-
-.fixed_conn N2_V06S0103 N5_JOFX3
-
-.fixed_conn N2_V06S0203 N5_JOFX4
-
-.fixed_conn N2_V06S0203 N5_JOFX5
-
-.fixed_conn N2_V06S0303 N5_JOFX6
-
-.fixed_conn N2_V06S0303 N5_JOFX7
-
-.fixed_conn N3_V06N0003 JOFX0
-
-.fixed_conn N3_V06N0003 JOFX1
-
-.fixed_conn N3_V06N0103 JOFX2
-
-.fixed_conn N3_V06N0103 JOFX3
-
-.fixed_conn N3_V06N0203 JOFX4
-
-.fixed_conn N3_V06N0203 JOFX5
-
-.fixed_conn N3_V06N0303 JOFX6
-
-.fixed_conn N3_V06N0303 JOFX7
-
-.fixed_conn N3_V06S0003 N6_JOFX0
-
-.fixed_conn N3_V06S0003 N6_JOFX1
-
-.fixed_conn N3_V06S0103 N6_JOFX2
-
-.fixed_conn N3_V06S0103 N6_JOFX3
-
-.fixed_conn N3_V06S0203 N6_JOFX4
-
-.fixed_conn N3_V06S0203 N6_JOFX5
-
-.fixed_conn N3_V06S0303 N6_JOFX6
-
-.fixed_conn N3_V06S0303 N6_JOFX7
-
-.fixed_conn S1W1_V02S0000 S1W1_JOFX0
-
-.fixed_conn S1W1_V02S0100 S1W1_JOFX1
-
-.fixed_conn S1W1_V02S0200 S1W1_JOFX2
-
-.fixed_conn S1W1_V02S0300 S1W1_JOFX3
-
-.fixed_conn S1W1_V02S0400 S1W1_JOFX4
-
-.fixed_conn S1W1_V02S0500 S1W1_JOFX5
-
-.fixed_conn S1W1_V02S0600 S1W1_JOFX6
-
-.fixed_conn S1W1_V02S0700 S1W1_JOFX7
-
 .fixed_conn S1_V01N0001 S1_SOUTHKEEP
 
 .fixed_conn S1_V01N0101 S1_SOUTHKEEP
 
-.fixed_conn S1_V01S0000 S1_JOFX0
-
-.fixed_conn S1_V01S0000 S1_JOFX1
-
-.fixed_conn S1_V01S0000 S1_JOFX2
-
-.fixed_conn S1_V01S0000 S1_JOFX3
-
-.fixed_conn S1_V01S0000 S1_JOFX4
-
-.fixed_conn S1_V01S0000 S1_JOFX5
-
-.fixed_conn S1_V01S0000 S1_JOFX6
-
-.fixed_conn S1_V01S0000 S1_JOFX7
-
 .fixed_conn S1_V01S0000 S1_SOUTHKEEP
 
-.fixed_conn S1_V01S0100 S1_JOFX0
-
-.fixed_conn S1_V01S0100 S1_JOFX1
-
-.fixed_conn S1_V01S0100 S1_JOFX2
-
-.fixed_conn S1_V01S0100 S1_JOFX3
-
-.fixed_conn S1_V01S0100 S1_JOFX4
-
-.fixed_conn S1_V01S0100 S1_JOFX5
-
-.fixed_conn S1_V01S0100 S1_JOFX6
-
-.fixed_conn S1_V01S0100 S1_JOFX7
-
 .fixed_conn S1_V01S0100 S1_SOUTHKEEP
-
-.fixed_conn S1_V02S0000 S1_JOFX0
-
-.fixed_conn S1_V02S0001 JOFX0
-
-.fixed_conn S1_V02S0100 S1_JOFX1
-
-.fixed_conn S1_V02S0101 JOFX1
-
-.fixed_conn S1_V02S0200 S1_JOFX2
-
-.fixed_conn S1_V02S0201 JOFX2
-
-.fixed_conn S1_V02S0300 S1_JOFX3
-
-.fixed_conn S1_V02S0301 JOFX3
-
-.fixed_conn S1_V02S0400 S1_JOFX4
-
-.fixed_conn S1_V02S0401 JOFX4
-
-.fixed_conn S1_V02S0500 S1_JOFX5
-
-.fixed_conn S1_V02S0501 JOFX5
-
-.fixed_conn S1_V02S0600 S1_JOFX6
-
-.fixed_conn S1_V02S0601 JOFX6
-
-.fixed_conn S1_V02S0700 S1_JOFX7
-
-.fixed_conn S1_V02S0701 JOFX7
 
 .fixed_conn S1_V06N0003 S2_V06S0003
 
@@ -3585,22 +3229,6 @@ SLOW !F14B55
 
 .fixed_conn S1_V06N0303 S2_V06S0303
 
-.fixed_conn S1_V06S0003 N2_JOFX0
-
-.fixed_conn S1_V06S0003 N2_JOFX1
-
-.fixed_conn S1_V06S0103 N2_JOFX2
-
-.fixed_conn S1_V06S0103 N2_JOFX3
-
-.fixed_conn S1_V06S0203 N2_JOFX4
-
-.fixed_conn S1_V06S0203 N2_JOFX5
-
-.fixed_conn S1_V06S0303 N2_JOFX6
-
-.fixed_conn S1_V06S0303 N2_JOFX7
-
 .fixed_conn S2_V06N0003 S1_V06S0003
 
 .fixed_conn S2_V06N0103 S1_V06S0103
@@ -3608,22 +3236,6 @@ SLOW !F14B55
 .fixed_conn S2_V06N0203 S1_V06S0203
 
 .fixed_conn S2_V06N0303 S1_V06S0303
-
-.fixed_conn S2_V06S0003 N1_JOFX0
-
-.fixed_conn S2_V06S0003 N1_JOFX1
-
-.fixed_conn S2_V06S0103 N1_JOFX2
-
-.fixed_conn S2_V06S0103 N1_JOFX3
-
-.fixed_conn S2_V06S0203 N1_JOFX4
-
-.fixed_conn S2_V06S0203 N1_JOFX5
-
-.fixed_conn S2_V06S0303 N1_JOFX6
-
-.fixed_conn S2_V06S0303 N1_JOFX7
 
 .fixed_conn S3W1_V06N0003 W1_V06S0003
 
@@ -3641,22 +3253,6 @@ SLOW !F14B55
 
 .fixed_conn S3_V06N0303 V06S0303
 
-.fixed_conn S3_V06S0003 JOFX0
-
-.fixed_conn S3_V06S0003 JOFX1
-
-.fixed_conn S3_V06S0103 JOFX2
-
-.fixed_conn S3_V06S0103 JOFX3
-
-.fixed_conn S3_V06S0203 JOFX4
-
-.fixed_conn S3_V06S0203 JOFX5
-
-.fixed_conn S3_V06S0303 JOFX6
-
-.fixed_conn S3_V06S0303 JOFX7
-
 .fixed_conn S4W1_V06N0003 N1W1_V06S0003
 
 .fixed_conn S4W1_V06N0103 N1W1_V06S0103
@@ -3664,20 +3260,6 @@ SLOW !F14B55
 .fixed_conn S4W1_V06N0203 N1W1_V06S0203
 
 .fixed_conn S4W1_V06N0303 N1W1_V06S0303
-
-.fixed_conn S4W1_V06S0003 S1W1_JOFX1
-
-.fixed_conn S4W1_V06S0103 S1W1_JOFX2
-
-.fixed_conn S4W1_V06S0103 S1W1_JOFX3
-
-.fixed_conn S4W1_V06S0203 S1W1_JOFX4
-
-.fixed_conn S4W1_V06S0203 S1W1_JOFX5
-
-.fixed_conn S4W1_V06S0303 S1W1_JOFX6
-
-.fixed_conn S4W1_V06S0303 S1W1_JOFX7
 
 .fixed_conn S4_V06N0003 N1_V06S0003
 
@@ -3687,181 +3269,37 @@ SLOW !F14B55
 
 .fixed_conn S4_V06N0303 N1_V06S0303
 
-.fixed_conn S4_V06S0003 S1_JOFX0
-
-.fixed_conn S4_V06S0003 S1_JOFX1
-
-.fixed_conn S4_V06S0103 S1_JOFX2
-
-.fixed_conn S4_V06S0103 S1_JOFX3
-
-.fixed_conn S4_V06S0203 S1_JOFX4
-
-.fixed_conn S4_V06S0203 S1_JOFX5
-
-.fixed_conn S4_V06S0303 S1_JOFX6
-
-.fixed_conn S4_V06S0303 S1_JOFX7
-
-.fixed_conn V00B0000 JOFX6
-
-.fixed_conn V00B0000 JOFX7
-
 .fixed_conn V00B0000 SBOUNCE
-
-.fixed_conn V00B0100 JOFX6
-
-.fixed_conn V00B0100 JOFX7
 
 .fixed_conn V00B0100 SBOUNCE
 
-.fixed_conn V00B0200 JOFX6
-
-.fixed_conn V00B0200 JOFX7
-
 .fixed_conn V00B0200 SBOUNCE
-
-.fixed_conn V00B0300 JOFX6
-
-.fixed_conn V00B0300 JOFX7
 
 .fixed_conn V00B0300 SBOUNCE
 
-.fixed_conn V00T0000 JOFX4
-
-.fixed_conn V00T0000 JOFX5
-
 .fixed_conn V00T0000 NBOUNCE
-
-.fixed_conn V00T0100 JOFX4
-
-.fixed_conn V00T0100 JOFX5
 
 .fixed_conn V00T0100 NBOUNCE
 
-.fixed_conn V00T0200 JOFX4
-
-.fixed_conn V00T0200 JOFX5
-
 .fixed_conn V00T0200 NBOUNCE
 
-.fixed_conn V00T0300 JOFX4
-
-.fixed_conn V00T0300 JOFX5
-
 .fixed_conn V00T0300 NBOUNCE
-
-.fixed_conn V01N0001 S1_JOFX0
-
-.fixed_conn V01N0001 S1_JOFX1
-
-.fixed_conn V01N0001 S1_JOFX2
-
-.fixed_conn V01N0001 S1_JOFX3
-
-.fixed_conn V01N0001 S1_JOFX4
-
-.fixed_conn V01N0001 S1_JOFX5
-
-.fixed_conn V01N0001 S1_JOFX6
-
-.fixed_conn V01N0001 S1_JOFX7
 
 .fixed_conn V01N0001 S1_NORTHKEEP
 
 .fixed_conn V01N0001 SOUTHKEEP
 
-.fixed_conn V01N0101 S1_JOFX0
-
-.fixed_conn V01N0101 S1_JOFX1
-
-.fixed_conn V01N0101 S1_JOFX2
-
-.fixed_conn V01N0101 S1_JOFX3
-
-.fixed_conn V01N0101 S1_JOFX4
-
-.fixed_conn V01N0101 S1_JOFX5
-
-.fixed_conn V01N0101 S1_JOFX6
-
-.fixed_conn V01N0101 S1_JOFX7
-
 .fixed_conn V01N0101 S1_NORTHKEEP
 
 .fixed_conn V01N0101 SOUTHKEEP
-
-.fixed_conn V01S0000 JOFX0
-
-.fixed_conn V01S0000 JOFX1
-
-.fixed_conn V01S0000 JOFX2
-
-.fixed_conn V01S0000 JOFX3
-
-.fixed_conn V01S0000 JOFX4
-
-.fixed_conn V01S0000 JOFX5
-
-.fixed_conn V01S0000 JOFX6
-
-.fixed_conn V01S0000 JOFX7
 
 .fixed_conn V01S0000 S1_NORTHKEEP
 
 .fixed_conn V01S0000 SOUTHKEEP
 
-.fixed_conn V01S0100 JOFX0
-
-.fixed_conn V01S0100 JOFX1
-
-.fixed_conn V01S0100 JOFX2
-
-.fixed_conn V01S0100 JOFX3
-
-.fixed_conn V01S0100 JOFX4
-
-.fixed_conn V01S0100 JOFX5
-
-.fixed_conn V01S0100 JOFX6
-
-.fixed_conn V01S0100 JOFX7
-
 .fixed_conn V01S0100 S1_NORTHKEEP
 
 .fixed_conn V01S0100 SOUTHKEEP
-
-.fixed_conn V02N0001 S1_JOFX0
-
-.fixed_conn V02N0101 S1_JOFX1
-
-.fixed_conn V02N0201 S1_JOFX2
-
-.fixed_conn V02N0301 S1_JOFX3
-
-.fixed_conn V02N0401 S1_JOFX4
-
-.fixed_conn V02N0501 S1_JOFX5
-
-.fixed_conn V02N0601 S1_JOFX6
-
-.fixed_conn V02N0701 S1_JOFX7
-
-.fixed_conn V02S0001 N1_JOFX0
-
-.fixed_conn V02S0101 N1_JOFX1
-
-.fixed_conn V02S0201 N1_JOFX2
-
-.fixed_conn V02S0301 N1_JOFX3
-
-.fixed_conn V02S0401 N1_JOFX4
-
-.fixed_conn V02S0501 N1_JOFX5
-
-.fixed_conn V02S0601 N1_JOFX6
-
-.fixed_conn V02S0701 N1_JOFX7
 
 .fixed_conn V06N0003 S3_V06S0003
 
@@ -3870,38 +3308,6 @@ SLOW !F14B55
 .fixed_conn V06N0203 S3_V06S0203
 
 .fixed_conn V06N0303 S3_V06S0303
-
-.fixed_conn V06S0003 N3_JOFX0
-
-.fixed_conn V06S0003 N3_JOFX1
-
-.fixed_conn V06S0103 N3_JOFX2
-
-.fixed_conn V06S0103 N3_JOFX3
-
-.fixed_conn V06S0203 N3_JOFX4
-
-.fixed_conn V06S0203 N3_JOFX5
-
-.fixed_conn V06S0303 N3_JOFX6
-
-.fixed_conn V06S0303 N3_JOFX7
-
-.fixed_conn W1_H02W0001 JOFX0
-
-.fixed_conn W1_H02W0101 JOFX1
-
-.fixed_conn W1_H02W0201 JOFX2
-
-.fixed_conn W1_H02W0301 JOFX3
-
-.fixed_conn W1_H02W0401 JOFX4
-
-.fixed_conn W1_H02W0501 JOFX5
-
-.fixed_conn W1_H02W0601 JOFX6
-
-.fixed_conn W1_H02W0701 JOFX7
 
 .fixed_conn W1_H06W0003 E2_H06E0003
 
@@ -3918,20 +3324,4 @@ SLOW !F14B55
 .fixed_conn W2_H06W0203 E3_H06E0203
 
 .fixed_conn W2_H06W0303 E3_H06E0303
-
-.fixed_conn W3_H06W0003 JOFX0
-
-.fixed_conn W3_H06W0003 JOFX1
-
-.fixed_conn W3_H06W0103 JOFX2
-
-.fixed_conn W3_H06W0103 JOFX3
-
-.fixed_conn W3_H06W0203 JOFX4
-
-.fixed_conn W3_H06W0203 JOFX5
-
-.fixed_conn W3_H06W0303 JOFX6
-
-.fixed_conn W3_H06W0303 JOFX7
 
