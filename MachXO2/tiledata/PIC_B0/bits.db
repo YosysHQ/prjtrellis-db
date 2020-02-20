@@ -11,6 +11,12 @@ JDIC F3B44
 .mux DID_IOLOGIC
 JDID F2B35
 
+.mux E2_JCLKI1_DLLDEL
+JDIA F0B8
+
+.mux E2_JPADDI1
+JDIA F0B8
+
 .mux E4_JCLKI0_DLLDEL
 JDIA F0B8
 
@@ -36,6 +42,9 @@ INDDC_BSIOLOGIC F3B44
 INDDD_IOLOGIC F2B35
 
 .mux N11W7_JREFCLK6
+JDIA F0B8
+
+.mux N11W9_JREFCLK4
 JDIA F0B8
 
 .mux N1_JQ0
@@ -610,21 +619,37 @@ SLOW !F5B29
 
 .fixed_conn N1_JC3 JPADDTD
 
+.fixed_conn N1_JF0 JINA_BIOLOGIC
+
 .fixed_conn N1_JF0 JRXD1A_BIOLOGIC
 
 .fixed_conn N1_JF0 JRXDA5_BIOLOGIC
+
+.fixed_conn N1_JF1 JINB_IOLOGIC
 
 .fixed_conn N1_JF1 JRXD3A_BIOLOGIC
 
 .fixed_conn N1_JF1 JRXDA7_BIOLOGIC
 
+.fixed_conn N1_JF2 JINC_BSIOLOGIC
+
+.fixed_conn N1_JF3 JIND_IOLOGIC
+
+.fixed_conn N1_JF4 JIPA_BIOLOGIC
+
 .fixed_conn N1_JF4 JRXD0A_BIOLOGIC
 
 .fixed_conn N1_JF4 JRXDA4_BIOLOGIC
 
+.fixed_conn N1_JF5 JIPB_IOLOGIC
+
 .fixed_conn N1_JF5 JRXD2A_BIOLOGIC
 
 .fixed_conn N1_JF5 JRXDA6_BIOLOGIC
+
+.fixed_conn N1_JF6 JIPC_BSIOLOGIC
+
+.fixed_conn N1_JF7 JIPD_IOLOGIC
 
 .fixed_conn N1_JQ4 JRXD0C_BSIOLOGIC
 
@@ -666,11 +691,19 @@ SLOW !F5B29
 
 .fixed_conn PADDTD_PIO JPADDTD
 
+.fixed_conn PGA_PIO E1_PG
+
 .fixed_conn PGA_PIO E3_PG
+
+.fixed_conn PGB_PIO E1_PG
 
 .fixed_conn PGB_PIO E3_PG
 
+.fixed_conn PGC_PIO E1_PG
+
 .fixed_conn PGC_PIO E3_PG
+
+.fixed_conn PGD_PIO E1_PG
 
 .fixed_conn PGD_PIO E3_PG
 
