@@ -29,9 +29,53 @@ G_JPCLKT01 F27B1
 
 .fixed_conn G_CLK0_1_ECLKBRIDGECS G_EBRG1CLK0
 
+.fixed_conn G_CLK0_6_DCM G_VPRXCLKI60
+
+.fixed_conn G_CLK0_7_DCM G_VPRXCLKI70
+
 .fixed_conn G_CLK1_0_ECLKBRIDGECS G_EBRG0CLK1
 
 .fixed_conn G_CLK1_1_ECLKBRIDGECS G_EBRG1CLK1
+
+.fixed_conn G_CLK1_6_DCM G_VPRXCLKI61
+
+.fixed_conn G_CLK1_7_DCM G_VPRXCLKI71
+
+.fixed_conn G_CLKI0_DCC G_VPRXCLKI0
+
+.fixed_conn G_CLKI1_DCC G_VPRXCLKI1
+
+.fixed_conn G_CLKI2_DCC G_VPRXCLKI2
+
+.fixed_conn G_CLKI3_DCC G_VPRXCLKI3
+
+.fixed_conn G_CLKI4_DCC G_VPRXCLKI4
+
+.fixed_conn G_CLKI5_DCC G_VPRXCLKI5
+
+.fixed_conn G_CLKI6_DCC G_DCMOUT6_DCM
+
+.fixed_conn G_CLKI7_DCC G_DCMOUT7_DCM
+
+.fixed_conn G_CLKO0_DCC G_CLKI0_DCC
+
+.fixed_conn G_CLKO1_DCC G_CLKI1_DCC
+
+.fixed_conn G_CLKO2_DCC G_CLKI2_DCC
+
+.fixed_conn G_CLKO3_DCC G_CLKI3_DCC
+
+.fixed_conn G_CLKO4_DCC G_CLKI4_DCC
+
+.fixed_conn G_CLKO5_DCC G_CLKI5_DCC
+
+.fixed_conn G_CLKO6_DCC G_CLKI6_DCC
+
+.fixed_conn G_CLKO7_DCC G_CLKI7_DCC
+
+.fixed_conn G_DCMOUT6_DCM G_CLK0_6_DCM
+
+.fixed_conn G_DCMOUT7_DCM G_CLK0_7_DCM
 
 .fixed_conn G_EBRG0CLK0 G_JLPLLCLK0
 
@@ -53,6 +97,22 @@ G_JPCLKT01 F27B1
 
 .fixed_conn G_JBCDIVX1 1200_S5_JCDIVX1_CLKDIV
 
+.fixed_conn G_JCE0_DCC JA0
+
+.fixed_conn G_JCE1_DCC JB0
+
+.fixed_conn G_JCE2_DCC JC0
+
+.fixed_conn G_JCE3_DCC JD0
+
+.fixed_conn G_JCE4_DCC JA1
+
+.fixed_conn G_JCE5_DCC JB1
+
+.fixed_conn G_JCE6_DCC JC1
+
+.fixed_conn G_JCE7_DCC JD1
+
 .fixed_conn G_JECLKCIBB0 1200_S5_JCLK2
 
 .fixed_conn G_JECLKCIBB1 1200_S5_JCLK3
@@ -64,6 +124,10 @@ G_JPCLKT01 F27B1
 .fixed_conn G_JSEL0_ECLKBRIDGECS 1200_W3_JA5
 
 .fixed_conn G_JSEL1_ECLKBRIDGECS 1200_W3_JB5
+
+.fixed_conn G_JSEL6_DCM JA5
+
+.fixed_conn G_JSEL7_DCM JB5
 
 .fixed_conn G_JTCDIV10 1200_N5_JCDIV10_CLKDIV
 
