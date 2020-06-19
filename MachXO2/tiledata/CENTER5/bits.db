@@ -1,8 +1,10 @@
 # Routing Mux Bits
 .mux G_DCMOUT6_DCM
+G_CLK0_6_DCM -
 G_CLK1_6_DCM F0B0
 
 .mux G_DCMOUT7_DCM
+G_CLK0_7_DCM -
 G_CLK1_7_DCM F0B1
 
 
