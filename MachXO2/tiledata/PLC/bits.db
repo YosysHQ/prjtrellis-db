@@ -3274,6 +3274,8 @@ LATCH F28B47
 
 .fixed_conn E1_HF7E0001 F7
 
+.fixed_conn E1_HFIE0000 FCO
+
 .fixed_conn F0 F0_SLICE
 
 .fixed_conn F1 F1_SLICE
@@ -3461,3 +3463,4 @@ LATCH F28B47
 .fixed_conn WRE0_SLICE LSR2
 
 .fixed_conn WRE1_SLICE LSR2
+
