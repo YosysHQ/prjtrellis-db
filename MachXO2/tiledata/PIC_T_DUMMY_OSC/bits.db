@@ -7,9 +7,3 @@
 
 
 # Fixed Connections
-.fixed_conn G_JOSCCLK G_JOSC_OSC
-
-.fixed_conn S1W4_JQ5 G_JOSC_OSC
-
-.fixed_conn S1W6_JREFCLK0 G_JOSC_OSC
-
