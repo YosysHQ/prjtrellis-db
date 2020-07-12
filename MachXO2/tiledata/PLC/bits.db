@@ -3392,22 +3392,6 @@ LATCH F28B47
 
 .fixed_conn M7_SLICE M7
 
-.fixed_conn N4_V06S0003 N5_V06N0003
-
-.fixed_conn N4_V06S0103 N5_V06N0103
-
-.fixed_conn N4_V06S0203 N5_V06N0203
-
-.fixed_conn N4_V06S0303 N5_V06N0303
-
-.fixed_conn N5_V06S0003 N4_V06N0003
-
-.fixed_conn N5_V06S0103 N4_V06N0103
-
-.fixed_conn N5_V06S0203 N4_V06N0203
-
-.fixed_conn N5_V06S0303 N4_V06N0303
-
 .fixed_conn OFX0 F5A_SLICE
 
 .fixed_conn OFX1 FXA_SLICE
@@ -3487,4 +3471,3 @@ LATCH F28B47
 .fixed_conn WRE0_SLICE LSR2
 
 .fixed_conn WRE1_SLICE LSR2
-
