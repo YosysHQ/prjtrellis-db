@@ -1,8 +1,10 @@
 {
-  "quadrants": {
+  "lr-conns": {
   },
-  "taps": {
+  "ud-conns": {
   },
-  "spines": {
+  "branch-spans": {
+  },
+  "missing_dccs": {
   }
 }
