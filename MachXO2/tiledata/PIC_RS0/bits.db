@@ -1,5 +1,107 @@
 # Routing Mux Bits
+.mux E1_DIA_RIOLOGIC
+E1_JDIA F2B48
+
+.mux E1_DIB_RIOLOGIC
+E1_JDIB F10B53
+
+.mux E1_JDIA
+E1_INDDA_RIOLOGIC F2B48
+
+.mux E1_JDIB
+E1_INDDB_RIOLOGIC F10B53
+
+.mux JQ0
+E1_JDIA F2B48
+
+.mux JQ1
+E1_JDIB F10B53
+
 
 # Non-Routing Configuration
 
 # Fixed Connections
+.fixed_conn E1_IOLDOA_PIO E1_IOLDOA_RIOLOGIC
+
+.fixed_conn E1_IOLDOB_PIO E1_IOLDOB_RIOLOGIC
+
+.fixed_conn E1_IOLTOA_PIO E1_IOLTOA_RIOLOGIC
+
+.fixed_conn E1_IOLTOB_PIO E1_IOLTOB_RIOLOGIC
+
+.fixed_conn E1_JCEA_RIOLOGIC JCE0
+
+.fixed_conn E1_JCEB_RIOLOGIC JCE1
+
+.fixed_conn E1_JCLKA_RIOLOGIC JCLK0
+
+.fixed_conn E1_JCLKB_RIOLOGIC JCLK1
+
+.fixed_conn E1_JDIA E1_JPADDIA_PIO
+
+.fixed_conn E1_JDIB E1_JPADDIB_PIO
+
+.fixed_conn E1_JLSRA_RIOLOGIC JLSR0
+
+.fixed_conn E1_JLSRB_RIOLOGIC JLSR1
+
+.fixed_conn E1_JONEGA_RIOLOGIC JB0
+
+.fixed_conn E1_JONEGB_RIOLOGIC JB1
+
+.fixed_conn E1_JOPOSA_RIOLOGIC JA0
+
+.fixed_conn E1_JOPOSB_RIOLOGIC JA1
+
+.fixed_conn E1_JPADDOA JA0
+
+.fixed_conn E1_JPADDOB JA1
+
+.fixed_conn E1_JPADDTA JC0
+
+.fixed_conn E1_JPADDTB JC1
+
+.fixed_conn E1_JTSA_RIOLOGIC JC0
+
+.fixed_conn E1_JTSB_RIOLOGIC JC1
+
+.fixed_conn E1_PADDIA_RIOLOGIC E1_JPADDIA_PIO
+
+.fixed_conn E1_PADDIB_RIOLOGIC E1_JPADDIB_PIO
+
+.fixed_conn E1_PADDOA_PIO E1_JPADDOA
+
+.fixed_conn E1_PADDOB_PIO E1_JPADDOB
+
+.fixed_conn E1_PADDTA_PIO E1_JPADDTA
+
+.fixed_conn E1_PADDTB_PIO E1_JPADDTB
+
+.fixed_conn G_DDRCLKPOLA_RIOLOGIC G_DDRCLKPOL
+
+.fixed_conn G_DDRCLKPOLB_RIOLOGIC G_DDRCLKPOL
+
+.fixed_conn G_DQSR90A_RIOLOGIC G_DQSR90
+
+.fixed_conn G_DQSR90B_RIOLOGIC G_DQSR90
+
+.fixed_conn G_DQSW90A_RIOLOGIC G_DQSW90
+
+.fixed_conn G_DQSW90B_RIOLOGIC G_DQSW90
+
+.fixed_conn G_INRDA_PIO G_INRD
+
+.fixed_conn G_INRDB_PIO G_INRD
+
+.fixed_conn G_PGA_PIO G_PG
+
+.fixed_conn G_PGB_PIO G_PG
+
+.fixed_conn JF0 E1_JINA_RIOLOGIC
+
+.fixed_conn JF1 E1_JINB_RIOLOGIC
+
+.fixed_conn JF4 E1_JIPA_RIOLOGIC
+
+.fixed_conn JF5 E1_JIPB_RIOLOGIC
+

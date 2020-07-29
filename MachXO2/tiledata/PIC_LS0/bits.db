@@ -1,5 +1,101 @@
 # Routing Mux Bits
+.mux JQ0
+W1_JDIA F2B10
+
+.mux JQ1
+W1_JDIB F10B5
+
+.mux N3W1_JCLKI0_DLLDEL
+W1_JDIA F2B10
+
+.mux N3W1_JPADDI0
+W1_JDIA F2B10
+
+.mux W1_DIA_IOLOGIC
+W1_JDIA F2B10
+
+.mux W1_DIB_IOLOGIC
+W1_JDIB F10B5
+
+.mux W1_JDIA
+W1_INDDA_IOLOGIC F2B10
+
+.mux W1_JDIB
+W1_INDDB_IOLOGIC F10B5
+
 
 # Non-Routing Configuration
 
 # Fixed Connections
+.fixed_conn G_INRDA_PIO G_INRD
+
+.fixed_conn G_INRDB_PIO G_INRD
+
+.fixed_conn G_PGA_PIO G_PG
+
+.fixed_conn G_PGB_PIO G_PG
+
+.fixed_conn JF0 W1_JINA_IOLOGIC
+
+.fixed_conn JF1 W1_JINB_IOLOGIC
+
+.fixed_conn JF4 W1_JIPA_IOLOGIC
+
+.fixed_conn JF5 W1_JIPB_IOLOGIC
+
+.fixed_conn W1_IOLDOA_PIO W1_IOLDOA_IOLOGIC
+
+.fixed_conn W1_IOLDOB_PIO W1_IOLDOB_IOLOGIC
+
+.fixed_conn W1_IOLTOA_PIO W1_IOLTOA_IOLOGIC
+
+.fixed_conn W1_IOLTOB_PIO W1_IOLTOB_IOLOGIC
+
+.fixed_conn W1_JCEA_IOLOGIC JCE0
+
+.fixed_conn W1_JCEB_IOLOGIC JCE1
+
+.fixed_conn W1_JCLKA_IOLOGIC JCLK0
+
+.fixed_conn W1_JCLKB_IOLOGIC JCLK1
+
+.fixed_conn W1_JDIA W1_JPADDIA_PIO
+
+.fixed_conn W1_JDIB W1_JPADDIB_PIO
+
+.fixed_conn W1_JLSRA_IOLOGIC JLSR0
+
+.fixed_conn W1_JLSRB_IOLOGIC JLSR1
+
+.fixed_conn W1_JONEGA_IOLOGIC JB0
+
+.fixed_conn W1_JONEGB_IOLOGIC JB1
+
+.fixed_conn W1_JOPOSA_IOLOGIC JA0
+
+.fixed_conn W1_JOPOSB_IOLOGIC JA1
+
+.fixed_conn W1_JPADDOA JA0
+
+.fixed_conn W1_JPADDOB JA1
+
+.fixed_conn W1_JPADDTA JC0
+
+.fixed_conn W1_JPADDTB JC1
+
+.fixed_conn W1_JTSA_IOLOGIC JC0
+
+.fixed_conn W1_JTSB_IOLOGIC JC1
+
+.fixed_conn W1_PADDIA_IOLOGIC W1_JPADDIA_PIO
+
+.fixed_conn W1_PADDIB_IOLOGIC W1_JPADDIB_PIO
+
+.fixed_conn W1_PADDOA_PIO W1_JPADDOA
+
+.fixed_conn W1_PADDOB_PIO W1_JPADDOB
+
+.fixed_conn W1_PADDTA_PIO W1_JPADDTA
+
+.fixed_conn W1_PADDTB_PIO W1_JPADDTB
+
