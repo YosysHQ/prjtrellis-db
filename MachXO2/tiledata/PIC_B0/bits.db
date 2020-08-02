@@ -17,19 +17,13 @@ JDIA F0B8
 .mux E2_JPADDI1
 JDIA F0B8
 
-.mux E4_JCLKI0_DLLDEL
-JDIA F0B8
-
-.mux E4_JPADDI0
-JDIA F0B8
-
 .mux ECLKA
-E2_BECLK0 -
-E2_BECLK1 F1B31
+G_BECLK0 -
+G_BECLK1 F1B31
 
 .mux ECLKC
-E2_BECLK0 -
-E2_BECLK1 F0B33
+G_BECLK0 -
+G_BECLK1 F0B33
 
 .mux JDIA
 INDDA_BIOLOGIC F0B8
@@ -46,9 +40,6 @@ JPADDIC_PIO -
 .mux JDID
 INDDD_IOLOGIC F2B35
 JPADDID_PIO -
-
-.mux N11W7_JREFCLK6
-JDIA F0B8
 
 .mux N11W9_JREFCLK4
 JDIA F0B8
@@ -469,13 +460,25 @@ SLOW !F5B29
 
 .fixed_conn ECLKC_BSIOLOGIC ECLKC
 
-.fixed_conn INRDA_PIO BNK_INRD
+.fixed_conn G_BECLK0 N1E2_JECLKO0_ECLKSYNC
 
-.fixed_conn INRDB_PIO BNK_INRD
+.fixed_conn G_BECLK1 N1E2_JECLKO1_ECLKSYNC
 
-.fixed_conn INRDC_PIO BNK_INRD
+.fixed_conn G_INRDA_PIO G_INRD
 
-.fixed_conn INRDD_PIO BNK_INRD
+.fixed_conn G_INRDB_PIO G_INRD
+
+.fixed_conn G_INRDC_PIO G_INRD
+
+.fixed_conn G_INRDD_PIO G_INRD
+
+.fixed_conn G_PGA_PIO G_PG
+
+.fixed_conn G_PGB_PIO G_PG
+
+.fixed_conn G_PGC_PIO G_PG
+
+.fixed_conn G_PGD_PIO G_PG
 
 .fixed_conn IOLDOA_PIO IOLDOA_BIOLOGIC
 
@@ -529,22 +532,6 @@ SLOW !F5B29
 
 .fixed_conn JDEL4C_BSIOLOGIC N1_JD5
 
-.fixed_conn JINA_BIOLOGIC N1_JF0
-
-.fixed_conn JINB_IOLOGIC N1_JF1
-
-.fixed_conn JINC_BSIOLOGIC N1_JF2
-
-.fixed_conn JIND_IOLOGIC N1_JF3
-
-.fixed_conn JIPA_BIOLOGIC N1_JF4
-
-.fixed_conn JIPB_IOLOGIC N1_JF5
-
-.fixed_conn JIPC_BSIOLOGIC N1_JF6
-
-.fixed_conn JIPD_IOLOGIC N1_JF7
-
 .fixed_conn JLSRA_BIOLOGIC N1_JLSR0
 
 .fixed_conn JLSRB_IOLOGIC N1_JLSR1
@@ -585,10 +572,6 @@ SLOW !F5B29
 
 .fixed_conn JPADDTD N1_JC3
 
-.fixed_conn JSLIPA_BIOLOGIC N1_JD0
-
-.fixed_conn JSLIPC_BSIOLOGIC N1_JD1
-
 .fixed_conn JTSA_BIOLOGIC N1_JC0
 
 .fixed_conn JTSB_IOLOGIC N1_JC1
@@ -596,22 +579,6 @@ SLOW !F5B29
 .fixed_conn JTSC_BSIOLOGIC N1_JC2
 
 .fixed_conn JTSD_IOLOGIC N1_JC3
-
-.fixed_conn N1_JA0 JPADDOA
-
-.fixed_conn N1_JA1 JPADDOB
-
-.fixed_conn N1_JA2 JPADDOC
-
-.fixed_conn N1_JA3 JPADDOD
-
-.fixed_conn N1_JC0 JPADDTA
-
-.fixed_conn N1_JC1 JPADDTB
-
-.fixed_conn N1_JC2 JPADDTC
-
-.fixed_conn N1_JC3 JPADDTD
 
 .fixed_conn N1_JF0 JINA_BIOLOGIC
 
@@ -684,20 +651,4 @@ SLOW !F5B29
 .fixed_conn PADDTC_PIO JPADDTC
 
 .fixed_conn PADDTD_PIO JPADDTD
-
-.fixed_conn PGA_PIO E1_PG
-
-.fixed_conn PGA_PIO E3_PG
-
-.fixed_conn PGB_PIO E1_PG
-
-.fixed_conn PGB_PIO E3_PG
-
-.fixed_conn PGC_PIO E1_PG
-
-.fixed_conn PGC_PIO E3_PG
-
-.fixed_conn PGD_PIO E1_PG
-
-.fixed_conn PGD_PIO E3_PG
 

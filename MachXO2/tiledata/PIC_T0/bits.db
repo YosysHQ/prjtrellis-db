@@ -23,6 +23,14 @@ JDIC F2B33
 .mux E1_JPADDI1
 JDIA F2B9
 
+.mux ECLKA
+G_TECLK0 -
+G_TECLK1 F2B15
+
+.mux ECLKC
+G_TECLK0 -
+G_TECLK1 F5B2
+
 .mux JDIA
 INDDA_TIOLOGIC F2B9
 JPADDIA_PIO -
@@ -449,6 +457,34 @@ SLOW !F0B29
 .fixed_conn ECLKA_TIOLOGIC ECLKA
 
 .fixed_conn ECLKC_TSIOLOGIC ECLKC
+
+.fixed_conn G_INRDA_PIO G_INRD
+
+.fixed_conn G_INRDB_PIO G_INRD
+
+.fixed_conn G_INRDC_PIO G_INRD
+
+.fixed_conn G_INRDD_PIO G_INRD
+
+.fixed_conn G_LVDSA_PIO G_LVDS
+
+.fixed_conn G_LVDSB_PIO G_LVDS
+
+.fixed_conn G_LVDSC_PIO G_LVDS
+
+.fixed_conn G_LVDSD_PIO G_LVDS
+
+.fixed_conn G_PGA_PIO G_PG
+
+.fixed_conn G_PGB_PIO G_PG
+
+.fixed_conn G_PGC_PIO G_PG
+
+.fixed_conn G_PGD_PIO G_PG
+
+.fixed_conn G_TECLK0 S1E1_JECLKO0_ECLKSYNC
+
+.fixed_conn G_TECLK1 S1E1_JECLKO1_ECLKSYNC
 
 .fixed_conn INRDA_PIO BNK_INRD
 
