@@ -3,9 +3,3 @@
 # Non-Routing Configuration
 
 # Fixed Connections
-.fixed_conn G_JOSCCLK G_JOSC_OSC
-
-.fixed_conn JQ5 G_JOSC_OSC
-
-.fixed_conn W2_JREFCLK0 G_JOSC_OSC
-
