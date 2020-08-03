@@ -482,18 +482,6 @@ SLOW !F0B29
 
 .fixed_conn G_PGD_PIO G_PG
 
-.fixed_conn G_TECLK0 S1E1_JECLKO0_ECLKSYNC
-
-.fixed_conn G_TECLK1 S1E1_JECLKO1_ECLKSYNC
-
-.fixed_conn INRDA_PIO BNK_INRD
-
-.fixed_conn INRDB_PIO BNK_INRD
-
-.fixed_conn INRDC_PIO BNK_INRD
-
-.fixed_conn INRDD_PIO BNK_INRD
-
 .fixed_conn IOLDOA_PIO IOLDOA_TIOLOGIC
 
 .fixed_conn IOLDOB_PIO IOLDOB_IOLOGIC
@@ -606,14 +594,6 @@ SLOW !F0B29
 
 .fixed_conn JTXD7A_TIOLOGIC S1_JD3
 
-.fixed_conn LVDSA_PIO BNK_LVDS
-
-.fixed_conn LVDSB_PIO BNK_LVDS
-
-.fixed_conn LVDSC_PIO BNK_LVDS
-
-.fixed_conn LVDSD_PIO BNK_LVDS
-
 .fixed_conn PADDIA_TIOLOGIC JPADDIA_PIO
 
 .fixed_conn PADDIB_IOLOGIC JPADDIB_PIO
@@ -637,14 +617,6 @@ SLOW !F0B29
 .fixed_conn PADDTC_PIO JPADDTC
 
 .fixed_conn PADDTD_PIO JPADDTD
-
-.fixed_conn PGA_PIO E1_PG
-
-.fixed_conn PGB_PIO E1_PG
-
-.fixed_conn PGC_PIO E1_PG
-
-.fixed_conn PGD_PIO E1_PG
 
 .fixed_conn S1W8_JI2C1SCLI_EFB JPADDIC_PIO
 
