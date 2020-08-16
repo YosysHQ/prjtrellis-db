@@ -261,3 +261,19 @@ G_VPRX0700 F16B1
 
 .fixed_conn G_PCLKCIBVIQT1 G_JPCLKCIBVIQT1
 
+.fixed_conn G_VPRX0000 G_CLKO0_DCC
+
+.fixed_conn G_VPRX0100 G_CLKO1_DCC
+
+.fixed_conn G_VPRX0200 G_CLKO2_DCC
+
+.fixed_conn G_VPRX0300 G_CLKO3_DCC
+
+.fixed_conn G_VPRX0400 G_CLKO4_DCC
+
+.fixed_conn G_VPRX0500 G_CLKO5_DCC
+
+.fixed_conn G_VPRX0600 G_CLKO6_DCC
+
+.fixed_conn G_VPRX0700 G_CLKO7_DCC
+
