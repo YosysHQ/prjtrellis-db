@@ -1,0 +1,85 @@
+<html>
+            <head><title>CENTER_EBR Bit Data</title>
+        
+
+            <script type="text/javascript">
+            origClr = {};
+            origClass = "";
+            
+            function mov(event) {
+                if (event.target.className != "unknown") {
+                    origClass = event.target.className;
+                    var elems = document.getElementsByClassName(origClass);
+                    for(var i = 0; i < elems.length; i++) {
+                       if(!(elems[i].id in origClr)) {
+                          origClr[elems[i].id] = elems[i].style.backgroundColor;
+                       }
+                       elems[i].style.backgroundColor = "white";
+                    }
+
+                }
+            }
+            
+            function mou(event) {
+                var elems = document.getElementsByClassName(origClass);
+                for(var i = 0; i < elems.length; i++) {
+                   elems[i].style.backgroundColor = origClr[elems[i].id] || "#ffffff";
+                }
+            }
+            </script>
+            </head>
+            <body>
+        
+<h1>CENTER_EBR Bit Data</h1>
+    
+<table style='font-size: 8pt; border: 2px solid black; text-align: center'>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#mux_G_EBRG0CLK0' title='F0B0&#13;&#10;G_EBRG0CLK0' style='text-decoration: none; color: #000000'>
+                    <div id='f0b0' style='height: 100%; background-color: #FF8888; width: 12px' class='grp_mux_G_EBRG0CLK0'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>E</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#mux_G_EBRG0CLK0' title='F1B0&#13;&#10;G_EBRG0CLK0' style='text-decoration: none; color: #000000'>
+                    <div id='f1b0' style='height: 100%; background-color: #FF8888; width: 12px' class='grp_mux_G_EBRG0CLK0'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>E</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#mux_G_EBRG1CLK0' title='F0B1&#13;&#10;G_EBRG1CLK0' style='text-decoration: none; color: #000000'>
+                    <div id='f0b1' style='height: 100%; background-color: #FF8888; width: 12px' class='grp_mux_G_EBRG1CLK0'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>E</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#mux_G_EBRG1CLK0' title='F1B1&#13;&#10;G_EBRG1CLK0' style='text-decoration: none; color: #000000'>
+                    <div id='f1b1' style='height: 100%; background-color: #FF8888; width: 12px' class='grp_mux_G_EBRG1CLK0'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>E</div></a></td>
+</tr>
+</table>
+<h3 id="mux_G_EBRG0CLK0">Mux driving <span class="mux_sink">G_EBRG0CLK0</span></h3>
+<table class="mux"><tr><th>Source</th>
+<th style="padding-left: 10px; padding-right: 10px">F0B0</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>G_JPCLKT20</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>G_ECLKCIBB0</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
+<h3 id="mux_G_EBRG1CLK0">Mux driving <span class="mux_sink">G_EBRG1CLK0</span></h3>
+<table class="mux"><tr><th>Source</th>
+<th style="padding-left: 10px; padding-right: 10px">F0B1</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B1</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>G_JPCLKT00</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>G_ECLKCIBT0</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
+</body></html>
