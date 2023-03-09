@@ -1,0 +1,1728 @@
+{
+    "CIB_R10C1:LLC256": {
+        "cols": 19,
+        "rows": 8,
+        "sites": [],
+        "start_bit": 184,
+        "start_frame": 0,
+        "type": "LLC256"
+    },
+    "CIB_R10C6:LRC256": {
+        "cols": 19,
+        "rows": 8,
+        "sites": [],
+        "start_bit": 184,
+        "start_frame": 276,
+        "type": "LRC256"
+    },
+    "CIB_R1C1:ULC256": {
+        "cols": 19,
+        "rows": 8,
+        "sites": [],
+        "start_bit": 0,
+        "start_frame": 0,
+        "type": "ULC256"
+    },
+    "CIB_R1C6:URC256": {
+        "cols": 19,
+        "rows": 8,
+        "sites": [],
+        "start_bit": 0,
+        "start_frame": 276,
+        "type": "URC256"
+    },
+    "CLK08:CLK0": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 140,
+        "start_frame": 19,
+        "type": "CLK0"
+    },
+    "CLK17:CLK1": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 118,
+        "start_frame": 19,
+        "type": "CLK1"
+    },
+    "CLK26:CLK2": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 96,
+        "start_frame": 19,
+        "type": "CLK2"
+    },
+    "CLK35:CLK3": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 74,
+        "start_frame": 19,
+        "type": "CLK3"
+    },
+    "CLK44:CLK4": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 52,
+        "start_frame": 19,
+        "type": "CLK4"
+    },
+    "CLK53:CLK5": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 30,
+        "start_frame": 19,
+        "type": "CLK5"
+    },
+    "CLK_DUMMY2:CLK_DUMMY": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 8,
+        "start_frame": 19,
+        "type": "CLK_DUMMY"
+    },
+    "CLK_DUMMY9:CLK_DUMMY": {
+        "cols": 1,
+        "rows": 22,
+        "sites": [],
+        "start_bit": 162,
+        "start_frame": 19,
+        "type": "CLK_DUMMY"
+    },
+    "CLK_DUMMY_PICB10:CLK_DUMMY_PICB": {
+        "cols": 1,
+        "rows": 8,
+        "sites": [],
+        "start_bit": 184,
+        "start_frame": 19,
+        "type": "CLK_DUMMY_PICB"
+    },
+    "CLK_DUMMY_PICT1:CLK_DUMMY_PICT": {
+        "cols": 1,
+        "rows": 8,
+        "sites": [],
+        "start_bit": 0,
+        "start_frame": 19,
+        "type": "CLK_DUMMY_PICT"
+    },
+    "PB2:PIC4_B": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "2",
+                "pos_row": "16"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "2",
+                "pos_row": "15"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "2",
+                "pos_row": "14"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "2",
+                "pos_row": "13"
+            }
+        ],
+        "start_bit": 184,
+        "start_frame": 20,
+        "type": "PIC4_B"
+    },
+    "PB3:PIC4_B": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "3",
+                "pos_row": "16"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "3",
+                "pos_row": "15"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "3",
+                "pos_row": "14"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "3",
+                "pos_row": "13"
+            }
+        ],
+        "start_bit": 184,
+        "start_frame": 84,
+        "type": "PIC4_B"
+    },
+    "PB4:PIC4_B": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "4",
+                "pos_row": "16"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "4",
+                "pos_row": "15"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "4",
+                "pos_row": "14"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "4",
+                "pos_row": "13"
+            }
+        ],
+        "start_bit": 184,
+        "start_frame": 148,
+        "type": "PIC4_B"
+    },
+    "PB5:PIC4_B": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "5",
+                "pos_row": "16"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "5",
+                "pos_row": "15"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "5",
+                "pos_row": "14"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "5",
+                "pos_row": "13"
+            }
+        ],
+        "start_bit": 184,
+        "start_frame": 212,
+        "type": "PIC4_B"
+    },
+    "PL2:PIC2_L_GSR": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "GSR",
+                "pos_col": "6",
+                "pos_row": "42"
+            },
+            {
+                "name": "PICTEST",
+                "pos_col": "0",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "6"
+            }
+        ],
+        "start_bit": 8,
+        "start_frame": 0,
+        "type": "PIC2_L_GSR"
+    },
+    "PL3:PIC_L": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "6"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "0",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "0",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 30,
+        "start_frame": 0,
+        "type": "PIC_L"
+    },
+    "PL4:PIC2_L_ISP": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "JTAG",
+                "pos_col": "6",
+                "pos_row": "33"
+            },
+            {
+                "name": "PICTEST",
+                "pos_col": "0",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 52,
+        "start_frame": 0,
+        "type": "PIC2_L_ISP"
+    },
+    "PL5:PIC_L": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "8"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "0",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "0",
+                "pos_row": "10"
+            }
+        ],
+        "start_bit": 74,
+        "start_frame": 0,
+        "type": "PIC_L"
+    },
+    "PL6:PIC2_L_OSC": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "OSC",
+                "pos_col": "1",
+                "pos_row": "5"
+            },
+            {
+                "name": "PICTEST",
+                "pos_col": "0",
+                "pos_row": "11"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "10"
+            },
+            {
+                "name": "TSALL",
+                "pos_col": "1",
+                "pos_row": "11"
+            }
+        ],
+        "start_bit": 96,
+        "start_frame": 0,
+        "type": "PIC2_L_OSC"
+    },
+    "PL7:PIC_L": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "10"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "0",
+                "pos_row": "11"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "0",
+                "pos_row": "12"
+            }
+        ],
+        "start_bit": 118,
+        "start_frame": 0,
+        "type": "PIC_L"
+    },
+    "PL8:PIC2_L": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PICTEST",
+                "pos_col": "0",
+                "pos_row": "13"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "11"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "12"
+            }
+        ],
+        "start_bit": 140,
+        "start_frame": 0,
+        "type": "PIC2_L"
+    },
+    "PL9:PIC2_L": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PICTEST",
+                "pos_col": "0",
+                "pos_row": "14"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "0",
+                "pos_row": "12"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "0",
+                "pos_row": "13"
+            }
+        ],
+        "start_bit": 162,
+        "start_frame": 0,
+        "type": "PIC2_L"
+    },
+    "PR2:PIC2_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PICTEST",
+                "pos_col": "7",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "6"
+            }
+        ],
+        "start_bit": 8,
+        "start_frame": 276,
+        "type": "PIC2_R"
+    },
+    "PR3:PIC_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "6"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "7",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "7",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 30,
+        "start_frame": 276,
+        "type": "PIC_R"
+    },
+    "PR4:PIC2_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PICTEST",
+                "pos_col": "7",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 52,
+        "start_frame": 276,
+        "type": "PIC2_R"
+    },
+    "PR5:PIC_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "7"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "8"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "7",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "7",
+                "pos_row": "10"
+            }
+        ],
+        "start_bit": 74,
+        "start_frame": 276,
+        "type": "PIC_R"
+    },
+    "PR6:PIC2_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PICTEST",
+                "pos_col": "7",
+                "pos_row": "11"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "10"
+            }
+        ],
+        "start_bit": 96,
+        "start_frame": 276,
+        "type": "PIC2_R"
+    },
+    "PR7:PIC_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "9"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "10"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "7",
+                "pos_row": "11"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "7",
+                "pos_row": "12"
+            }
+        ],
+        "start_bit": 118,
+        "start_frame": 276,
+        "type": "PIC_R"
+    },
+    "PR8:PIC2_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PICTEST",
+                "pos_col": "7",
+                "pos_row": "13"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "11"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "12"
+            }
+        ],
+        "start_bit": 140,
+        "start_frame": 276,
+        "type": "PIC2_R"
+    },
+    "PR9:PIC2_R": {
+        "cols": 19,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "PICTEST",
+                "pos_col": "7",
+                "pos_row": "14"
+            },
+            {
+                "name": "PIO_A",
+                "pos_col": "7",
+                "pos_row": "12"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "7",
+                "pos_row": "13"
+            }
+        ],
+        "start_bit": 162,
+        "start_frame": 276,
+        "type": "PIC2_R"
+    },
+    "PT2:PIC6_T": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "2",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "2",
+                "pos_row": "4"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "2",
+                "pos_row": "3"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "2",
+                "pos_row": "2"
+            },
+            {
+                "name": "PIO_E",
+                "pos_col": "2",
+                "pos_row": "1"
+            },
+            {
+                "name": "PIO_F",
+                "pos_col": "2",
+                "pos_row": "0"
+            }
+        ],
+        "start_bit": 0,
+        "start_frame": 20,
+        "type": "PIC6_T"
+    },
+    "PT3:PIC4_T": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "3",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "3",
+                "pos_row": "4"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "3",
+                "pos_row": "3"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "3",
+                "pos_row": "2"
+            }
+        ],
+        "start_bit": 0,
+        "start_frame": 84,
+        "type": "PIC4_T"
+    },
+    "PT4:PIC6_T": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "4",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "4",
+                "pos_row": "4"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "4",
+                "pos_row": "3"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "4",
+                "pos_row": "2"
+            },
+            {
+                "name": "PIO_E",
+                "pos_col": "4",
+                "pos_row": "1"
+            },
+            {
+                "name": "PIO_F",
+                "pos_col": "4",
+                "pos_row": "0"
+            }
+        ],
+        "start_bit": 0,
+        "start_frame": 148,
+        "type": "PIC6_T"
+    },
+    "PT5:PIC4_T": {
+        "cols": 64,
+        "rows": 8,
+        "sites": [
+            {
+                "name": "PIO_A",
+                "pos_col": "5",
+                "pos_row": "5"
+            },
+            {
+                "name": "PIO_B",
+                "pos_col": "5",
+                "pos_row": "4"
+            },
+            {
+                "name": "PIO_C",
+                "pos_col": "5",
+                "pos_row": "3"
+            },
+            {
+                "name": "PIO_D",
+                "pos_col": "5",
+                "pos_row": "2"
+            }
+        ],
+        "start_bit": 0,
+        "start_frame": 212,
+        "type": "PIC4_T"
+    },
+    "R2C2:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "2",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "2",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "2",
+                "pos_row": "5"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "2",
+                "pos_row": "4"
+            }
+        ],
+        "start_bit": 8,
+        "start_frame": 20,
+        "type": "FPLC"
+    },
+    "R2C3:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "3",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "3",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "3",
+                "pos_row": "5"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "3",
+                "pos_row": "4"
+            }
+        ],
+        "start_bit": 8,
+        "start_frame": 84,
+        "type": "FPLC"
+    },
+    "R2C4:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "4",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "4",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "4",
+                "pos_row": "5"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "4",
+                "pos_row": "4"
+            }
+        ],
+        "start_bit": 8,
+        "start_frame": 148,
+        "type": "FPLC"
+    },
+    "R2C5:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "5",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "5",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "5",
+                "pos_row": "5"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "5",
+                "pos_row": "4"
+            }
+        ],
+        "start_bit": 8,
+        "start_frame": 212,
+        "type": "FPLC"
+    },
+    "R3C2:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "2",
+                "pos_row": "8"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "2",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "2",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "2",
+                "pos_row": "5"
+            }
+        ],
+        "start_bit": 30,
+        "start_frame": 20,
+        "type": "FPLC"
+    },
+    "R3C3:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "3",
+                "pos_row": "8"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "3",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "3",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "3",
+                "pos_row": "5"
+            }
+        ],
+        "start_bit": 30,
+        "start_frame": 84,
+        "type": "FPLC"
+    },
+    "R3C4:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "4",
+                "pos_row": "8"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "4",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "4",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "4",
+                "pos_row": "5"
+            }
+        ],
+        "start_bit": 30,
+        "start_frame": 148,
+        "type": "FPLC"
+    },
+    "R3C5:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "5",
+                "pos_row": "8"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "5",
+                "pos_row": "7"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "5",
+                "pos_row": "6"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "5",
+                "pos_row": "5"
+            }
+        ],
+        "start_bit": 30,
+        "start_frame": 212,
+        "type": "FPLC"
+    },
+    "R4C2:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "2",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "2",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "2",
+                "pos_row": "7"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "2",
+                "pos_row": "6"
+            }
+        ],
+        "start_bit": 52,
+        "start_frame": 20,
+        "type": "PLC"
+    },
+    "R4C3:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "3",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "3",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "3",
+                "pos_row": "7"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "3",
+                "pos_row": "6"
+            }
+        ],
+        "start_bit": 52,
+        "start_frame": 84,
+        "type": "PLC"
+    },
+    "R4C4:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "4",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "4",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "4",
+                "pos_row": "7"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "4",
+                "pos_row": "6"
+            }
+        ],
+        "start_bit": 52,
+        "start_frame": 148,
+        "type": "PLC"
+    },
+    "R4C5:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "5",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "5",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "5",
+                "pos_row": "7"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "5",
+                "pos_row": "6"
+            }
+        ],
+        "start_bit": 52,
+        "start_frame": 212,
+        "type": "PLC"
+    },
+    "R5C2:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "2",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "2",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "2",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "2",
+                "pos_row": "7"
+            }
+        ],
+        "start_bit": 74,
+        "start_frame": 20,
+        "type": "PLC"
+    },
+    "R5C3:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "3",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "3",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "3",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "3",
+                "pos_row": "7"
+            }
+        ],
+        "start_bit": 74,
+        "start_frame": 84,
+        "type": "PLC"
+    },
+    "R5C4:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "4",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "4",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "4",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "4",
+                "pos_row": "7"
+            }
+        ],
+        "start_bit": 74,
+        "start_frame": 148,
+        "type": "PLC"
+    },
+    "R5C5:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "5",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "5",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "5",
+                "pos_row": "8"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "5",
+                "pos_row": "7"
+            }
+        ],
+        "start_bit": 74,
+        "start_frame": 212,
+        "type": "PLC"
+    },
+    "R6C2:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "2",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "2",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "2",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "2",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 96,
+        "start_frame": 20,
+        "type": "PLC"
+    },
+    "R6C3:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "3",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "3",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "3",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "3",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 96,
+        "start_frame": 84,
+        "type": "PLC"
+    },
+    "R6C4:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "4",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "4",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "4",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "4",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 96,
+        "start_frame": 148,
+        "type": "PLC"
+    },
+    "R6C5:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "5",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "5",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "5",
+                "pos_row": "9"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "5",
+                "pos_row": "8"
+            }
+        ],
+        "start_bit": 96,
+        "start_frame": 212,
+        "type": "PLC"
+    },
+    "R7C2:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "2",
+                "pos_row": "12"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "2",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "2",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "2",
+                "pos_row": "9"
+            }
+        ],
+        "start_bit": 118,
+        "start_frame": 20,
+        "type": "PLC"
+    },
+    "R7C3:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "3",
+                "pos_row": "12"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "3",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "3",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "3",
+                "pos_row": "9"
+            }
+        ],
+        "start_bit": 118,
+        "start_frame": 84,
+        "type": "PLC"
+    },
+    "R7C4:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "4",
+                "pos_row": "12"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "4",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "4",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "4",
+                "pos_row": "9"
+            }
+        ],
+        "start_bit": 118,
+        "start_frame": 148,
+        "type": "PLC"
+    },
+    "R7C5:PLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "SLICE_A",
+                "pos_col": "5",
+                "pos_row": "12"
+            },
+            {
+                "name": "SLICE_B",
+                "pos_col": "5",
+                "pos_row": "11"
+            },
+            {
+                "name": "SLICE_C",
+                "pos_col": "5",
+                "pos_row": "10"
+            },
+            {
+                "name": "SLICE_D",
+                "pos_col": "5",
+                "pos_row": "9"
+            }
+        ],
+        "start_bit": 118,
+        "start_frame": 212,
+        "type": "PLC"
+    },
+    "R8C2:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "2",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "2",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "2",
+                "pos_row": "11"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "2",
+                "pos_row": "10"
+            }
+        ],
+        "start_bit": 140,
+        "start_frame": 20,
+        "type": "FPLC"
+    },
+    "R8C3:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "3",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "3",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "3",
+                "pos_row": "11"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "3",
+                "pos_row": "10"
+            }
+        ],
+        "start_bit": 140,
+        "start_frame": 84,
+        "type": "FPLC"
+    },
+    "R8C4:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "4",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "4",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "4",
+                "pos_row": "11"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "4",
+                "pos_row": "10"
+            }
+        ],
+        "start_bit": 140,
+        "start_frame": 148,
+        "type": "FPLC"
+    },
+    "R8C5:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "5",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "5",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "5",
+                "pos_row": "11"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "5",
+                "pos_row": "10"
+            }
+        ],
+        "start_bit": 140,
+        "start_frame": 212,
+        "type": "FPLC"
+    },
+    "R9C2:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "2",
+                "pos_row": "14"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "2",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "2",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "2",
+                "pos_row": "11"
+            }
+        ],
+        "start_bit": 162,
+        "start_frame": 20,
+        "type": "FPLC"
+    },
+    "R9C3:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "3",
+                "pos_row": "14"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "3",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "3",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "3",
+                "pos_row": "11"
+            }
+        ],
+        "start_bit": 162,
+        "start_frame": 84,
+        "type": "FPLC"
+    },
+    "R9C4:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "4",
+                "pos_row": "14"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "4",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "4",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "4",
+                "pos_row": "11"
+            }
+        ],
+        "start_bit": 162,
+        "start_frame": 148,
+        "type": "FPLC"
+    },
+    "R9C5:FPLC": {
+        "cols": 64,
+        "rows": 22,
+        "sites": [
+            {
+                "name": "FSLICE_A",
+                "pos_col": "5",
+                "pos_row": "14"
+            },
+            {
+                "name": "FSLICE_B",
+                "pos_col": "5",
+                "pos_row": "13"
+            },
+            {
+                "name": "FSLICE_C",
+                "pos_col": "5",
+                "pos_row": "12"
+            },
+            {
+                "name": "FSLICE_D",
+                "pos_col": "5",
+                "pos_row": "11"
+            }
+        ],
+        "start_bit": 162,
+        "start_frame": 212,
+        "type": "FPLC"
+    }
+}
