@@ -71,7 +71,7 @@
                     <div id='f8b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOA.PULLMODE'
                     onmouseover='mov(event);' onmouseout='mou(event);'>P</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_PIOA.OPENDRAIN' title='F9B0&#13;&#10;PIOA.BASE_TYPE&#13;&#10;PIOA.OPENDRAIN' style='text-decoration: none; color: #000000'>
+<a href='#enum_PIOA.OPENDRAIN' title='F9B0&#13;&#10;PIOA.BASE_TYPE&#13;&#10;PIOA.CLAMP&#13;&#10;PIOA.OPENDRAIN' style='text-decoration: none; color: #000000'>
                     <div id='f9b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOA.OPENDRAIN'
                     onmouseover='mov(event);' onmouseout='mou(event);'>O</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
@@ -107,7 +107,7 @@
                     <div id='f17b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOA.OPENDRAIN'
                     onmouseover='mov(event);' onmouseout='mou(event);'>O</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#enum_PIOA.DRIVE' title='F18B0&#13;&#10;PIOA.DRIVE' style='text-decoration: none; color: #000000'>
+<a href='#enum_PIOA.DRIVE' title='F18B0&#13;&#10;PIOA.BASE_TYPE&#13;&#10;PIOA.DRIVE' style='text-decoration: none; color: #000000'>
                     <div id='f18b0' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_PIOA.DRIVE'
                     onmouseover='mov(event);' onmouseout='mou(event);'>D</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
@@ -472,9 +472,11 @@
 <th style="padding-left: 10px; padding-right: 10px">F15B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F16B0</th>
 <th style="padding-left: 10px; padding-right: 10px">F17B0</th>
+<th style="padding-left: 10px; padding-right: 10px">F18B0</th>
 </tr>
 <tr  bgcolor="#dddddd"><td>NONE</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -494,6 +496,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr  bgcolor="#dddddd"><td>INPUT_LVCMOS12</td>
 <td style="text-align: center">1</td>
@@ -501,6 +504,31 @@
 <td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>OUTPUT_HSUL12</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_HSUL12D</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -516,6 +544,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS12D</td>
 <td style="text-align: center">1</td>
@@ -523,6 +552,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -538,6 +568,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr  bgcolor="#dddddd"><td>INPUT_LVCMOS15</td>
 <td style="text-align: center">0</td>
@@ -545,6 +576,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -560,6 +592,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS15D</td>
 <td style="text-align: center">1</td>
@@ -571,6 +604,55 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>OUTPUT_SSTL15D_I</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_SSTL15D_II</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>OUTPUT_SSTL15_I</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_SSTL15_II</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 </td>
 <tr ><td>BIDIR_LVCMOS18</td>
 <td style="text-align: center">0</td>
@@ -578,6 +660,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -593,6 +676,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr ><td>OUTPUT_LVCMOS18</td>
 <td style="text-align: center">1</td>
@@ -600,6 +684,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -615,6 +700,55 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>OUTPUT_SSTL18D_I</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_SSTL18D_II</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>OUTPUT_SSTL18_I</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_SSTL18_II</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
 </td>
 <tr ><td>BIDIR_LVCMOS25</td>
 <td style="text-align: center">1</td>
@@ -623,6 +757,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -637,6 +772,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
 <tr ><td>OUTPUT_LVCMOS25</td>
 <td style="text-align: center">1</td>
@@ -644,6 +780,7 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
@@ -659,69 +796,100 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
-<tr ><td>BIDIR_LVCMOS33</td>
+<tr ><td>OUTPUT_LVDS25E</td>
 <td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-</td>
-<tr  bgcolor="#dddddd"><td>BIDIR_LVTTL33</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-</td>
-<tr ><td>INPUT_LVCMOS33</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
-<td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 </td>
-<tr  bgcolor="#dddddd"><td>INPUT_LVTTL33</td>
+<tr  bgcolor="#dddddd"><td>BIDIR_LVCMOS33</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>BIDIR_LVTTL33</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>INPUT_LVCMOS33</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 </td>
-<tr ><td>OUTPUT_LVCMOS33</td>
+<tr ><td>INPUT_LVTTL33</td>
 <td style="text-align: center">1</td>
-<td style="text-align: center">-</td>
-<td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
-<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
 </td>
-<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS33D</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_LVCMOS33</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>OUTPUT_LVCMOS33D</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_LVPECL33E</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
@@ -735,6 +903,66 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">1</td>
 <td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_SSTL135D_I</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>OUTPUT_SSTL135D_II</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>OUTPUT_SSTL135_I</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>OUTPUT_SSTL135_II</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">-</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">-</td>
+</td>
+</table>
+<h3 id="enum_PIOA.CLAMP">Configuration Setting PIOA.CLAMP</h3>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F9B0</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>OFF</td>
+<td style="text-align: center">0</td>
+</td>
+<tr ><td>ON</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
