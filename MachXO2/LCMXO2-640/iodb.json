@@ -2,52 +2,52 @@
     "packages": {
         "CSBGA132": {
             "A11": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 0
             },
             "A13": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 0
             },
             "A2": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 0
             },
             "A3": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 0
             },
             "A4": {
-                "col": 7,
+                "col": 6,
                 "pio": "A",
                 "row": 0
             },
             "A6": {
-                "col": 7,
+                "col": 6,
                 "pio": "D",
                 "row": 0
             },
             "A7": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 0
             },
             "A9": {
-                "col": 10,
+                "col": 9,
                 "pio": "B",
                 "row": 0
             },
             "B12": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 0
             },
             "B13": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
@@ -57,32 +57,32 @@
                 "row": 2
             },
             "B3": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 0
             },
             "B4": {
-                "col": 7,
+                "col": 6,
                 "pio": "B",
                 "row": 0
             },
             "B6": {
-                "col": 7,
+                "col": 6,
                 "pio": "C",
                 "row": 0
             },
             "B7": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 0
             },
             "B8": {
-                "col": 9,
+                "col": 8,
                 "pio": "D",
                 "row": 0
             },
             "B9": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
@@ -92,7 +92,7 @@
                 "row": 2
             },
             "C10": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
@@ -112,17 +112,17 @@
                 "row": 2
             },
             "C4": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 0
             },
             "C8": {
-                "col": 9,
+                "col": 8,
                 "pio": "C",
                 "row": 0
             },
             "C9": {
-                "col": 10,
+                "col": 9,
                 "pio": "A",
                 "row": 0
             },
@@ -282,7 +282,7 @@
                 "row": 7
             },
             "M10": {
-                "col": 14,
+                "col": 13,
                 "pio": "A",
                 "row": 8
             },
@@ -297,37 +297,37 @@
                 "row": 7
             },
             "M3": {
-                "col": 4,
+                "col": 3,
                 "pio": "B",
                 "row": 8
             },
             "M4": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 8
             },
             "M7": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 8
             },
             "M8": {
-                "col": 12,
+                "col": 11,
                 "pio": "B",
                 "row": 8
             },
             "M9": {
-                "col": 12,
+                "col": 11,
                 "pio": "C",
                 "row": 8
             },
             "N10": {
-                "col": 12,
+                "col": 11,
                 "pio": "D",
                 "row": 8
             },
             "N12": {
-                "col": 14,
+                "col": 13,
                 "pio": "C",
                 "row": 8
             },
@@ -342,62 +342,62 @@
                 "row": 7
             },
             "N3": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 8
             },
             "N4": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 8
             },
             "N6": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 8
             },
             "N7": {
-                "col": 10,
+                "col": 9,
                 "pio": "B",
                 "row": 8
             },
             "N8": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 8
             },
             "P11": {
-                "col": 14,
+                "col": 13,
                 "pio": "B",
                 "row": 8
             },
             "P13": {
-                "col": 14,
+                "col": 13,
                 "pio": "D",
                 "row": 8
             },
             "P3": {
-                "col": 4,
+                "col": 3,
                 "pio": "A",
                 "row": 8
             },
             "P4": {
-                "col": 4,
+                "col": 3,
                 "pio": "D",
                 "row": 8
             },
             "P6": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 8
             },
             "P7": {
-                "col": 10,
+                "col": 9,
                 "pio": "A",
                 "row": 8
             },
             "P8": {
-                "col": 12,
+                "col": 11,
                 "pio": "A",
                 "row": 8
             }
@@ -419,32 +419,32 @@
                 "row": 6
             },
             "14": {
-                "col": 4,
+                "col": 3,
                 "pio": "A",
                 "row": 8
             },
             "15": {
-                "col": 4,
+                "col": 3,
                 "pio": "B",
                 "row": 8
             },
             "16": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 8
             },
             "17": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 8
             },
             "18": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 8
             },
             "19": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 8
             },
@@ -454,22 +454,22 @@
                 "row": 2
             },
             "20": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 8
             },
             "21": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 8
             },
             "23": {
-                "col": 14,
+                "col": 13,
                 "pio": "C",
                 "row": 8
             },
             "24": {
-                "col": 14,
+                "col": 13,
                 "pio": "D",
                 "row": 8
             },
@@ -529,12 +529,12 @@
                 "row": 3
             },
             "37": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 0
             },
             "38": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
@@ -544,42 +544,42 @@
                 "row": 2
             },
             "40": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
             "41": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "42": {
-                "col": 9,
+                "col": 8,
                 "pio": "D",
                 "row": 0
             },
             "43": {
-                "col": 9,
+                "col": 8,
                 "pio": "C",
                 "row": 0
             },
             "44": {
-                "col": 7,
+                "col": 6,
                 "pio": "D",
                 "row": 0
             },
             "45": {
-                "col": 7,
+                "col": 6,
                 "pio": "C",
                 "row": 0
             },
             "47": {
-                "col": 7,
+                "col": 6,
                 "pio": "B",
                 "row": 0
             },
             "48": {
-                "col": 7,
+                "col": 6,
                 "pio": "A",
                 "row": 0
             },
@@ -681,17 +681,17 @@
                 "row": 7
             },
             "27": {
-                "col": 4,
+                "col": 3,
                 "pio": "A",
                 "row": 8
             },
             "28": {
-                "col": 4,
+                "col": 3,
                 "pio": "B",
                 "row": 8
             },
             "29": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 8
             },
@@ -701,47 +701,47 @@
                 "row": 2
             },
             "30": {
-                "col": 4,
+                "col": 3,
                 "pio": "D",
                 "row": 8
             },
             "31": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 8
             },
             "32": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 8
             },
             "34": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 8
             },
             "35": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 8
             },
             "36": {
-                "col": 10,
+                "col": 9,
                 "pio": "A",
                 "row": 8
             },
             "37": {
-                "col": 10,
+                "col": 9,
                 "pio": "B",
                 "row": 8
             },
             "38": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 8
             },
             "39": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 8
             },
@@ -751,42 +751,42 @@
                 "row": 2
             },
             "40": {
-                "col": 12,
+                "col": 11,
                 "pio": "A",
                 "row": 8
             },
             "41": {
-                "col": 12,
+                "col": 11,
                 "pio": "B",
                 "row": 8
             },
             "42": {
-                "col": 12,
+                "col": 11,
                 "pio": "C",
                 "row": 8
             },
             "43": {
-                "col": 12,
+                "col": 11,
                 "pio": "D",
                 "row": 8
             },
             "45": {
-                "col": 14,
+                "col": 13,
                 "pio": "A",
                 "row": 8
             },
             "47": {
-                "col": 14,
+                "col": 13,
                 "pio": "B",
                 "row": 8
             },
             "48": {
-                "col": 14,
+                "col": 13,
                 "pio": "C",
                 "row": 8
             },
             "49": {
-                "col": 14,
+                "col": 13,
                 "pio": "D",
                 "row": 8
             },
@@ -896,17 +896,17 @@
                 "row": 2
             },
             "76": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 0
             },
             "77": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
             "78": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 0
             },
@@ -916,42 +916,42 @@
                 "row": 3
             },
             "81": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
             "82": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "83": {
-                "col": 10,
+                "col": 9,
                 "pio": "B",
                 "row": 0
             },
             "84": {
-                "col": 10,
+                "col": 9,
                 "pio": "A",
                 "row": 0
             },
             "85": {
-                "col": 9,
+                "col": 8,
                 "pio": "D",
                 "row": 0
             },
             "86": {
-                "col": 9,
+                "col": 8,
                 "pio": "C",
                 "row": 0
             },
             "87": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 0
             },
             "88": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 0
             },
@@ -961,42 +961,42 @@
                 "row": 3
             },
             "90": {
-                "col": 7,
+                "col": 6,
                 "pio": "D",
                 "row": 0
             },
             "91": {
-                "col": 7,
+                "col": 6,
                 "pio": "C",
                 "row": 0
             },
             "94": {
-                "col": 7,
+                "col": 6,
                 "pio": "B",
                 "row": 0
             },
             "95": {
-                "col": 7,
+                "col": 6,
                 "pio": "A",
                 "row": 0
             },
             "96": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 0
             },
             "97": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 0
             },
             "98": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 0
             },
             "99": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 0
             }
@@ -1151,7 +1151,7 @@
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "function": "CSSPIN",
             "io_grouping": "+",
             "pio": "A",
@@ -1159,56 +1159,56 @@
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "io_grouping": "+",
             "pio": "B",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "io_grouping": "+",
             "pio": "C",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "io_grouping": "+",
             "pio": "D",
             "row": 8
         },
         {
             "bank": 0,
-            "col": 6,
+            "col": 5,
             "io_grouping": "-",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 6,
+            "col": 5,
             "io_grouping": "-",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 6,
+            "col": 5,
             "io_grouping": "-",
             "pio": "C",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 6,
+            "col": 5,
             "io_grouping": "-",
             "pio": "D",
             "row": 0
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "function": "MCLK/CCLK",
             "io_grouping": "+",
             "pio": "A",
@@ -1216,7 +1216,7 @@
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "function": "SO/SPISO",
             "io_grouping": "+",
             "pio": "B",
@@ -1224,7 +1224,7 @@
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "function": "PCLKT2_0",
             "io_grouping": "-",
             "pio": "C",
@@ -1232,7 +1232,7 @@
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "function": "PCLKC2_0",
             "io_grouping": "-",
             "pio": "D",
@@ -1240,7 +1240,7 @@
         },
         {
             "bank": 0,
-            "col": 7,
+            "col": 6,
             "function": "TDO",
             "io_grouping": "-",
             "pio": "A",
@@ -1248,7 +1248,7 @@
         },
         {
             "bank": 0,
-            "col": 7,
+            "col": 6,
             "function": "TDI",
             "io_grouping": "-",
             "pio": "B",
@@ -1256,7 +1256,7 @@
         },
         {
             "bank": 0,
-            "col": 7,
+            "col": 6,
             "function": "TCK",
             "io_grouping": "+",
             "pio": "C",
@@ -1264,7 +1264,7 @@
         },
         {
             "bank": 0,
-            "col": 7,
+            "col": 6,
             "function": "TMS",
             "io_grouping": "+",
             "pio": "D",
@@ -1272,7 +1272,7 @@
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "function": "PCLKT0_1",
             "io_grouping": "+",
             "pio": "A",
@@ -1280,7 +1280,7 @@
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "function": "PCLKC0_1",
             "io_grouping": "+",
             "pio": "B",
@@ -1288,7 +1288,7 @@
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "function": "SCL/PCLKT0_0",
             "io_grouping": "+",
             "pio": "C",
@@ -1296,7 +1296,7 @@
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "function": "SDA/PCLKC0_0",
             "io_grouping": "+",
             "pio": "D",
@@ -1304,21 +1304,21 @@
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "io_grouping": "+",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "io_grouping": "+",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "function": "JTAGENB",
             "io_grouping": "+",
             "pio": "C",
@@ -1326,7 +1326,7 @@
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "function": "PROGRAMN",
             "io_grouping": "+",
             "pio": "D",
@@ -1334,21 +1334,21 @@
         },
         {
             "bank": 2,
-            "col": 10,
+            "col": 9,
             "io_grouping": "-",
             "pio": "A",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 10,
+            "col": 9,
             "io_grouping": "-",
             "pio": "B",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 10,
+            "col": 9,
             "function": "PCLKT2_1",
             "io_grouping": "-",
             "pio": "C",
@@ -1356,7 +1356,7 @@
         },
         {
             "bank": 2,
-            "col": 10,
+            "col": 9,
             "function": "PCLKC2_1",
             "io_grouping": "-",
             "pio": "D",
@@ -1364,21 +1364,21 @@
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "io_grouping": "-",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "io_grouping": "-",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "function": "INITN",
             "io_grouping": "-",
             "pio": "C",
@@ -1386,7 +1386,7 @@
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "function": "DONE",
             "io_grouping": "-",
             "pio": "D",
@@ -1394,49 +1394,49 @@
         },
         {
             "bank": 2,
-            "col": 12,
+            "col": 11,
             "io_grouping": "-",
             "pio": "A",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 12,
+            "col": 11,
             "io_grouping": "-",
             "pio": "B",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 12,
+            "col": 11,
             "io_grouping": "-",
             "pio": "C",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 12,
+            "col": 11,
             "io_grouping": "-",
             "pio": "D",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 14,
+            "col": 13,
             "io_grouping": "+",
             "pio": "A",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 14,
+            "col": 13,
             "io_grouping": "+",
             "pio": "B",
             "row": 8
         },
         {
             "bank": 2,
-            "col": 14,
+            "col": 13,
             "function": "SN",
             "io_grouping": "+",
             "pio": "C",
@@ -1444,7 +1444,7 @@
         },
         {
             "bank": 2,
-            "col": 14,
+            "col": 13,
             "function": "SI/SISPI",
             "io_grouping": "+",
             "pio": "D",

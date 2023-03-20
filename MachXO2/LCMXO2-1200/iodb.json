@@ -2,52 +2,52 @@
     "packages": {
         "CSBGA132": {
             "A10": {
-                "col": 16,
+                "col": 15,
                 "pio": "A",
                 "row": 0
             },
             "A11": {
-                "col": 16,
+                "col": 15,
                 "pio": "C",
                 "row": 0
             },
             "A12": {
-                "col": 17,
+                "col": 16,
                 "pio": "B",
                 "row": 0
             },
             "A13": {
-                "col": 17,
+                "col": 16,
                 "pio": "D",
                 "row": 0
             },
             "A2": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 0
             },
             "A3": {
-                "col": 10,
+                "col": 9,
                 "pio": "A",
                 "row": 0
             },
             "A4": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "A6": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 0
             },
             "A7": {
-                "col": 12,
+                "col": 11,
                 "pio": "A",
                 "row": 0
             },
             "A9": {
-                "col": 15,
+                "col": 14,
                 "pio": "B",
                 "row": 0
             },
@@ -57,12 +57,12 @@
                 "row": 2
             },
             "B12": {
-                "col": 16,
+                "col": 15,
                 "pio": "D",
                 "row": 0
             },
             "B13": {
-                "col": 17,
+                "col": 16,
                 "pio": "C",
                 "row": 0
             },
@@ -77,37 +77,37 @@
                 "row": 2
             },
             "B3": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 0
             },
             "B4": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
             "B5": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 0
             },
             "B6": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
             "B7": {
-                "col": 12,
+                "col": 11,
                 "pio": "B",
                 "row": 0
             },
             "B8": {
-                "col": 12,
+                "col": 11,
                 "pio": "D",
                 "row": 0
             },
             "B9": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 0
             },
@@ -117,17 +117,17 @@
                 "row": 2
             },
             "C10": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 0
             },
             "C11": {
-                "col": 16,
+                "col": 15,
                 "pio": "B",
                 "row": 0
             },
             "C12": {
-                "col": 17,
+                "col": 16,
                 "pio": "A",
                 "row": 0
             },
@@ -152,22 +152,22 @@
                 "row": 2
             },
             "C4": {
-                "col": 10,
+                "col": 9,
                 "pio": "B",
                 "row": 0
             },
             "C6": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 0
             },
             "C8": {
-                "col": 12,
+                "col": 11,
                 "pio": "C",
                 "row": 0
             },
             "C9": {
-                "col": 15,
+                "col": 14,
                 "pio": "A",
                 "row": 0
             },
@@ -357,12 +357,12 @@
                 "row": 10
             },
             "M10": {
-                "col": 18,
+                "col": 17,
                 "pio": "C",
                 "row": 12
             },
             "M11": {
-                "col": 20,
+                "col": 19,
                 "pio": "A",
                 "row": 12
             },
@@ -387,42 +387,42 @@
                 "row": 10
             },
             "M3": {
-                "col": 4,
+                "col": 3,
                 "pio": "D",
                 "row": 12
             },
             "M4": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 12
             },
             "M5": {
-                "col": 9,
+                "col": 8,
                 "pio": "D",
                 "row": 12
             },
             "M7": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 12
             },
             "M8": {
-                "col": 15,
+                "col": 14,
                 "pio": "B",
                 "row": 12
             },
             "M9": {
-                "col": 18,
+                "col": 17,
                 "pio": "A",
                 "row": 12
             },
             "N10": {
-                "col": 18,
+                "col": 17,
                 "pio": "B",
                 "row": 12
             },
             "N12": {
-                "col": 20,
+                "col": 19,
                 "pio": "C",
                 "row": 12
             },
@@ -437,134 +437,134 @@
                 "row": 10
             },
             "N2": {
-                "col": 4,
+                "col": 3,
                 "pio": "B",
                 "row": 12
             },
             "N3": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 12
             },
             "N4": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 12
             },
             "N5": {
-                "col": 9,
+                "col": 8,
                 "pio": "C",
                 "row": 12
             },
             "N6": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 12
             },
             "N7": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 12
             },
             "N8": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 12
             },
             "N9": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 12
             },
             "P11": {
-                "col": 18,
+                "col": 17,
                 "pio": "D",
                 "row": 12
             },
             "P12": {
-                "col": 20,
+                "col": 19,
                 "pio": "B",
                 "row": 12
             },
             "P13": {
-                "col": 20,
+                "col": 19,
                 "pio": "D",
                 "row": 12
             },
             "P2": {
-                "col": 4,
+                "col": 3,
                 "pio": "A",
                 "row": 12
             },
             "P3": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 12
             },
             "P4": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 12
             },
             "P6": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 12
             },
             "P7": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 12
             },
             "P8": {
-                "col": 15,
+                "col": 14,
                 "pio": "A",
                 "row": 12
             },
             "P9": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 12
             }
         },
         "QFN32": {
             "1": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "10": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 12
             },
             "11": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 12
             },
             "12": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 12
             },
             "13": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 12
             },
             "14": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 12
             },
             "16": {
-                "col": 20,
+                "col": 19,
                 "pio": "C",
                 "row": 12
             },
             "17": {
-                "col": 20,
+                "col": 19,
                 "pio": "D",
                 "row": 12
             },
@@ -579,42 +579,42 @@
                 "row": 5
             },
             "23": {
-                "col": 17,
+                "col": 16,
                 "pio": "D",
                 "row": 0
             },
             "25": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 0
             },
             "26": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 0
             },
             "27": {
-                "col": 12,
+                "col": 11,
                 "pio": "D",
                 "row": 0
             },
             "28": {
-                "col": 12,
+                "col": 11,
                 "pio": "C",
                 "row": 0
             },
             "29": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 0
             },
             "30": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
             "32": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
@@ -629,12 +629,12 @@
                 "row": 9
             },
             "8": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 12
             },
             "9": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 12
             }
@@ -716,17 +716,17 @@
                 "row": 10
             },
             "27": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 12
             },
             "28": {
-                "col": 4,
+                "col": 3,
                 "pio": "D",
                 "row": 12
             },
             "29": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 12
             },
@@ -736,47 +736,47 @@
                 "row": 3
             },
             "30": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 12
             },
             "31": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 12
             },
             "32": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 12
             },
             "34": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 12
             },
             "35": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 12
             },
             "36": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 12
             },
             "37": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 12
             },
             "38": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 12
             },
             "39": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 12
             },
@@ -786,42 +786,42 @@
                 "row": 3
             },
             "40": {
-                "col": 15,
+                "col": 14,
                 "pio": "A",
                 "row": 12
             },
             "41": {
-                "col": 15,
+                "col": 14,
                 "pio": "B",
                 "row": 12
             },
             "42": {
-                "col": 18,
+                "col": 17,
                 "pio": "A",
                 "row": 12
             },
             "43": {
-                "col": 18,
+                "col": 17,
                 "pio": "B",
                 "row": 12
             },
             "45": {
-                "col": 18,
+                "col": 17,
                 "pio": "C",
                 "row": 12
             },
             "47": {
-                "col": 18,
+                "col": 17,
                 "pio": "D",
                 "row": 12
             },
             "48": {
-                "col": 20,
+                "col": 19,
                 "pio": "C",
                 "row": 12
             },
             "49": {
-                "col": 20,
+                "col": 19,
                 "pio": "D",
                 "row": 12
             },
@@ -936,17 +936,17 @@
                 "row": 2
             },
             "76": {
-                "col": 17,
+                "col": 16,
                 "pio": "D",
                 "row": 0
             },
             "77": {
-                "col": 17,
+                "col": 16,
                 "pio": "C",
                 "row": 0
             },
             "78": {
-                "col": 16,
+                "col": 15,
                 "pio": "C",
                 "row": 0
             },
@@ -956,42 +956,42 @@
                 "row": 3
             },
             "81": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 0
             },
             "82": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 0
             },
             "83": {
-                "col": 15,
+                "col": 14,
                 "pio": "B",
                 "row": 0
             },
             "84": {
-                "col": 15,
+                "col": 14,
                 "pio": "A",
                 "row": 0
             },
             "85": {
-                "col": 12,
+                "col": 11,
                 "pio": "D",
                 "row": 0
             },
             "86": {
-                "col": 12,
+                "col": 11,
                 "pio": "C",
                 "row": 0
             },
             "87": {
-                "col": 12,
+                "col": 11,
                 "pio": "B",
                 "row": 0
             },
             "88": {
-                "col": 12,
+                "col": 11,
                 "pio": "A",
                 "row": 0
             },
@@ -1001,42 +1001,42 @@
                 "row": 4
             },
             "90": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 0
             },
             "91": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
             "94": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
             "95": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "96": {
-                "col": 10,
+                "col": 9,
                 "pio": "B",
                 "row": 0
             },
             "97": {
-                "col": 10,
+                "col": 9,
                 "pio": "A",
                 "row": 0
             },
             "98": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 0
             },
             "99": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 0
             }
@@ -1078,7 +1078,7 @@
                 "row": 2
             },
             "109": {
-                "col": 17,
+                "col": 16,
                 "pio": "D",
                 "row": 0
             },
@@ -1088,42 +1088,42 @@
                 "row": 4
             },
             "110": {
-                "col": 17,
+                "col": 16,
                 "pio": "C",
                 "row": 0
             },
             "111": {
-                "col": 17,
+                "col": 16,
                 "pio": "B",
                 "row": 0
             },
             "112": {
-                "col": 17,
+                "col": 16,
                 "pio": "A",
                 "row": 0
             },
             "113": {
-                "col": 16,
+                "col": 15,
                 "pio": "D",
                 "row": 0
             },
             "114": {
-                "col": 16,
+                "col": 15,
                 "pio": "C",
                 "row": 0
             },
             "115": {
-                "col": 16,
+                "col": 15,
                 "pio": "B",
                 "row": 0
             },
             "117": {
-                "col": 16,
+                "col": 15,
                 "pio": "A",
                 "row": 0
             },
             "119": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 0
             },
@@ -1133,37 +1133,37 @@
                 "row": 4
             },
             "120": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 0
             },
             "121": {
-                "col": 15,
+                "col": 14,
                 "pio": "B",
                 "row": 0
             },
             "122": {
-                "col": 15,
+                "col": 14,
                 "pio": "A",
                 "row": 0
             },
             "125": {
-                "col": 12,
+                "col": 11,
                 "pio": "D",
                 "row": 0
             },
             "126": {
-                "col": 12,
+                "col": 11,
                 "pio": "C",
                 "row": 0
             },
             "127": {
-                "col": 12,
+                "col": 11,
                 "pio": "B",
                 "row": 0
             },
             "128": {
-                "col": 12,
+                "col": 11,
                 "pio": "A",
                 "row": 0
             },
@@ -1173,42 +1173,42 @@
                 "row": 4
             },
             "130": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 0
             },
             "131": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
             "132": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 0
             },
             "133": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 0
             },
             "136": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
             "137": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "138": {
-                "col": 10,
+                "col": 9,
                 "pio": "B",
                 "row": 0
             },
             "139": {
-                "col": 10,
+                "col": 9,
                 "pio": "A",
                 "row": 0
             },
@@ -1218,22 +1218,22 @@
                 "row": 4
             },
             "140": {
-                "col": 9,
+                "col": 8,
                 "pio": "D",
                 "row": 0
             },
             "141": {
-                "col": 9,
+                "col": 8,
                 "pio": "C",
                 "row": 0
             },
             "142": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 0
             },
             "143": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 0
             },
@@ -1318,12 +1318,12 @@
                 "row": 10
             },
             "38": {
-                "col": 4,
+                "col": 3,
                 "pio": "A",
                 "row": 12
             },
             "39": {
-                "col": 4,
+                "col": 3,
                 "pio": "B",
                 "row": 12
             },
@@ -1333,47 +1333,47 @@
                 "row": 2
             },
             "40": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 12
             },
             "41": {
-                "col": 4,
+                "col": 3,
                 "pio": "D",
                 "row": 12
             },
             "42": {
-                "col": 6,
+                "col": 5,
                 "pio": "A",
                 "row": 12
             },
             "43": {
-                "col": 6,
+                "col": 5,
                 "pio": "B",
                 "row": 12
             },
             "44": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 12
             },
             "45": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 12
             },
             "47": {
-                "col": 9,
+                "col": 8,
                 "pio": "C",
                 "row": 12
             },
             "48": {
-                "col": 9,
+                "col": 8,
                 "pio": "D",
                 "row": 12
             },
             "49": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 12
             },
@@ -1383,42 +1383,42 @@
                 "row": 3
             },
             "50": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 12
             },
             "52": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 12
             },
             "54": {
-                "col": 11,
+                "col": 10,
                 "pio": "D",
                 "row": 12
             },
             "55": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 12
             },
             "56": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 12
             },
             "57": {
-                "col": 15,
+                "col": 14,
                 "pio": "A",
                 "row": 12
             },
             "58": {
-                "col": 15,
+                "col": 14,
                 "pio": "B",
                 "row": 12
             },
             "59": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 12
             },
@@ -1428,47 +1428,47 @@
                 "row": 3
             },
             "60": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 12
             },
             "61": {
-                "col": 18,
+                "col": 17,
                 "pio": "A",
                 "row": 12
             },
             "62": {
-                "col": 18,
+                "col": 17,
                 "pio": "B",
                 "row": 12
             },
             "65": {
-                "col": 18,
+                "col": 17,
                 "pio": "C",
                 "row": 12
             },
             "67": {
-                "col": 18,
+                "col": 17,
                 "pio": "D",
                 "row": 12
             },
             "68": {
-                "col": 20,
+                "col": 19,
                 "pio": "A",
                 "row": 12
             },
             "69": {
-                "col": 20,
+                "col": 19,
                 "pio": "B",
                 "row": 12
             },
             "70": {
-                "col": 20,
+                "col": 19,
                 "pio": "C",
                 "row": 12
             },
             "71": {
-                "col": 20,
+                "col": 19,
                 "pio": "D",
                 "row": 12
             },
@@ -1585,149 +1585,149 @@
         },
         "WLCSP25": {
             "A1": {
-                "col": 17,
+                "col": 16,
                 "pio": "C",
                 "row": 0
             },
             "A2": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 0
             },
             "A3": {
-                "col": 12,
+                "col": 11,
                 "pio": "D",
                 "row": 0
             },
             "A4": {
-                "col": 11,
+                "col": 10,
                 "pio": "C",
                 "row": 0
             },
             "A5": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "B1": {
-                "col": 17,
+                "col": 16,
                 "pio": "D",
                 "row": 0
             },
             "B2": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 0
             },
             "B3": {
-                "col": 12,
+                "col": 11,
                 "pio": "C",
                 "row": 0
             },
             "B4": {
-                "col": 11,
-                "pio": "D",
-                "row": 0
-            },
-            "C1": {
-                "col": 16,
-                "pio": "A",
-                "row": 0
-            },
-            "C5": {
                 "col": 10,
                 "pio": "D",
                 "row": 0
             },
+            "C1": {
+                "col": 15,
+                "pio": "A",
+                "row": 0
+            },
+            "C5": {
+                "col": 9,
+                "pio": "D",
+                "row": 0
+            },
             "D2": {
-                "col": 12,
+                "col": 11,
                 "pio": "A",
                 "row": 0
             },
             "D4": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 12
             },
             "D5": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 12
             },
             "E1": {
-                "col": 20,
+                "col": 19,
                 "pio": "D",
                 "row": 12
             },
             "E2": {
-                "col": 20,
+                "col": 19,
                 "pio": "C",
                 "row": 12
             },
             "E3": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 12
             },
             "E4": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 12
             },
             "E5": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 12
             }
         },
         "WLCSP36": {
             "A1": {
-                "col": 17,
+                "col": 16,
                 "pio": "D",
                 "row": 0
             },
             "A2": {
-                "col": 15,
+                "col": 14,
                 "pio": "D",
                 "row": 0
             },
             "A4": {
-                "col": 12,
+                "col": 11,
                 "pio": "A",
                 "row": 0
             },
             "A5": {
-                "col": 10,
+                "col": 9,
                 "pio": "D",
                 "row": 0
             },
             "A6": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 0
             },
             "B1": {
-                "col": 17,
+                "col": 16,
                 "pio": "C",
                 "row": 0
             },
             "B2": {
-                "col": 15,
+                "col": 14,
                 "pio": "C",
                 "row": 0
             },
             "B3": {
-                "col": 12,
+                "col": 11,
                 "pio": "B",
                 "row": 0
             },
             "B4": {
-                "col": 10,
+                "col": 9,
                 "pio": "C",
                 "row": 0
             },
             "B5": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 0
             },
@@ -1737,17 +1737,17 @@
                 "row": 2
             },
             "C2": {
-                "col": 12,
-                "pio": "D",
-                "row": 0
-            },
-            "C3": {
                 "col": 11,
                 "pio": "D",
                 "row": 0
             },
-            "C4": {
+            "C3": {
                 "col": 10,
+                "pio": "D",
+                "row": 0
+            },
+            "C4": {
+                "col": 9,
                 "pio": "B",
                 "row": 0
             },
@@ -1757,17 +1757,17 @@
                 "row": 2
             },
             "D2": {
-                "col": 12,
-                "pio": "C",
-                "row": 0
-            },
-            "D3": {
                 "col": 11,
                 "pio": "C",
                 "row": 0
             },
-            "D4": {
+            "D3": {
                 "col": 10,
+                "pio": "C",
+                "row": 0
+            },
+            "D4": {
+                "col": 9,
                 "pio": "A",
                 "row": 0
             },
@@ -1777,27 +1777,27 @@
                 "row": 9
             },
             "E1": {
-                "col": 20,
+                "col": 19,
                 "pio": "C",
                 "row": 12
             },
             "E2": {
-                "col": 11,
+                "col": 10,
                 "pio": "A",
                 "row": 12
             },
             "E3": {
-                "col": 9,
+                "col": 8,
                 "pio": "A",
                 "row": 12
             },
             "E4": {
-                "col": 6,
+                "col": 5,
                 "pio": "D",
                 "row": 12
             },
             "E5": {
-                "col": 4,
+                "col": 3,
                 "pio": "C",
                 "row": 12
             },
@@ -1807,22 +1807,22 @@
                 "row": 9
             },
             "F1": {
-                "col": 20,
+                "col": 19,
                 "pio": "D",
                 "row": 12
             },
             "F3": {
-                "col": 11,
+                "col": 10,
                 "pio": "B",
                 "row": 12
             },
             "F4": {
-                "col": 9,
+                "col": 8,
                 "pio": "B",
                 "row": 12
             },
             "F5": {
-                "col": 6,
+                "col": 5,
                 "pio": "C",
                 "row": 12
             }
@@ -2023,21 +2023,21 @@
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "io_grouping": "+",
             "pio": "A",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "io_grouping": "+",
             "pio": "B",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "function": "CSSPIN",
             "io_grouping": "+",
             "pio": "C",
@@ -2045,28 +2045,28 @@
         },
         {
             "bank": 2,
-            "col": 4,
+            "col": 3,
             "io_grouping": "+",
             "pio": "D",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "io_grouping": "+",
             "pio": "A",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "io_grouping": "+",
             "pio": "B",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "function": "MCLK/CCLK",
             "io_grouping": "+",
             "pio": "C",
@@ -2074,7 +2074,7 @@
         },
         {
             "bank": 2,
-            "col": 6,
+            "col": 5,
             "function": "SO/SPISO",
             "io_grouping": "+",
             "pio": "D",
@@ -2082,35 +2082,35 @@
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "io_grouping": "-",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "io_grouping": "-",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "io_grouping": "-",
             "pio": "C",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 9,
+            "col": 8,
             "io_grouping": "-",
             "pio": "D",
             "row": 0
         },
         {
             "bank": 2,
-            "col": 9,
+            "col": 8,
             "function": "PCLKT2_0",
             "io_grouping": "-",
             "pio": "A",
@@ -2118,7 +2118,7 @@
         },
         {
             "bank": 2,
-            "col": 9,
+            "col": 8,
             "function": "PCLKC2_0",
             "io_grouping": "-",
             "pio": "B",
@@ -2126,35 +2126,35 @@
         },
         {
             "bank": 2,
-            "col": 9,
+            "col": 8,
             "io_grouping": "-",
             "pio": "C",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 9,
+            "col": 8,
             "io_grouping": "-",
             "pio": "D",
             "row": 12
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "io_grouping": "-",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "io_grouping": "-",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "function": "TDO",
             "io_grouping": "-",
             "pio": "C",
@@ -2162,7 +2162,7 @@
         },
         {
             "bank": 0,
-            "col": 10,
+            "col": 9,
             "function": "TDI",
             "io_grouping": "-",
             "pio": "D",
@@ -2170,21 +2170,21 @@
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "io_grouping": "+",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "io_grouping": "+",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "function": "TCK",
             "io_grouping": "+",
             "pio": "C",
@@ -2192,7 +2192,7 @@
         },
         {
             "bank": 0,
-            "col": 11,
+            "col": 10,
             "function": "TMS",
             "io_grouping": "+",
             "pio": "D",
@@ -2200,7 +2200,7 @@
         },
         {
             "bank": 2,
-            "col": 11,
+            "col": 10,
             "function": "PCLKT2_1",
             "io_grouping": "+",
             "pio": "A",
@@ -2208,7 +2208,7 @@
         },
         {
             "bank": 2,
-            "col": 11,
+            "col": 10,
             "function": "PCLKC2_1",
             "io_grouping": "+",
             "pio": "B",
@@ -2216,21 +2216,21 @@
         },
         {
             "bank": 2,
-            "col": 11,
+            "col": 10,
             "io_grouping": "-",
             "pio": "C",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 11,
+            "col": 10,
             "io_grouping": "+",
             "pio": "D",
             "row": 12
         },
         {
             "bank": 0,
-            "col": 12,
+            "col": 11,
             "function": "PCLKT0_1",
             "io_grouping": "+",
             "pio": "A",
@@ -2238,7 +2238,7 @@
         },
         {
             "bank": 0,
-            "col": 12,
+            "col": 11,
             "function": "PCLKC0_1",
             "io_grouping": "+",
             "pio": "B",
@@ -2246,7 +2246,7 @@
         },
         {
             "bank": 0,
-            "col": 12,
+            "col": 11,
             "function": "SCL/PCLKT0_0",
             "io_grouping": "+",
             "pio": "C",
@@ -2254,7 +2254,7 @@
         },
         {
             "bank": 0,
-            "col": 12,
+            "col": 11,
             "function": "SDA/PCLKC0_0",
             "io_grouping": "+",
             "pio": "D",
@@ -2262,21 +2262,21 @@
         },
         {
             "bank": 0,
-            "col": 15,
+            "col": 14,
             "io_grouping": "-",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 15,
+            "col": 14,
             "io_grouping": "-",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 15,
+            "col": 14,
             "function": "JTAGENB",
             "io_grouping": "-",
             "pio": "C",
@@ -2284,7 +2284,7 @@
         },
         {
             "bank": 0,
-            "col": 15,
+            "col": 14,
             "function": "PROGRAMN",
             "io_grouping": "-",
             "pio": "D",
@@ -2292,77 +2292,77 @@
         },
         {
             "bank": 2,
-            "col": 15,
+            "col": 14,
             "io_grouping": "+",
             "pio": "A",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 15,
+            "col": 14,
             "io_grouping": "+",
             "pio": "B",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 15,
+            "col": 14,
             "io_grouping": "+",
             "pio": "C",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 15,
+            "col": 14,
             "io_grouping": "+",
             "pio": "D",
             "row": 12
         },
         {
             "bank": 0,
-            "col": 16,
+            "col": 15,
             "io_grouping": "-",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 16,
+            "col": 15,
             "io_grouping": "+",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 16,
+            "col": 15,
             "io_grouping": "+",
             "pio": "C",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 16,
+            "col": 15,
             "io_grouping": "+",
             "pio": "D",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 17,
+            "col": 16,
             "io_grouping": "+",
             "pio": "A",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 17,
+            "col": 16,
             "io_grouping": "+",
             "pio": "B",
             "row": 0
         },
         {
             "bank": 0,
-            "col": 17,
+            "col": 16,
             "function": "INITN",
             "io_grouping": "+",
             "pio": "C",
@@ -2370,7 +2370,7 @@
         },
         {
             "bank": 0,
-            "col": 17,
+            "col": 16,
             "function": "DONE",
             "io_grouping": "+",
             "pio": "D",
@@ -2378,49 +2378,49 @@
         },
         {
             "bank": 2,
-            "col": 18,
+            "col": 17,
             "io_grouping": "+",
             "pio": "A",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 18,
+            "col": 17,
             "io_grouping": "+",
             "pio": "B",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 18,
+            "col": 17,
             "io_grouping": "-",
             "pio": "C",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 18,
+            "col": 17,
             "io_grouping": "-",
             "pio": "D",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 20,
+            "col": 19,
             "io_grouping": "-",
             "pio": "A",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 20,
+            "col": 19,
             "io_grouping": "-",
             "pio": "B",
             "row": 12
         },
         {
             "bank": 2,
-            "col": 20,
+            "col": 19,
             "function": "SN",
             "io_grouping": "-",
             "pio": "C",
@@ -2428,7 +2428,7 @@
         },
         {
             "bank": 2,
-            "col": 20,
+            "col": 19,
             "function": "SI/SISPI",
             "io_grouping": "-",
             "pio": "D",
