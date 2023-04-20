@@ -1,0 +1,13 @@
+# Routing Mux Bits
+
+# Non-Routing Configuration
+.config_enum OSCH.STDBY 0
+0 !F5B46
+1 F5B46
+
+.config_enum PCNTR.POROFF FALSE
+FALSE -
+TRUE F5B41
+
+
+# Fixed Connections

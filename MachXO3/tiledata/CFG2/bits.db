@@ -1,0 +1,14 @@
+# Routing Mux Bits
+
+# Non-Routing Configuration
+.config_enum PCNTR.BGOFF FALSE
+FALSE -
+TRUE F5B40
+
+.config_enum SED.MODE NONE
+NONE -
+SEDFA F5B32
+SEDFB F5B32
+
+
+# Fixed Connections

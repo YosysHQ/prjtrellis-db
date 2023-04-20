@@ -1,0 +1,45 @@
+# Routing Mux Bits
+
+# Non-Routing Configuration
+.config_enum DCC0.MODE NONE
+DCCA F27B0
+NONE -
+
+.config_enum DCC1.MODE NONE
+DCCA F26B0
+NONE -
+
+.config_enum DCC2.MODE NONE
+DCCA F25B0
+NONE -
+
+.config_enum DCC3.MODE NONE
+DCCA F24B0
+NONE -
+
+.config_enum DCC4.MODE NONE
+DCCA F27B1
+NONE -
+
+.config_enum DCC5.MODE NONE
+DCCA F26B1
+NONE -
+
+.config_enum DCC6.MODE NONE
+DCCA F25B1
+NONE -
+
+.config_enum DCC7.MODE NONE
+DCCA F24B1
+NONE -
+
+.config_enum DCM6.MODE NONE
+DCMA F28B0
+NONE -
+
+.config_enum DCM7.MODE NONE
+DCMA F28B1
+NONE -
+
+
+# Fixed Connections
