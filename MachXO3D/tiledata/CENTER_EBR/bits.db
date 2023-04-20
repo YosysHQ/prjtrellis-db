@@ -1,0 +1,15 @@
+# Routing Mux Bits
+.mux G_EBRG0CLK0
+G_ECLKCIBB0 F0B0 F1B0
+G_JPCLKT20 F0B0
+G_JRPLLCLK1 F1B0
+
+.mux G_EBRG1CLK0
+G_ECLKCIBT0 F0B1 F1B1
+G_JPCLKT00 F0B1
+G_JRPLLCLK1 F1B1
+
+
+# Non-Routing Configuration
+
+# Fixed Connections
