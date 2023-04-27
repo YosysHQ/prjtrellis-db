@@ -1,9 +1,1 @@
-# Routing Mux Bits
 
-# Non-Routing Configuration
-.config_enum OSCH.STDBY 0
-0 !F5B46
-1 F5B46
-
-
-# Fixed Connections
