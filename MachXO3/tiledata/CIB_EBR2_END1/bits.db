@@ -2689,3 +2689,7 @@ PLUS !F2B50
 
 .fixed_conn G_HSBX0601 G_HSBX0500
 
+.fixed_conn U_VPTX0100 G_CLKO1T_DCC
+
+.fixed_conn U_VPTX0500 G_CLKO5T_DCC
+

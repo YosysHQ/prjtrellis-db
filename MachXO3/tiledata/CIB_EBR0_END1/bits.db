@@ -2687,6 +2687,10 @@ PLUS !F8B6
 
 
 # Fixed Connections
+.fixed_conn D_VPTX0000 G_CLKO0B_DCC
+
+.fixed_conn D_VPTX0400 G_CLKO4B_DCC
+
 .fixed_conn G_CLKI0B_DCC G_HPSX0000
 
 .fixed_conn G_CLKI0T_DCC G_HPSX0000
@@ -2698,6 +2702,10 @@ PLUS !F8B6
 .fixed_conn G_HSBX0201 G_HSBX0200
 
 .fixed_conn G_HSBX0601 G_HSBX0600
+
+.fixed_conn U_VPTX0000 G_CLKO0T_DCC
+
+.fixed_conn U_VPTX0400 G_CLKO4T_DCC
 
 .fixed_conn W1_DLLDEL0 W1_CLKO0_DLLDEL
 

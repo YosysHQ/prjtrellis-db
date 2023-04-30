@@ -2639,6 +2639,14 @@ INV F25B11
 
 
 # Fixed Connections
+.fixed_conn D_VPTX0100 G_CLKO1B_DCC
+
+.fixed_conn D_VPTX0300 G_CLKO3B_DCC
+
+.fixed_conn D_VPTX0500 G_CLKO5B_DCC
+
+.fixed_conn D_VPTX0700 G_CLKO7B_DCC
+
 .fixed_conn G_CLKI1B_DCC G_HPSX0100
 
 .fixed_conn G_CLKI1T_DCC G_HPSX0100
@@ -2662,4 +2670,12 @@ INV F25B11
 .fixed_conn G_HSBX0501 G_HSBX0400
 
 .fixed_conn G_HSBX0601 G_HSBX0500
+
+.fixed_conn U_VPTX0100 G_CLKO1T_DCC
+
+.fixed_conn U_VPTX0300 G_CLKO3T_DCC
+
+.fixed_conn U_VPTX0500 G_CLKO5T_DCC
+
+.fixed_conn U_VPTX0700 G_CLKO7T_DCC
 
