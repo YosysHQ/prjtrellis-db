@@ -1,0 +1,288 @@
+# Routing Mux Bits
+
+# Non-Routing Configuration
+.config EBR.FIFO8KB.AEPOINTER 00000000000000
+F0B2
+F0B3
+F0B4
+F0B5
+F0B6
+F0B7
+F0B8
+F0B9
+F0B10
+F0B11
+F0B12
+F0B13
+F0B14
+F0B15
+
+.config EBR.FIFO8KB.AEPOINTER1 00000000000000
+F1B16
+F1B17
+F1B18
+F1B19
+F1B20
+F1B21
+F1B22
+F1B23
+F1B24
+F1B25
+F1B26
+F1B27
+F1B28
+F1B29
+
+.config EBR.FIFO8KB.AFPOINTER 11111111110000
+F0B44
+F0B45
+F0B46
+F0B47
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+.config EBR.FIFO8KB.AFPOINTER1 00000000000000
+F1B30
+F1B31
+F1B32
+F1B33
+F1B34
+F1B35
+F1B36
+F1B37
+F1B38
+F1B39
+F1B40
+F1B41
+F1B42
+F1B43
+
+.config EBR.FIFO8KB.FULLPOINTER 00000000000000
+F0B30
+F0B31
+F0B32
+F0B33
+F0B34
+F0B35
+F0B36
+F0B37
+F0B38
+F0B39
+F0B40
+F0B41
+F0B42
+F0B43
+
+.config EBR.FIFO8KB.FULLPOINTER1 00000000000000
+F0B16
+F0B17
+F0B18
+F0B19
+F0B20
+F0B21
+F0B22
+F0B23
+F0B24
+F0B25
+F0B26
+F0B27
+F0B28
+F0B29
+
+.config_enum EBR.DP8KC.WRITEMODE_A NORMAL
+NORMAL !F1B44 !F1B46
+READBEFOREWRITE !F1B44 F1B46
+WRITETHROUGH F1B44 !F1B46
+
+.config_enum EBR.DP8KC.WRITEMODE_B NORMAL
+NORMAL !F1B45 !F1B47
+READBEFOREWRITE !F1B45 F1B47
+WRITETHROUGH F1B45 !F1B47
+
+.config_enum EBR.FIFO8KB.DATA_WIDTH_R
+1 !F1B2 !F1B3 !F1B4 !F1B5 F1B10 !F1B11 !F1B12 !F1B13 !F1B14
+18 F1B2 F1B3 F1B4 F1B5 !F1B10 !F1B11 !F1B12 !F1B13 F1B14
+2 F1B2 !F1B3 !F1B4 !F1B5 !F1B10 F1B11 !F1B12 !F1B13 !F1B14
+4 F1B2 F1B3 !F1B4 !F1B5 !F1B10 !F1B11 F1B12 !F1B13 !F1B14
+9 F1B2 F1B3 F1B4 !F1B5 !F1B10 !F1B11 !F1B12 F1B13 !F1B14
+
+.config_enum EBR.MODE NONE
+DP8KC -
+FIFO8KB F1B8
+NONE -
+PDPW8KC -
+
+
+# Fixed Connections
+.fixed_conn E1_JF0 JDOA3_EBR
+
+.fixed_conn E1_JF1 JDOA4_EBR
+
+.fixed_conn E1_JF2 JDOA5_EBR
+
+.fixed_conn E1_JQ0 JDOB3_EBR
+
+.fixed_conn E1_JQ1 JDOB4_EBR
+
+.fixed_conn E1_JQ2 JDOB5_EBR
+
+.fixed_conn E2_JF0 JDOA6_EBR
+
+.fixed_conn E2_JF1 JDOA7_EBR
+
+.fixed_conn E2_JF2 JDOA8_EBR
+
+.fixed_conn E2_JQ0 JDOB6_EBR
+
+.fixed_conn E2_JQ1 JDOB7_EBR
+
+.fixed_conn E2_JQ2 JDOB8_EBR
+
+.fixed_conn JADA0_EBR JA4
+
+.fixed_conn JADA10_EBR JC4
+
+.fixed_conn JADA11_EBR E1_JB3
+
+.fixed_conn JADA12_EBR E1_JD2
+
+.fixed_conn JADA1_EBR E1_JB2
+
+.fixed_conn JADA2_EBR E1_JA3
+
+.fixed_conn JADA3_EBR JD3
+
+.fixed_conn JADA4_EBR E2_JC2
+
+.fixed_conn JADA5_EBR E2_JB2
+
+.fixed_conn JADA6_EBR E1_JD5
+
+.fixed_conn JADA7_EBR E1_JA4
+
+.fixed_conn JADA8_EBR E1_JC5
+
+.fixed_conn JADA9_EBR JB4
+
+.fixed_conn JADB0_EBR E1_JC2
+
+.fixed_conn JADB10_EBR E1_JD0
+
+.fixed_conn JADB11_EBR E1_JB0
+
+.fixed_conn JADB12_EBR E1_JC3
+
+.fixed_conn JADB1_EBR E1_JA2
+
+.fixed_conn JADB2_EBR E2_JC0
+
+.fixed_conn JADB3_EBR E2_JD3
+
+.fixed_conn JADB4_EBR E2_JB0
+
+.fixed_conn JADB5_EBR E2_JA2
+
+.fixed_conn JADB6_EBR E1_JD1
+
+.fixed_conn JADB7_EBR E1_JA0
+
+.fixed_conn JADB8_EBR E1_JC1
+
+.fixed_conn JADB9_EBR E1_JC0
+
+.fixed_conn JAE_EBR E1_JQ4
+
+.fixed_conn JAF_EBR E1_JF4
+
+.fixed_conn JCEA_EBR E1_JCE1
+
+.fixed_conn JCEB_EBR E2_JCE1
+
+.fixed_conn JCLKA_EBR E1_JCLK0
+
+.fixed_conn JCLKB_EBR E1_JCLK3
+
+.fixed_conn JCSA0_EBR E1_JLSR0
+
+.fixed_conn JCSA1_EBR E1_JLSR1
+
+.fixed_conn JCSA2_EBR E1_JLSR2
+
+.fixed_conn JCSB0_EBR E2_JLSR0
+
+.fixed_conn JCSB1_EBR E2_JLSR1
+
+.fixed_conn JCSB2_EBR E2_JLSR2
+
+.fixed_conn JDIA0_EBR E2_JD0
+
+.fixed_conn JDIA1_EBR E1_JB5
+
+.fixed_conn JDIA2_EBR E1_JA5
+
+.fixed_conn JDIA3_EBR E2_JA3
+
+.fixed_conn JDIA4_EBR E2_JD2
+
+.fixed_conn JDIA5_EBR E2_JB1
+
+.fixed_conn JDIA6_EBR E2_JA1
+
+.fixed_conn JDIA7_EBR E2_JA0
+
+.fixed_conn JDIA8_EBR E2_JC1
+
+.fixed_conn JDIB0_EBR E2_JD1
+
+.fixed_conn JDIB1_EBR E1_JB4
+
+.fixed_conn JDIB2_EBR E1_JD4
+
+.fixed_conn JDIB3_EBR E2_JB3
+
+.fixed_conn JDIB4_EBR E2_JC3
+
+.fixed_conn JDIB5_EBR E2_JD4
+
+.fixed_conn JDIB6_EBR E2_JC4
+
+.fixed_conn JDIB7_EBR E2_JB4
+
+.fixed_conn JDIB8_EBR E2_JA4
+
+.fixed_conn JEF_EBR E1_JQ3
+
+.fixed_conn JF0 JDOA0_EBR
+
+.fixed_conn JF1 JDOA1_EBR
+
+.fixed_conn JF2 JDOA2_EBR
+
+.fixed_conn JFF_EBR E1_JF3
+
+.fixed_conn JOCEA_EBR JCE0
+
+.fixed_conn JOCEB_EBR E1_JCE0
+
+.fixed_conn JQ0 JDOB0_EBR
+
+.fixed_conn JQ1 JDOB1_EBR
+
+.fixed_conn JQ2 JDOB2_EBR
+
+.fixed_conn JRSTA_EBR JLSR2
+
+.fixed_conn JRSTB_EBR JLSR0
+
+.fixed_conn JWEA_EBR E1_JLSR3
+
+.fixed_conn JWEB_EBR E2_JLSR3
+

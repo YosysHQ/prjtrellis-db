@@ -1,0 +1,18 @@
+# Routing Mux Bits
+
+# Non-Routing Configuration
+.config_enum EBR.DP8KC.DATA_WIDTH_A 9
+1 F0B5 F0B6 F0B7
+2 !F0B5 F0B6 F0B7
+4 !F0B5 !F0B6 F0B7
+9 !F0B5 !F0B6 !F0B7
+
+.config_enum EBR.FIFO8KB.DATA_WIDTH_W 18
+1 F0B5 F0B6 F0B7
+18 !F0B5 !F0B6 !F0B7
+2 !F0B5 F0B6 F0B7
+4 !F0B5 !F0B6 F0B7
+9 !F0B5 !F0B6 !F0B7
+
+
+# Fixed Connections
