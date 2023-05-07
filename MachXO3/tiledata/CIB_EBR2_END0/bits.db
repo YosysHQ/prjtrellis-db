@@ -2667,7 +2667,11 @@ PLUS !F2B50
 # Fixed Connections
 .fixed_conn D_VPTX0000 G_CLKO0B_DCC
 
+.fixed_conn D_VPTX0300 G_CLKO3B_DCC
+
 .fixed_conn D_VPTX0400 G_CLKO4B_DCC
+
+.fixed_conn D_VPTX0700 G_CLKO7B_DCC
 
 .fixed_conn E1_DLLDEL0 E1_CLKO0_DLLDEL
 
@@ -2677,9 +2681,17 @@ PLUS !F2B50
 
 .fixed_conn G_CLKI0T_DCC G_HPSX0000
 
+.fixed_conn G_CLKI3B_DCC G_HPSX0300
+
+.fixed_conn G_CLKI3T_DCC G_HPSX0300
+
 .fixed_conn G_CLKI4B_DCC G_HPSX0400
 
 .fixed_conn G_CLKI4T_DCC G_HPSX0400
+
+.fixed_conn G_CLKI7B_DCC G_HPSX0700
+
+.fixed_conn G_CLKI7T_DCC G_HPSX0700
 
 .fixed_conn G_HSBX0001 G_HSBX0000
 
@@ -2691,5 +2703,9 @@ PLUS !F2B50
 
 .fixed_conn U_VPTX0000 G_CLKO0T_DCC
 
+.fixed_conn U_VPTX0300 G_CLKO3T_DCC
+
 .fixed_conn U_VPTX0400 G_CLKO4T_DCC
+
+.fixed_conn U_VPTX0700 G_CLKO7T_DCC
 
