@@ -1,0 +1,916 @@
+<html>
+            <head><title>EBR0_10K Bit Data</title>
+        
+
+            <script type="text/javascript">
+            origClr = {};
+            origClass = "";
+            
+            function mov(event) {
+                if (event.target.className != "unknown") {
+                    origClass = event.target.className;
+                    var elems = document.getElementsByClassName(origClass);
+                    for(var i = 0; i < elems.length; i++) {
+                       if(!(elems[i].id in origClr)) {
+                          origClr[elems[i].id] = elems[i].style.backgroundColor;
+                       }
+                       elems[i].style.backgroundColor = "white";
+                    }
+
+                }
+            }
+            
+            function mou(event) {
+                var elems = document.getElementsByClassName(origClass);
+                for(var i = 0; i < elems.length; i++) {
+                   elems[i].style.backgroundColor = origClr[elems[i].id] || "#ffffff";
+                }
+            }
+            </script>
+            </head>
+            <body>
+        
+<h1>EBR0_10K Bit Data</h1>
+    
+<table style='font-size: 8pt; border: 2px solid black; text-align: center'>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F0B0' style='text-decoration: none; color: #000000'>
+                    <div id='f0b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F1B0' style='text-decoration: none; color: #000000'>
+                    <div id='f1b0' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F0B1' style='text-decoration: none; color: #000000'>
+                    <div id='f0b1' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F1B1' style='text-decoration: none; color: #000000'>
+                    <div id='f1b1' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B2&#13;&#10;EBR.FIFO8KB.AEPOINTER[0]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b2' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B2&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b2' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B3&#13;&#10;EBR.FIFO8KB.AEPOINTER[1]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b3' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B3&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b3' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B4&#13;&#10;EBR.FIFO8KB.AEPOINTER[2]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b4' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B4&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b4' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B5&#13;&#10;EBR.FIFO8KB.AEPOINTER[3]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b5' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B5&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b5' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B6&#13;&#10;EBR.FIFO8KB.AEPOINTER[4]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b6' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F1B6' style='text-decoration: none; color: #000000'>
+                    <div id='f1b6' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B7&#13;&#10;EBR.FIFO8KB.AEPOINTER[5]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b7' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F1B7' style='text-decoration: none; color: #000000'>
+                    <div id='f1b7' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B8&#13;&#10;EBR.FIFO8KB.AEPOINTER[6]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b8' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.MODE' title='F1B8&#13;&#10;EBR.MODE' style='text-decoration: none; color: #000000'>
+                    <div id='f1b8' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.MODE'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B9&#13;&#10;EBR.FIFO8KB.AEPOINTER[7]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b9' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F1B9' style='text-decoration: none; color: #000000'>
+                    <div id='f1b9' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B10&#13;&#10;EBR.FIFO8KB.AEPOINTER[8]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b10' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B10&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b10' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B11&#13;&#10;EBR.FIFO8KB.AEPOINTER[9]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b11' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B11&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b11' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B12&#13;&#10;EBR.FIFO8KB.AEPOINTER[10]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b12' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B12&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b12' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B13&#13;&#10;EBR.FIFO8KB.AEPOINTER[11]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b13' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B13&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b13' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B14&#13;&#10;EBR.FIFO8KB.AEPOINTER[12]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b14' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.FIFO8KB.DATA_WIDTH_R' title='F1B14&#13;&#10;EBR.FIFO8KB.DATA_WIDTH_R' style='text-decoration: none; color: #000000'>
+                    <div id='f1b14' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.FIFO8KB.DATA_WIDTH_R'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>R</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER' title='F0B15&#13;&#10;EBR.FIFO8KB.AEPOINTER[13]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b15' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#unknown' title='F1B15' style='text-decoration: none; color: #000000'>
+                    <div id='f1b15' style='height: 100%; background-color: #FFFFFF; width: 12px' class='grp_unknown'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>&nbsp;</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B16&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[0]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b16' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B16&#13;&#10;EBR.FIFO8KB.AEPOINTER1[0]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b16' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B17&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[1]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b17' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B17&#13;&#10;EBR.FIFO8KB.AEPOINTER1[1]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b17' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B18&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[2]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b18' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B18&#13;&#10;EBR.FIFO8KB.AEPOINTER1[2]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b18' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B19&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[3]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b19' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B19&#13;&#10;EBR.FIFO8KB.AEPOINTER1[3]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b19' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B20&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[4]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b20' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B20&#13;&#10;EBR.FIFO8KB.AEPOINTER1[4]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b20' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B21&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[5]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b21' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B21&#13;&#10;EBR.FIFO8KB.AEPOINTER1[5]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b21' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B22&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[6]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b22' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B22&#13;&#10;EBR.FIFO8KB.AEPOINTER1[6]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b22' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B23&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[7]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b23' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B23&#13;&#10;EBR.FIFO8KB.AEPOINTER1[7]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b23' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B24&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[8]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b24' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B24&#13;&#10;EBR.FIFO8KB.AEPOINTER1[8]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b24' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B25&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[9]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b25' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B25&#13;&#10;EBR.FIFO8KB.AEPOINTER1[9]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b25' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B26&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[10]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b26' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B26&#13;&#10;EBR.FIFO8KB.AEPOINTER1[10]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b26' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B27&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[11]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b27' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B27&#13;&#10;EBR.FIFO8KB.AEPOINTER1[11]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b27' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B28&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[12]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b28' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B28&#13;&#10;EBR.FIFO8KB.AEPOINTER1[12]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b28' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER1' title='F0B29&#13;&#10;EBR.FIFO8KB.FULLPOINTER1[13]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b29' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AEPOINTER1' title='F1B29&#13;&#10;EBR.FIFO8KB.AEPOINTER1[13]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b29' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AEPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B30&#13;&#10;EBR.FIFO8KB.FULLPOINTER[0]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b30' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B30&#13;&#10;EBR.FIFO8KB.AFPOINTER1[0]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b30' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B31&#13;&#10;EBR.FIFO8KB.FULLPOINTER[1]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b31' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B31&#13;&#10;EBR.FIFO8KB.AFPOINTER1[1]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b31' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B32&#13;&#10;EBR.FIFO8KB.FULLPOINTER[2]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b32' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B32&#13;&#10;EBR.FIFO8KB.AFPOINTER1[2]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b32' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B33&#13;&#10;EBR.FIFO8KB.FULLPOINTER[3]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b33' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B33&#13;&#10;EBR.FIFO8KB.AFPOINTER1[3]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b33' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B34&#13;&#10;EBR.FIFO8KB.FULLPOINTER[4]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b34' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B34&#13;&#10;EBR.FIFO8KB.AFPOINTER1[4]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b34' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B35&#13;&#10;EBR.FIFO8KB.FULLPOINTER[5]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b35' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B35&#13;&#10;EBR.FIFO8KB.AFPOINTER1[5]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b35' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B36&#13;&#10;EBR.FIFO8KB.FULLPOINTER[6]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b36' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B36&#13;&#10;EBR.FIFO8KB.AFPOINTER1[6]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b36' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B37&#13;&#10;EBR.FIFO8KB.FULLPOINTER[7]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b37' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B37&#13;&#10;EBR.FIFO8KB.AFPOINTER1[7]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b37' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B38&#13;&#10;EBR.FIFO8KB.FULLPOINTER[8]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b38' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B38&#13;&#10;EBR.FIFO8KB.AFPOINTER1[8]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b38' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B39&#13;&#10;EBR.FIFO8KB.FULLPOINTER[9]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b39' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B39&#13;&#10;EBR.FIFO8KB.AFPOINTER1[9]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b39' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B40&#13;&#10;EBR.FIFO8KB.FULLPOINTER[10]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b40' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B40&#13;&#10;EBR.FIFO8KB.AFPOINTER1[10]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b40' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B41&#13;&#10;EBR.FIFO8KB.FULLPOINTER[11]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b41' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B41&#13;&#10;EBR.FIFO8KB.AFPOINTER1[11]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b41' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B42&#13;&#10;EBR.FIFO8KB.FULLPOINTER[12]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b42' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B42&#13;&#10;EBR.FIFO8KB.AFPOINTER1[12]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b42' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.FULLPOINTER' title='F0B43&#13;&#10;EBR.FIFO8KB.FULLPOINTER[13]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b43' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.FULLPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>F</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER1' title='F1B43&#13;&#10;EBR.FIFO8KB.AFPOINTER1[13]' style='text-decoration: none; color: #000000'>
+                    <div id='f1b43' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER1'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER' title='F0B44&#13;&#10;EBR.FIFO8KB.AFPOINTER[0]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b44' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.DP8KC.WRITEMODE_A' title='F1B44&#13;&#10;EBR.DP8KC.WRITEMODE_A' style='text-decoration: none; color: #000000'>
+                    <div id='f1b44' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.DP8KC.WRITEMODE_A'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER' title='F0B45&#13;&#10;EBR.FIFO8KB.AFPOINTER[1]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b45' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.DP8KC.WRITEMODE_B' title='F1B45&#13;&#10;EBR.DP8KC.WRITEMODE_B' style='text-decoration: none; color: #000000'>
+                    <div id='f1b45' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.DP8KC.WRITEMODE_B'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>B</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER' title='F0B46&#13;&#10;EBR.FIFO8KB.AFPOINTER[2]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b46' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.DP8KC.WRITEMODE_A' title='F1B46&#13;&#10;EBR.DP8KC.WRITEMODE_A' style='text-decoration: none; color: #000000'>
+                    <div id='f1b46' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.DP8KC.WRITEMODE_A'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+</tr>
+<tr style='height: 20px'>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#word_EBR.FIFO8KB.AFPOINTER' title='F0B47&#13;&#10;EBR.FIFO8KB.AFPOINTER[3]' style='text-decoration: none; color: #000000'>
+                    <div id='f0b47' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_word_EBR.FIFO8KB.AFPOINTER'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>A</div></a></td>
+<td style='height: 100%; border: 2px solid black;'>
+<a href='#enum_EBR.DP8KC.WRITEMODE_B' title='F1B47&#13;&#10;EBR.DP8KC.WRITEMODE_B' style='text-decoration: none; color: #000000'>
+                    <div id='f1b47' style='height: 100%; background-color: #88FF88; width: 12px' class='grp_enum_EBR.DP8KC.WRITEMODE_B'
+                    onmouseover='mov(event);' onmouseout='mou(event);'>B</div></a></td>
+</tr>
+</table>
+<h3 id="word_EBR.FIFO8KB.AEPOINTER">Configuration word EBR.FIFO8KB.AEPOINTER</h3>
+<p>Default value: 14'b00000000000000</p>
+<table class="setword">
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[0]</td><td style="padding-left: 10px; padding-right: 10px">F0B2</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[1]</td><td style="padding-left: 10px; padding-right: 10px">F0B3</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[2]</td><td style="padding-left: 10px; padding-right: 10px">F0B4</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[3]</td><td style="padding-left: 10px; padding-right: 10px">F0B5</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[4]</td><td style="padding-left: 10px; padding-right: 10px">F0B6</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[5]</td><td style="padding-left: 10px; padding-right: 10px">F0B7</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[6]</td><td style="padding-left: 10px; padding-right: 10px">F0B8</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[7]</td><td style="padding-left: 10px; padding-right: 10px">F0B9</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[8]</td><td style="padding-left: 10px; padding-right: 10px">F0B10</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[9]</td><td style="padding-left: 10px; padding-right: 10px">F0B11</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[10]</td><td style="padding-left: 10px; padding-right: 10px">F0B12</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[11]</td><td style="padding-left: 10px; padding-right: 10px">F0B13</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[12]</td><td style="padding-left: 10px; padding-right: 10px">F0B14</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER[13]</td><td style="padding-left: 10px; padding-right: 10px">F0B15</td></tr>
+</table>
+<h3 id="word_EBR.FIFO8KB.AEPOINTER1">Configuration word EBR.FIFO8KB.AEPOINTER1</h3>
+<p>Default value: 14'b00000000000000</p>
+<table class="setword">
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[0]</td><td style="padding-left: 10px; padding-right: 10px">F1B16</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[1]</td><td style="padding-left: 10px; padding-right: 10px">F1B17</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[2]</td><td style="padding-left: 10px; padding-right: 10px">F1B18</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[3]</td><td style="padding-left: 10px; padding-right: 10px">F1B19</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[4]</td><td style="padding-left: 10px; padding-right: 10px">F1B20</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[5]</td><td style="padding-left: 10px; padding-right: 10px">F1B21</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[6]</td><td style="padding-left: 10px; padding-right: 10px">F1B22</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[7]</td><td style="padding-left: 10px; padding-right: 10px">F1B23</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[8]</td><td style="padding-left: 10px; padding-right: 10px">F1B24</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[9]</td><td style="padding-left: 10px; padding-right: 10px">F1B25</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[10]</td><td style="padding-left: 10px; padding-right: 10px">F1B26</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[11]</td><td style="padding-left: 10px; padding-right: 10px">F1B27</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[12]</td><td style="padding-left: 10px; padding-right: 10px">F1B28</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AEPOINTER1[13]</td><td style="padding-left: 10px; padding-right: 10px">F1B29</td></tr>
+</table>
+<h3 id="word_EBR.FIFO8KB.AFPOINTER">Configuration word EBR.FIFO8KB.AFPOINTER</h3>
+<p>Default value: 14'bXXXXXXXXXX0000</p>
+<table class="setword">
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[0]</td><td style="padding-left: 10px; padding-right: 10px">F0B44</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[1]</td><td style="padding-left: 10px; padding-right: 10px">F0B45</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[2]</td><td style="padding-left: 10px; padding-right: 10px">F0B46</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[3]</td><td style="padding-left: 10px; padding-right: 10px">F0B47</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[4]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[5]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[6]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[7]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[8]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[9]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[10]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[11]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[12]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER[13]</td><td style="padding-left: 10px; padding-right: 10px"></td></tr>
+</table>
+<h3 id="word_EBR.FIFO8KB.AFPOINTER1">Configuration word EBR.FIFO8KB.AFPOINTER1</h3>
+<p>Default value: 14'b00000000000000</p>
+<table class="setword">
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[0]</td><td style="padding-left: 10px; padding-right: 10px">F1B30</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[1]</td><td style="padding-left: 10px; padding-right: 10px">F1B31</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[2]</td><td style="padding-left: 10px; padding-right: 10px">F1B32</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[3]</td><td style="padding-left: 10px; padding-right: 10px">F1B33</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[4]</td><td style="padding-left: 10px; padding-right: 10px">F1B34</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[5]</td><td style="padding-left: 10px; padding-right: 10px">F1B35</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[6]</td><td style="padding-left: 10px; padding-right: 10px">F1B36</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[7]</td><td style="padding-left: 10px; padding-right: 10px">F1B37</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[8]</td><td style="padding-left: 10px; padding-right: 10px">F1B38</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[9]</td><td style="padding-left: 10px; padding-right: 10px">F1B39</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[10]</td><td style="padding-left: 10px; padding-right: 10px">F1B40</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[11]</td><td style="padding-left: 10px; padding-right: 10px">F1B41</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[12]</td><td style="padding-left: 10px; padding-right: 10px">F1B42</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.AFPOINTER1[13]</td><td style="padding-left: 10px; padding-right: 10px">F1B43</td></tr>
+</table>
+<h3 id="word_EBR.FIFO8KB.FULLPOINTER">Configuration word EBR.FIFO8KB.FULLPOINTER</h3>
+<p>Default value: 14'b00000000000000</p>
+<table class="setword">
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[0]</td><td style="padding-left: 10px; padding-right: 10px">F0B30</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[1]</td><td style="padding-left: 10px; padding-right: 10px">F0B31</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[2]</td><td style="padding-left: 10px; padding-right: 10px">F0B32</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[3]</td><td style="padding-left: 10px; padding-right: 10px">F0B33</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[4]</td><td style="padding-left: 10px; padding-right: 10px">F0B34</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[5]</td><td style="padding-left: 10px; padding-right: 10px">F0B35</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[6]</td><td style="padding-left: 10px; padding-right: 10px">F0B36</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[7]</td><td style="padding-left: 10px; padding-right: 10px">F0B37</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[8]</td><td style="padding-left: 10px; padding-right: 10px">F0B38</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[9]</td><td style="padding-left: 10px; padding-right: 10px">F0B39</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[10]</td><td style="padding-left: 10px; padding-right: 10px">F0B40</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[11]</td><td style="padding-left: 10px; padding-right: 10px">F0B41</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[12]</td><td style="padding-left: 10px; padding-right: 10px">F0B42</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER[13]</td><td style="padding-left: 10px; padding-right: 10px">F0B43</td></tr>
+</table>
+<h3 id="word_EBR.FIFO8KB.FULLPOINTER1">Configuration word EBR.FIFO8KB.FULLPOINTER1</h3>
+<p>Default value: 14'b00000000000000</p>
+<table class="setword">
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[0]</td><td style="padding-left: 10px; padding-right: 10px">F0B16</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[1]</td><td style="padding-left: 10px; padding-right: 10px">F0B17</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[2]</td><td style="padding-left: 10px; padding-right: 10px">F0B18</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[3]</td><td style="padding-left: 10px; padding-right: 10px">F0B19</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[4]</td><td style="padding-left: 10px; padding-right: 10px">F0B20</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[5]</td><td style="padding-left: 10px; padding-right: 10px">F0B21</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[6]</td><td style="padding-left: 10px; padding-right: 10px">F0B22</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[7]</td><td style="padding-left: 10px; padding-right: 10px">F0B23</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[8]</td><td style="padding-left: 10px; padding-right: 10px">F0B24</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[9]</td><td style="padding-left: 10px; padding-right: 10px">F0B25</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[10]</td><td style="padding-left: 10px; padding-right: 10px">F0B26</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[11]</td><td style="padding-left: 10px; padding-right: 10px">F0B27</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[12]</td><td style="padding-left: 10px; padding-right: 10px">F0B28</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px">EBR.FIFO8KB.FULLPOINTER1[13]</td><td style="padding-left: 10px; padding-right: 10px">F0B29</td></tr>
+</table>
+<h3 id="enum_EBR.DP8KC.WRITEMODE_A">Configuration Setting EBR.DP8KC.WRITEMODE_A</h3>
+<p>Default value: NORMAL</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B44</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B46</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>NORMAL</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+</td>
+<tr ><td>READBEFOREWRITE</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>WRITETHROUGH</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+</td>
+</table>
+<h3 id="enum_EBR.DP8KC.WRITEMODE_B">Configuration Setting EBR.DP8KC.WRITEMODE_B</h3>
+<p>Default value: NORMAL</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B45</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B47</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>NORMAL</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+</td>
+<tr ><td>READBEFOREWRITE</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+</td>
+<tr  bgcolor="#dddddd"><td>WRITETHROUGH</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+</td>
+</table>
+<h3 id="enum_EBR.FIFO8KB.DATA_WIDTH_R">Configuration Setting EBR.FIFO8KB.DATA_WIDTH_R</h3>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B2</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B3</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B4</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B5</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B10</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B11</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B12</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B13</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B14</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+</td>
+<tr ><td>2</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+</td>
+<tr  bgcolor="#dddddd"><td>4</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+</td>
+<tr ><td>9</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+</td>
+<tr  bgcolor="#dddddd"><td>18</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">1</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">0</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
+<h3 id="enum_EBR.MODE">Configuration Setting EBR.MODE</h3>
+<p>Default value: NONE</p>
+<table class="setenum"><tr><th>Value</th>
+<th style="padding-left: 10px; padding-right: 10px">F1B8</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>NONE</td>
+<td style="text-align: center">-</td>
+</td>
+<tr ><td>DP8KC</td>
+<td style="text-align: center">-</td>
+</td>
+<tr  bgcolor="#dddddd"><td>FIFO8KB</td>
+<td style="text-align: center">1</td>
+</td>
+<tr ><td>PDPW8KC</td>
+<td style="text-align: center">-</td>
+</td>
+</table>
+<h3>Fixed Connections</h3>
+<table class="fconn" style="border-spacing:0"><tr><th>Source</th><th></th><th>Sink</th></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JA4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA0_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JC4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA10_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JB3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA11_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JD2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA12_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JB2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA1_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JA3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA2_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JD3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA3_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JC2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA4_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JB2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA5_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JD5</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA6_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JA4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA7_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JC5</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA8_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JB4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADA9_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JC2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB0_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JD0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB10_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JB0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB11_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JC3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB12_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JA2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB1_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JC0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB2_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JD3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB3_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JB0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB4_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JA2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB5_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JD1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB6_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JA0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB7_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JC1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB8_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JC0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JADB9_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JQ4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JAE_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JF4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JAF_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JCE1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCEA_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JCE1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCEB_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JCLK0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCLKA_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JCLK3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCLKB_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JLSR0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCSA0_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JLSR1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCSA1_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JLSR2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCSA2_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JLSR0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCSB0_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JLSR1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCSB1_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JLSR2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JCSB2_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JD0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA0_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JB5</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA1_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JA5</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA2_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JA3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA3_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JD2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA4_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JB1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA5_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JA1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA6_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JA0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA7_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JC1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIA8_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JD1</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB0_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JB4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB1_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JD4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB2_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JB3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB3_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JC3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB4_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JD4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB5_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JC4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB6_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JB4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB7_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JA4</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JDIB8_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JQ3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JEF_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA3_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E1_JF0</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA6_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E2_JF0</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA0_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JF0</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA4_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E1_JF1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA7_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E2_JF1</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA1_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JF1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA5_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E1_JF2</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA8_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E2_JF2</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOA2_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JF2</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JF3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JFF_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JCE0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JOCEA_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JCE0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JOCEB_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB3_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E1_JQ0</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB6_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E2_JQ0</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB0_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JQ0</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB4_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E1_JQ1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB7_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E2_JQ1</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB1_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JQ1</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB5_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E1_JQ2</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB8_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">E2_JQ2</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JDOB2_EBR</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JQ2</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JLSR2</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JRSTA_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">JLSR0</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JRSTB_EBR</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E1_JLSR3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JWEA_EBR</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">E2_JLSR3</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">JWEB_EBR</td></tr>
+</table>
+</body></html>

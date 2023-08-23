@@ -5495,12 +5495,12 @@
                     <div id='f7b46' style='height: 100%; background-color: #FFBBBB; width: 12px' class='grp_mux_M2'
                     onmouseover='mov(event);' onmouseout='mou(event);'>M</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#mux_HSBX0400' title='F8B46&#13;&#10;HSBX0400' style='text-decoration: none; color: #000000'>
-                    <div id='f8b46' style='height: 100%; background-color: #BBBBFF; width: 12px' class='grp_mux_HSBX0400'
+<a href='#mux_G_HSBX0400' title='F8B46&#13;&#10;G_HSBX0400' style='text-decoration: none; color: #000000'>
+                    <div id='f8b46' style='height: 100%; background-color: #BBBBFF; width: 12px' class='grp_mux_G_HSBX0400'
                     onmouseover='mov(event);' onmouseout='mou(event);'>H</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
-<a href='#mux_HSBX0000' title='F9B46&#13;&#10;HSBX0000' style='text-decoration: none; color: #000000'>
-                    <div id='f9b46' style='height: 100%; background-color: #BBBBFF; width: 12px' class='grp_mux_HSBX0000'
+<a href='#mux_G_HSBX0000' title='F9B46&#13;&#10;G_HSBX0000' style='text-decoration: none; color: #000000'>
+                    <div id='f9b46' style='height: 100%; background-color: #BBBBFF; width: 12px' class='grp_mux_G_HSBX0000'
                     onmouseover='mov(event);' onmouseout='mou(event);'>H</div></a></td>
 <td style='height: 100%; border: 2px solid black;'>
 <a href='#unknown' title='F10B46' style='text-decoration: none; color: #000000'>
@@ -20784,6 +20784,22 @@
 <td style="text-align: center">1</td>
 </td>
 </table>
+<h3 id="mux_G_HSBX0000">Mux driving <span class="mux_sink">G_HSBX0000</span></h3>
+<table class="mux"><tr><th>Source</th>
+<th style="padding-left: 10px; padding-right: 10px">F9B46</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>G_VSTX0200</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
+<h3 id="mux_G_HSBX0400">Mux driving <span class="mux_sink">G_HSBX0400</span></h3>
+<table class="mux"><tr><th>Source</th>
+<th style="padding-left: 10px; padding-right: 10px">F8B46</th>
+</tr>
+<tr  bgcolor="#dddddd"><td>G_VSTX0300</td>
+<td style="text-align: center">1</td>
+</td>
+</table>
 <h3 id="mux_H00L0000">Mux driving <span class="mux_sink">H00L0000</span></h3>
 <table class="mux"><tr><th>Source</th>
 <th style="padding-left: 10px; padding-right: 10px">F0B17</th>
@@ -23491,22 +23507,6 @@
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
 <td style="text-align: center">-</td>
-<td style="text-align: center">1</td>
-</td>
-</table>
-<h3 id="mux_HSBX0000">Mux driving <span class="mux_sink">HSBX0000</span></h3>
-<table class="mux"><tr><th>Source</th>
-<th style="padding-left: 10px; padding-right: 10px">F9B46</th>
-</tr>
-<tr  bgcolor="#dddddd"><td>G_VSTX0200</td>
-<td style="text-align: center">1</td>
-</td>
-</table>
-<h3 id="mux_HSBX0400">Mux driving <span class="mux_sink">HSBX0400</span></h3>
-<table class="mux"><tr><th>Source</th>
-<th style="padding-left: 10px; padding-right: 10px">F8B46</th>
-</tr>
-<tr  bgcolor="#dddddd"><td>G_VSTX0300</td>
 <td style="text-align: center">1</td>
 </td>
 </table>
@@ -36538,6 +36538,14 @@
                 <td style="padding-left: 10px; padding-right: 10px">FXBD</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">FXBD</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">FXBD_SLICE</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_HSBX0000</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">G_HSBX0301</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_HSBX0400</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">G_HSBX0701</td></tr>
+<tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_CLKO0T_DCC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">G_VPTX0000</td></tr>
+<tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">G_CLKO4T_DCC</td><td>&rarr;</td>
+                <td style="padding-left: 10px; padding-right: 10px">G_VPTX0400</td></tr>
 <tr  bgcolor="#dddddd"><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">F0</td><td>&rarr;</td>
                 <td style="padding-left: 10px; padding-right: 10px">HF0W0000</td></tr>
 <tr ><td style="padding-left: 10px; padding-right: 10px; margin-left: 0px;">F1</td><td>&rarr;</td>
