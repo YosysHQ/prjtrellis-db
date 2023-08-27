@@ -1,5 +1,107 @@
 # Routing Mux Bits
+.mux DIA_BIOLOGIC
+JDIA F0B8
+
+.mux DIB_IOLOGIC
+JDIB F0B20
+
+.mux DIC_BSIOLOGIC
+JDIC F3B44
+
+.mux DID_IOLOGIC
+JDID F2B35
+
+.mux ECLKA
+G_BECLK1 F1B31
+
+.mux ECLKC
+G_BECLK1 F0B33
+
+.mux JDIA
+INDDA_BIOLOGIC F0B8
+
+.mux JDIB
+INDDB_IOLOGIC F0B20
+
+.mux JDIC
+INDDC_BSIOLOGIC F3B44
+
+.mux JDID
+INDDD_IOLOGIC F2B35
+
 
 # Non-Routing Configuration
 
 # Fixed Connections
+.fixed_conn ECLKA G_BECLK0
+
+.fixed_conn ECLKA_BIOLOGIC ECLKA
+
+.fixed_conn ECLKC G_BECLK0
+
+.fixed_conn ECLKC_BSIOLOGIC ECLKC
+
+.fixed_conn G_INRDA_PIO G_INRD
+
+.fixed_conn G_INRDB_PIO G_INRD
+
+.fixed_conn G_INRDC_PIO G_INRD
+
+.fixed_conn G_INRDD_PIO G_INRD
+
+.fixed_conn G_PGA_PIO G_PG
+
+.fixed_conn G_PGB_PIO G_PG
+
+.fixed_conn G_PGC_PIO G_PG
+
+.fixed_conn G_PGD_PIO G_PG
+
+.fixed_conn IOLDOA_PIO IOLDOA_BIOLOGIC
+
+.fixed_conn IOLDOB_PIO IOLDOB_IOLOGIC
+
+.fixed_conn IOLDOC_PIO IOLDOC_BSIOLOGIC
+
+.fixed_conn IOLDOD_PIO IOLDOD_IOLOGIC
+
+.fixed_conn IOLTOA_PIO IOLTOA_BIOLOGIC
+
+.fixed_conn IOLTOB_PIO IOLTOB_IOLOGIC
+
+.fixed_conn IOLTOC_PIO IOLTOC_BSIOLOGIC
+
+.fixed_conn IOLTOD_PIO IOLTOD_IOLOGIC
+
+.fixed_conn JDIA JPADDIA_PIO
+
+.fixed_conn JDIB JPADDIB_PIO
+
+.fixed_conn JDIC JPADDIC_PIO
+
+.fixed_conn JDID JPADDID_PIO
+
+.fixed_conn PADDIA_BIOLOGIC JPADDIA_PIO
+
+.fixed_conn PADDIB_IOLOGIC JPADDIB_PIO
+
+.fixed_conn PADDIC_BSIOLOGIC JPADDIC_PIO
+
+.fixed_conn PADDID_IOLOGIC JPADDID_PIO
+
+.fixed_conn PADDOA_PIO JPADDOA
+
+.fixed_conn PADDOB_PIO JPADDOB
+
+.fixed_conn PADDOC_PIO JPADDOC
+
+.fixed_conn PADDOD_PIO JPADDOD
+
+.fixed_conn PADDTA_PIO JPADDTA
+
+.fixed_conn PADDTB_PIO JPADDTB
+
+.fixed_conn PADDTC_PIO JPADDTC
+
+.fixed_conn PADDTD_PIO JPADDTD
+
