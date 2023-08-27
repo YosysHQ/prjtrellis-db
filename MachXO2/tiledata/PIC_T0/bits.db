@@ -29,6 +29,18 @@ INDDC_TSIOLOGIC F2B33
 .mux JDID
 INDDD_IOLOGIC F2B45
 
+.mux S1_JQ0
+JDIA F2B9
+
+.mux S1_JQ1
+JDIB F2B21
+
+.mux S1_JQ2
+JDIC F2B33
+
+.mux S1_JQ3
+JDID F2B45
+
 
 # Non-Routing Configuration
 
@@ -81,6 +93,22 @@ INDDD_IOLOGIC F2B45
 
 .fixed_conn IOLTOD_PIO IOLTOD_IOLOGIC
 
+.fixed_conn JCEA_TIOLOGIC S1_JCE0
+
+.fixed_conn JCEB_IOLOGIC S1_JCE1
+
+.fixed_conn JCEC_TSIOLOGIC S1_JCE2
+
+.fixed_conn JCED_IOLOGIC S1_JCE3
+
+.fixed_conn JCLKA_TIOLOGIC S1_JCLK0
+
+.fixed_conn JCLKB_IOLOGIC S1_JCLK1
+
+.fixed_conn JCLKC_TSIOLOGIC S1_JCLK2
+
+.fixed_conn JCLKD_IOLOGIC S1_JCLK3
+
 .fixed_conn JDIA JPADDIA_PIO
 
 .fixed_conn JDIB JPADDIB_PIO
@@ -88,6 +116,78 @@ INDDD_IOLOGIC F2B45
 .fixed_conn JDIC JPADDIC_PIO
 
 .fixed_conn JDID JPADDID_PIO
+
+.fixed_conn JLSRA_TIOLOGIC S1_JLSR0
+
+.fixed_conn JLSRB_IOLOGIC S1_JLSR1
+
+.fixed_conn JLSRC_TSIOLOGIC S1_JLSR2
+
+.fixed_conn JLSRD_IOLOGIC S1_JLSR3
+
+.fixed_conn JONEGA_TIOLOGIC S1_JB0
+
+.fixed_conn JONEGB_IOLOGIC S1_JB1
+
+.fixed_conn JONEGC_TSIOLOGIC S1_JB2
+
+.fixed_conn JONEGD_IOLOGIC S1_JB3
+
+.fixed_conn JOPOSA_TIOLOGIC S1_JA0
+
+.fixed_conn JOPOSB_IOLOGIC S1_JA1
+
+.fixed_conn JOPOSC_TSIOLOGIC S1_JA2
+
+.fixed_conn JOPOSD_IOLOGIC S1_JA3
+
+.fixed_conn JPADDOA S1_JA0
+
+.fixed_conn JPADDOB S1_JA1
+
+.fixed_conn JPADDOC S1_JA2
+
+.fixed_conn JPADDOD S1_JA3
+
+.fixed_conn JPADDTA S1_JC0
+
+.fixed_conn JPADDTB S1_JC1
+
+.fixed_conn JPADDTC S1_JC2
+
+.fixed_conn JPADDTD S1_JC3
+
+.fixed_conn JTSA_TIOLOGIC S1_JC0
+
+.fixed_conn JTSB_IOLOGIC S1_JC1
+
+.fixed_conn JTSC_TSIOLOGIC S1_JC2
+
+.fixed_conn JTSD_IOLOGIC S1_JC3
+
+.fixed_conn JTXD0A_TIOLOGIC S1_JA0
+
+.fixed_conn JTXD0C_TSIOLOGIC S1_JD0
+
+.fixed_conn JTXD1A_TIOLOGIC S1_JB0
+
+.fixed_conn JTXD1C_TSIOLOGIC S1_JD1
+
+.fixed_conn JTXD2A_TIOLOGIC S1_JA1
+
+.fixed_conn JTXD2C_TSIOLOGIC S1_JD2
+
+.fixed_conn JTXD3A_TIOLOGIC S1_JB1
+
+.fixed_conn JTXD3C_TSIOLOGIC S1_JD3
+
+.fixed_conn JTXD4A_TIOLOGIC S1_JD0
+
+.fixed_conn JTXD5A_TIOLOGIC S1_JD1
+
+.fixed_conn JTXD6A_TIOLOGIC S1_JD2
+
+.fixed_conn JTXD7A_TIOLOGIC S1_JD3
 
 .fixed_conn PADDIA_TIOLOGIC JPADDIA_PIO
 
@@ -112,4 +212,20 @@ INDDD_IOLOGIC F2B45
 .fixed_conn PADDTC_PIO JPADDTC
 
 .fixed_conn PADDTD_PIO JPADDTD
+
+.fixed_conn S1_JF0 JINA_TIOLOGIC
+
+.fixed_conn S1_JF1 JINB_IOLOGIC
+
+.fixed_conn S1_JF2 JINC_TSIOLOGIC
+
+.fixed_conn S1_JF3 JIND_IOLOGIC
+
+.fixed_conn S1_JF4 JIPA_TIOLOGIC
+
+.fixed_conn S1_JF5 JIPB_IOLOGIC
+
+.fixed_conn S1_JF6 JIPC_TSIOLOGIC
+
+.fixed_conn S1_JF7 JIPD_IOLOGIC
 
