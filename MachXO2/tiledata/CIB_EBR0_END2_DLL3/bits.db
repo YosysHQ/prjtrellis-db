@@ -2651,6 +2651,10 @@ V06S0303 F5B21 F7B19
 
 
 # Non-Routing Configuration
+.config_enum EBR.OCEAMUX OCEA
+INV F25B11
+OCEA !F25B11
+
 
 # Fixed Connections
 .fixed_conn D_VPTX0100 G_CLKO1B_DCC
