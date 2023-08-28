@@ -2645,6 +2645,22 @@ V06S0303 F5B10 F7B8
 
 
 # Non-Routing Configuration
+.config_enum EBR.CEAMUX CEA
+CEA !F25B11
+INV F25B11
+
+.config_enum EBR.CLKAMUX CLKA
+CLKA !F25B3
+INV F25B3
+
+.config_enum EBR.CLKBMUX CLKB
+CLKB !F25B39
+INV F25B39
+
+.config_enum EBR.OCEBMUX OCEB
+INV F25B0
+OCEB !F25B0
+
 
 # Fixed Connections
 .fixed_conn D_VPTX0000 G_CLKO0B_DCC
