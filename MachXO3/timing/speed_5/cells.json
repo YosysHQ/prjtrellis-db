@@ -10371,6 +10371,60 @@
                 "posedge",
                 "CLK"
             ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "LSR",
+            "setup": [
+                648,
+                648,
+                648
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "M0",
+            "setup": [
+                229,
+                266,
+                303
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "M1",
+            "setup": [
+                229,
+                266,
+                303
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "posedge",
+                "CLK"
+            ],
             "type": "Width",
             "width": [
                 1125,
@@ -10530,6 +10584,51 @@
         },
         {
             "falling": [
+                112,
+                129,
+                146
+            ],
+            "from_pin": "FCI",
+            "rising": [
+                112,
+                129,
+                146
+            ],
+            "to_pin": "FCO",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                181,
+                202,
+                223
+            ],
+            "from_pin": "FXA",
+            "rising": [
+                181,
+                202,
+                223
+            ],
+            "to_pin": "OFX1",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                181,
+                202,
+                223
+            ],
+            "from_pin": "FXB",
+            "rising": [
+                181,
+                202,
+                223
+            ],
+            "to_pin": "OFX1",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
                 285,
                 315,
                 345
@@ -10541,6 +10640,21 @@
                 345
             ],
             "to_pin": "OFX0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                285,
+                315,
+                345
+            ],
+            "from_pin": "M1",
+            "rising": [
+                285,
+                315,
+                345
+            ],
+            "to_pin": "OFX1",
             "type": "IOPath"
         },
         {
@@ -10695,6 +10809,21 @@
         },
         {
             "falling": [
+                418,
+                467,
+                517
+            ],
+            "from_pin": "FCI",
+            "rising": [
+                418,
+                467,
+                517
+            ],
+            "to_pin": "F0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
                 447,
                 554,
                 661
@@ -10766,6 +10895,186 @@
                 661
             ],
             "to_pin": "OFX0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                447,
+                554,
+                661
+            ],
+            "from_pin": "C1",
+            "rising": [
+                447,
+                554,
+                661
+            ],
+            "to_pin": "OFX0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                447,
+                554,
+                661
+            ],
+            "from_pin": "D0",
+            "rising": [
+                447,
+                554,
+                661
+            ],
+            "to_pin": "OFX0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                447,
+                554,
+                661
+            ],
+            "from_pin": "D1",
+            "rising": [
+                447,
+                554,
+                661
+            ],
+            "to_pin": "OFX0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                459,
+                514,
+                569
+            ],
+            "from_pin": "FCI",
+            "rising": [
+                459,
+                514,
+                569
+            ],
+            "to_pin": "F1",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                635,
+                710,
+                786
+            ],
+            "from_pin": "A0",
+            "rising": [
+                635,
+                710,
+                786
+            ],
+            "to_pin": "F1",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                635,
+                710,
+                786
+            ],
+            "from_pin": "A1",
+            "rising": [
+                635,
+                710,
+                786
+            ],
+            "to_pin": "FCO",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                635,
+                710,
+                786
+            ],
+            "from_pin": "B0",
+            "rising": [
+                635,
+                710,
+                786
+            ],
+            "to_pin": "F1",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                635,
+                710,
+                786
+            ],
+            "from_pin": "B1",
+            "rising": [
+                635,
+                710,
+                786
+            ],
+            "to_pin": "FCO",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                635,
+                710,
+                786
+            ],
+            "from_pin": "C1",
+            "rising": [
+                635,
+                710,
+                786
+            ],
+            "to_pin": "FCO",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                698,
+                779,
+                861
+            ],
+            "from_pin": "LSR",
+            "rising": [
+                698,
+                779,
+                861
+            ],
+            "to_pin": "Q0",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                732,
+                818,
+                905
+            ],
+            "from_pin": "A0",
+            "rising": [
+                732,
+                818,
+                905
+            ],
+            "to_pin": "FCO",
+            "type": "IOPath"
+        },
+        {
+            "falling": [
+                732,
+                818,
+                905
+            ],
+            "from_pin": "B0",
+            "rising": [
+                732,
+                818,
+                905
+            ],
+            "to_pin": "FCO",
             "type": "IOPath"
         },
         {
