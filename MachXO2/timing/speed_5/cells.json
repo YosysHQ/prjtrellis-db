@@ -10263,6 +10263,78 @@
                 "negedge",
                 "CLK"
             ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "CE",
+            "setup": [
+                218,
+                244,
+                271
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "DI0",
+            "setup": [
+                117,
+                133,
+                150
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "LSR",
+            "setup": [
+                213,
+                235,
+                257
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
+            "hold": [
+                0,
+                0,
+                0
+            ],
+            "pin": "M1",
+            "setup": [
+                229,
+                266,
+                303
+            ],
+            "type": "SetupHold"
+        },
+        {
+            "clock": [
+                "negedge",
+                "CLK"
+            ],
             "type": "Width",
             "width": [
                 1125,
