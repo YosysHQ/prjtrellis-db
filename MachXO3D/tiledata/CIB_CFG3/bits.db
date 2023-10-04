@@ -2627,6 +2627,18 @@ V06S0303 F21B8 F23B10
 
 
 # Non-Routing Configuration
+.config_enum EFB.SPISCSN 1
+0 F3B0
+1 -
+INV F3B0
+SPISCSN -
+
+.config_enum EFB.TCCLKI 0
+0 -
+1 F3B3
+INV F3B3
+TCCLKI -
+
 
 # Fixed Connections
 .fixed_conn E1_H01W0000 E1_WESTKEEP

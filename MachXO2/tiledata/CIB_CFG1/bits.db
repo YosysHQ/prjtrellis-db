@@ -2627,6 +2627,12 @@ V06S0303 F21B8 F23B10
 
 
 # Non-Routing Configuration
+.config_enum EFB.I2C2SCLI 0
+0 -
+1 F3B14
+I2C2SCLI -
+INV F3B14
+
 
 # Fixed Connections
 .fixed_conn E1_H01W0000 E1_WESTKEEP
